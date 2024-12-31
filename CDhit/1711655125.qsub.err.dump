@@ -1,0 +1,4 @@
+/opt/data/1711655125/run-1711655125.sh: line 12: faa_stat.pl: command not found
+/opt/data/1711655125/run-1711655125.sh: line 15: faa_stat.pl: command not found
+/opt/data/1711655125/run-1711655125.sh: line 18: gnuplot1.pl: command not found
+/opt/data/1711655125/run-1711655125.sh: line 18: gnuplot2.pl: command not found

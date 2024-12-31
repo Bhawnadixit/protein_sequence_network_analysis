@@ -1,0 +1,3357 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.15.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprot"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_146873",
+          "query_title": "sequence_211",
+          "query_len": 153,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P02186.3|",
+                  "accession": "P02186",
+                  "title": "RecName: Full=Myoglobin [Elephas maximus]",
+                  "taxid": 9783,
+                  "sciname": "Elephas maximus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 306.605,
+                  "score": 784,
+                  "evalue": 7.75016e-108,
+                  "identity": 153,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P02187.2|",
+                  "accession": "P02187",
+                  "title": "RecName: Full=Myoglobin [Loxodonta africana]",
+                  "taxid": 9785,
+                  "sciname": "Loxodonta africana"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 299.671,
+                  "score": 766,
+                  "evalue": 4.31145e-105,
+                  "identity": 150,
+                  "positive": 150,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWELVLKTWGKVEADIPGHGEFVLVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQAAMKKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEWELVLKTWGKVEADIPGHGE V VRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQ AMKKALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P02169.2|",
+                  "accession": "P02169",
+                  "title": "RecName: Full=Myoglobin [Lepilemur mustelinus]",
+                  "taxid": 9453,
+                  "sciname": "Lepilemur mustelinus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 273.478,
+                  "score": 698,
+                  "evalue": 8.37103e-95,
+                  "identity": 134,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADVGGHGQEVLIRLFTGHPETLEKFDKFKHLKTADEMKASEDLKKHGTTVLTALGGILKKKGQHEAELKPLAQSHATKHKIPIKYLEFISDAIVHVLHSKHPAEFGADAQAAMKKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLFTGHPETLEKFDKFKHLKT  EMKASEDLKK G TVLTALGGILKKKG HEAE++PLAQSHATKHKIPIKYLEFISDAI+HVL SKHPAEFGADAQ AMKKALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P68082.2|",
+                  "accession": "P68082",
+                  "title": "RecName: Full=Myoglobin [Equus caballus]",
+                  "taxid": 9796,
+                  "sciname": "Equus caballus"
+                },
+                {
+                  "id": "sp|P68083.2|",
+                  "accession": "P68083",
+                  "title": "RecName: Full=Myoglobin [Equus quagga burchellii]",
+                  "taxid": 89252,
+                  "sciname": "Equus quagga burchellii"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 273.478,
+                  "score": 698,
+                  "evalue": 9.76069e-95,
+                  "identity": 134,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+ VL  WGKVEADI GHG+ V +RLFTGHPETLEKFDKFKHLKTE EMKASEDLKK G  VLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFISDAIIHVL SKHP +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P02152.2|",
+                  "accession": "P02152",
+                  "title": "RecName: Full=Myoglobin [Callithrix jacchus]",
+                  "taxid": 9483,
+                  "sciname": "Callithrix jacchus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 271.552,
+                  "score": 693,
+                  "evalue": 4.78973e-94,
+                  "identity": 131,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPSHGQEVLISLFKGHPETLEKFDKFKHLKSEDEMKASEELKKHGVTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPVKYLEFISDAIVHVLQKKHPGDFGADAQGAMKKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIP HG+ V + LF GHPETLEKFDKFKHLK+E EMKASE+LKK GVTVLTALGGILKKKGHHEAE++PLAQSHATKHKIP+KYLEFISDAI+HVLQ KHP +FGADAQGAMKKALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P02151.2|",
+                  "accession": "P02151",
+                  "title": "RecName: Full=Myoglobin [Aotus trivirgatus]",
+                  "taxid": 9505,
+                  "sciname": "Aotus trivirgatus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 271.166,
+                  "score": 692,
+                  "evalue": 6.58377e-94,
+                  "identity": 130,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADVPSHGQEVLISLFKGHPETLEKFDKFKHLKSEDEMKASEELKKHGVTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPVKYLEFISDAIVHVLQKKHPGDFGADAQGAMKKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+P HG+ V + LF GHPETLEKFDKFKHLK+E EMKASE+LKK GVTVLTALGGILKKKGHHEAE++PLAQSHATKHKIP+KYLEFISDAI+HVLQ KHP +FGADAQGAMKKALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P02150.2|",
+                  "accession": "P02150",
+                  "title": "RecName: Full=Myoglobin [Macaca fascicularis]",
+                  "taxid": 9541,
+                  "sciname": "Macaca fascicularis"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 271.166,
+                  "score": 692,
+                  "evalue": 6.80405e-94,
+                  "identity": 131,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPSHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGVTVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLELISESIIQVLQSKHPGDFGADAQGAMNKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIP HG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK GVTVLTALGGILKKKGHHEAEI+PLAQSHATKHKIP+KYLE IS++II VLQSKHP +FGADAQGAM KALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P02164.2|",
+                  "accession": "P02164",
+                  "title": "RecName: Full=Myoglobin [Orycteropus afer]",
+                  "taxid": 9818,
+                  "sciname": "Orycteropus afer"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 270.011,
+                  "score": 689,
+                  "evalue": 2.32466e-93,
+                  "identity": 131,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDAEWQLVLNVWGKVEADIPGHGQDVLIRLFKGHPETLEKFDRFKHLKTEDEMKASEDLKKHGTTVLTALGGILKKKGQHEAEIQPLAQSHATKHKIPVKYLEFISEAIIQVIQSKHSGDFGADAQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSD EW+LVL  WGKVEADIPGHG+ V +RLF GHPETLEKFD+FKHLKTE EMKASEDLKK G TVLTALGGILKKKG HEAEIQPLAQSHATKHKIP+KYLEFIS+AII V+QSKH  +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P02166.2|",
+                  "accession": "P02166",
+                  "title": "RecName: Full=Myoglobin [Perodicticus potto edwarsi]",
+                  "taxid": 9473,
+                  "sciname": "Perodicticus potto edwarsi"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 270.011,
+                  "score": 689,
+                  "evalue": 2.48281e-93,
+                  "identity": 131,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQSVLNVWGKVEADLAGHGQEILIRLFTAHPETLEKFDKFKNLKTPDEMKASEDLKKHGVTVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISEAIIHVLQSKHPGDFGADAQGAMNKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+ VL  WGKVEAD+ GHG+ + +RLFT HPETLEKFDKFK+LKT  EMKASEDLKK GVTVLTALGGILKKKGHHEAEI+PLAQSHATKHKIP+KYLEFIS+AIIHVLQSKHP +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P68084.2|",
+                  "accession": "P68084",
+                  "title": "RecName: Full=Myoglobin [Papio anubis]",
+                  "taxid": 9555,
+                  "sciname": "Papio anubis"
+                },
+                {
+                  "id": "sp|P68085.2|",
+                  "accession": "P68085",
+                  "title": "RecName: Full=Myoglobin [Semnopithecus entellus]",
+                  "taxid": 88029,
+                  "sciname": "Semnopithecus entellus"
+                },
+                {
+                  "id": "sp|P68086.2|",
+                  "accession": "P68086",
+                  "title": "RecName: Full=Myoglobin [Erythrocebus patas]",
+                  "taxid": 9538,
+                  "sciname": "Erythrocebus patas"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 269.626,
+                  "score": 688,
+                  "evalue": 3.19535e-93,
+                  "identity": 130,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPSHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLELISESIIQVLQSKHPGDFGADAQGAMNKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIP HG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAEI+PLAQSHATKHKIP+KYLE IS++II VLQSKHP +FGADAQGAM KALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "sp|P02189.2|",
+                  "accession": "P02189",
+                  "title": "RecName: Full=Myoglobin [Sus scrofa]",
+                  "taxid": 9823,
+                  "sciname": "Sus scrofa"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 268.47,
+                  "score": 685,
+                  "evalue": 8.20789e-93,
+                  "identity": 130,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGNTVLTALGGILKKKGHHEAELTPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAE+ PLAQSHATKHKIP+KYLEFIS+AII VLQSKHP +FGADAQGAM KALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "sp|P02144.2|",
+                  "accession": "P02144",
+                  "title": "RecName: Full=Myoglobin [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 268.085,
+                  "score": 684,
+                  "evalue": 1.31548e-92,
+                  "identity": 129,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIPGHG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAEI+PLAQSHATKHKIP+KYLEFIS+ II VLQSKHP +FGADAQGAM KALELFR D+A+ YKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "sp|P02163.2|",
+                  "accession": "P02163",
+                  "title": "RecName: Full=Myoglobin [Rousettus aegyptiacus]",
+                  "taxid": 9407,
+                  "sciname": "Rousettus aegyptiacus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 268.085,
+                  "score": 684,
+                  "evalue": 1.45198e-92,
+                  "identity": 130,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGQHEAQLKPLAQSHATKHKIPVKYLEFISEVIIQVLQSKHPGDFGADAQGAMGKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIPGHG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKG HEA+++PLAQSHATKHKIP+KYLEFIS+ II VLQSKHP +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "sp|P02154.2|",
+                  "accession": "P02154",
+                  "title": "RecName: Full=Myoglobin [Lagothrix lagotricha]",
+                  "taxid": 9519,
+                  "sciname": "Lagothrix lagotricha"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 267.7,
+                  "score": 683,
+                  "evalue": 1.82812e-92,
+                  "identity": 130,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNIWGKVEADIPSHGQEVLISLFKGHPETLEKFDKFKHLKSEDEMKASEELKKHGVTVLTALGGILKKKGQHEAELKPLAQSHATKHKIPVKYLEFISDAIIHALQKKHPGDFGADAQGAMKKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIP HG+ V + LF GHPETLEKFDKFKHLK+E EMKASE+LKK GVTVLTALGGILKKKG HEAE++PLAQSHATKHKIP+KYLEFISDAIIH LQ KHP +FGADAQGAMKKALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "sp|P02153.2|",
+                  "accession": "P02153",
+                  "title": "RecName: Full=Myoglobin [Sapajus apella]",
+                  "taxid": 9515,
+                  "sciname": "Sapajus apella"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 267.7,
+                  "score": 683,
+                  "evalue": 1.9958e-92,
+                  "identity": 129,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPSHGQEVLISLFKGHPETLEKFDKFKHLKSEDEMKASEELKKHGATVLTALGGILKKKGQHEAELKPLAQSHATKHKIPVKYLEFISDAIVHVLQKKHPGDFGADAQGAMKKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIP HG+ V + LF GHPETLEKFDKFKHLK+E EMKASE+LKK G TVLTALGGILKKKG HEAE++PLAQSHATKHKIP+KYLEFISDAI+HVLQ KHP +FGADAQGAMKKALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "sp|R9RZK8.1|",
+                  "accession": "R9RZK8",
+                  "title": "RecName: Full=Myoglobin [Balaena mysticetus]",
+                  "taxid": 27602,
+                  "sciname": "Balaena mysticetus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 267.314,
+                  "score": 682,
+                  "evalue": 3.02795e-92,
+                  "identity": 130,
+                  "positive": 138,
+                  "query_from": 2,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 154,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "LSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "LSDGEWQLVLNIWAKVEADVAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGFQG",
+                  "midline": "LSDGEW+LVL  W KVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFISDAIIHVL S+HP +FGADAQGAM KALELFR DIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "sp|P02165.2|",
+                  "accession": "P02165",
+                  "title": "RecName: Full=Myoglobin [Tupaia glis]",
+                  "taxid": 9395,
+                  "sciname": "Tupaia glis"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 266.929,
+                  "score": 681,
+                  "evalue": 3.37899e-92,
+                  "identity": 130,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADVAGHGQEVLIRLFKGHPETLEKFDKFKHLKTEDEMKASEDLKKHGNTVLSALGGILKKKGQHEAEIKPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQAAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLKTE EMKASEDLKK G TVL+ALGGILKKKG HEAEI+PLAQSHATKHKIP+KYLEFIS+AII VLQSKHP +FGADAQ AM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "sp|P14396.2|",
+                  "accession": "P14396",
+                  "title": "RecName: Full=Myoglobin [Castor fiber]",
+                  "taxid": 10185,
+                  "sciname": "Castor fiber"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 266.929,
+                  "score": 681,
+                  "evalue": 3.64867e-92,
+                  "identity": 130,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLHVWGKVEADLAGHGQEVLIRLFKGHPETLEKFNKFKHIKSEDEMKASEDLKKHGVTVLTALGGVLKKKGHHEAEIKPLAQSHATKHKIPIKYLEFISEAIIHVLQSKHPGBFGADABGAMNKALELFRKDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKF+KFKH+K+E EMKASEDLKK GVTVLTALGG+LKKKGHHEAEI+PLAQSHATKHKIPIKYLEFIS+AIIHVLQSKHP +FGADA GAM KALELFR DIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "sp|Q0KIY3.3|",
+                  "accession": "Q0KIY3",
+                  "title": "RecName: Full=Myoglobin [Peponocephala electra]",
+                  "taxid": 103596,
+                  "sciname": "Peponocephala electra"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 266.544,
+                  "score": 680,
+                  "evalue": 4.96049e-92,
+                  "identity": 128,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQDILIRLFKGHPETLEKFDKFKHLKTEADMKASEDLKKHGITVLTALGAILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPAEFGADAQGAMNKALELFRKDIAAKYKELGFHG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ + +RLF GHPETLEKFDKFKHLKTE +MKASEDLKK G+TVLTALG ILKKKGHH+AE++PLAQSHATKHKIPIKYLEFIS+AIIHVL S+HPAEFGADAQGAM KALELFR DIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "sp|P02148.2|",
+                  "accession": "P02148",
+                  "title": "RecName: Full=Myoglobin [Pongo pygmaeus]",
+                  "taxid": 9600,
+                  "sciname": "Pongo pygmaeus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 266.544,
+                  "score": 680,
+                  "evalue": 5.91218e-92,
+                  "identity": 128,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPSHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISESIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIP HG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAEI+PLAQSHATKHKIP+KYLEFIS++II VLQSKHP +FGADAQGAM KALELFR D+A+ YKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "sp|P02167.2|",
+                  "accession": "P02167",
+                  "title": "RecName: Full=Myoglobin [Nycticebus coucang]",
+                  "taxid": 9470,
+                  "sciname": "Nycticebus coucang"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 266.159,
+                  "score": 679,
+                  "evalue": 6.45444e-92,
+                  "identity": 130,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQSVLNVWGKVEADLAGHGQEILIRLFTAHPETLEKFDKFKNLKTPDEMKASEDLKKHGVTVLTALGGILKKKGQHEAEIKPLAQSHATKHKIPVKYLEFISGAIIHVLQSKHPGDFGADAQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+ VL  WGKVEAD+ GHG+ + +RLFT HPETLEKFDKFK+LKT  EMKASEDLKK GVTVLTALGGILKKKG HEAEI+PLAQSHATKHKIP+KYLEFIS AIIHVLQSKHP +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "sp|P62734.2|",
+                  "accession": "P62734",
+                  "title": "RecName: Full=Myoglobin [Hylobates agilis]",
+                  "taxid": 9579,
+                  "sciname": "Hylobates agilis"
+                },
+                {
+                  "id": "sp|P62735.2|",
+                  "accession": "P62735",
+                  "title": "RecName: Full=Myoglobin [Symphalangus syndactylus]",
+                  "taxid": 9590,
+                  "sciname": "Symphalangus syndactylus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 266.159,
+                  "score": 679,
+                  "evalue": 6.81833e-92,
+                  "identity": 128,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPSHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIP HG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAEI+PLAQSHATKHKIP+KYLEFIS+ II VLQSKHP +FGADAQGAM KALELFR D+A+ YKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "sp|P11343.3|",
+                  "accession": "P11343",
+                  "title": "RecName: Full=Myoglobin [Lutra lutra]",
+                  "taxid": 9657,
+                  "sciname": "Lutra lutra"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 266.159,
+                  "score": 679,
+                  "evalue": 6.96957e-92,
+                  "identity": 130,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKGSEDLKKHGNTVLTALGGILKKKGKHEAELKPLAQSHATKHKIPIKYLEFISEAIIQVLQSKHPGDFGADAQGAMKRALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLK+E EMK SEDLKK G TVLTALGGILKKKG HEAE++PLAQSHATKHKIPIKYLEFIS+AII VLQSKHP +FGADAQGAMK+ALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "sp|P02174.2|",
+                  "accession": "P02174",
+                  "title": "RecName: Full=Myoglobin [Globicephala melas]",
+                  "taxid": 9731,
+                  "sciname": "Globicephala melas"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.774,
+                  "score": 678,
+                  "evalue": 1.03444e-91,
+                  "identity": 129,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQDILIRLFKGHPETLEKFDKFKHLKTEADMKASEDLKKHGNTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPAEFGADAQGAMNKALELFRKDIAAKYKELGFHG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ + +RLF GHPETLEKFDKFKHLKTE +MKASEDLKK G TVLTALG ILKKKGHHEAE++PLAQSHATKHKIPIKYLEFIS+AIIHVL S+HPAEFGADAQGAM KALELFR DIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "sp|P32428.2|",
+                  "accession": "P32428",
+                  "title": "RecName: Full=Myoglobin [Ondatra zibethicus]",
+                  "taxid": 10060,
+                  "sciname": "Ondatra zibethicus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.774,
+                  "score": 678,
+                  "evalue": 1.04585e-91,
+                  "identity": 128,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLHVWGKVEADLAGHGQDVLIRLFKAHPETLEKFDKFKHIKSEDEMKGSEDLKKHGBTVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPIKYLEFISEAIIHVLZSKHPSBFGADVZGAMKRALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF  HPETLEKFDKFKH+K+E EMK SEDLKK G TVLTALGGILKKKGHHEAEI+PLAQSHATKHKIPIKYLEFIS+AIIHVL+SKHP++FGAD +GAMK+ALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "sp|P02178.2|",
+                  "accession": "P02178",
+                  "title": "RecName: Full=Myoglobin [Megaptera novaeangliae]",
+                  "taxid": 9773,
+                  "sciname": "Megaptera novaeangliae"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.774,
+                  "score": 678,
+                  "evalue": 1.21945e-91,
+                  "identity": 128,
+                  "positive": 137,
+                  "query_from": 2,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 154,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "LSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "LSDAEWQLVLNIWAKVEADVAGHGQDILIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPADFGADAQAAMNKALELFRKDIAAKYKELGFQG",
+                  "midline": "LSD EW+LVL  W KVEAD+ GHG+ + +RLF GHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFISDAIIHVL S+HPA+FGADAQ AM KALELFR DIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "sp|P02179.2|",
+                  "accession": "P02179",
+                  "title": "RecName: Full=Myoglobin [Balaenoptera acutorostrata]",
+                  "taxid": 9767,
+                  "sciname": "Balaenoptera acutorostrata"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.388,
+                  "score": 677,
+                  "evalue": 1.27414e-91,
+                  "identity": 129,
+                  "positive": 136,
+                  "query_from": 2,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 154,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "LSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "LSDAEWHLVLNIWAKVEADVAGHGQDILIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPAEFGADAQAAMNKALELFRKDIAAKYKELGFQG",
+                  "midline": "LSD EW LVL  W KVEAD+ GHG+ + +RLF GHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFISDAIIHVL S+HPAEFGADAQ AM KALELFR DIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "sp|P02145.2|",
+                  "accession": "P02145",
+                  "title": "RecName: Full=Myoglobin [Pan troglodytes]",
+                  "taxid": 9598,
+                  "sciname": "Pan troglodytes"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.388,
+                  "score": 677,
+                  "evalue": 1.2882e-91,
+                  "identity": 128,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLHSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIPGHG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAEI+PLAQSHATKHKIP+KYLEFIS+ II VL SKHP +FGADAQGAM KALELFR D+A+ YKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "sp|P02155.2|",
+                  "accession": "P02155",
+                  "title": "RecName: Full=Myoglobin [Saimiri sciureus]",
+                  "taxid": 9521,
+                  "sciname": "Saimiri sciureus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.388,
+                  "score": 677,
+                  "evalue": 1.36082e-91,
+                  "identity": 128,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNIWGKVEADIPSHGQEVLISLFKGHPETLEKFDKFKHLKSEDEMKASEELKKHGTTVLTALGGILKKKGQHEAELKPLAQSHATKHKIPVKYLELISDAIVHVLQKKHPGDFGADAQGAMKKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIP HG+ V + LF GHPETLEKFDKFKHLK+E EMKASE+LKK G TVLTALGGILKKKG HEAE++PLAQSHATKHKIP+KYLE ISDAI+HVLQ KHP +FGADAQGAMKKALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "sp|P68276.2|",
+                  "accession": "P68276",
+                  "title": "RecName: Full=Myoglobin [Delphinus delphis]",
+                  "taxid": 9728,
+                  "sciname": "Delphinus delphis"
+                },
+                {
+                  "id": "sp|P68279.2|",
+                  "accession": "P68279",
+                  "title": "RecName: Full=Myoglobin [Tursiops truncatus]",
+                  "taxid": 9739,
+                  "sciname": "Tursiops truncatus"
+                },
+                {
+                  "id": "sp|Q0KIY7.3|",
+                  "accession": "Q0KIY7",
+                  "title": "RecName: Full=Myoglobin-1 [Stenella attenuata]",
+                  "taxid": 9735,
+                  "sciname": "Stenella attenuata"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.388,
+                  "score": 677,
+                  "evalue": 1.53533e-91,
+                  "identity": 129,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEADMKASEDLKKHGNTVLTALGAILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPAEFGADAQGAMNKALELFRKDIAAKYKELGFHG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLKTE +MKASEDLKK G TVLTALG ILKKKGHH+AE++PLAQSHATKHKIPIKYLEFIS+AIIHVL S+HPAEFGADAQGAM KALELFR DIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "sp|P02147.2|",
+                  "accession": "P02147",
+                  "title": "RecName: Full=Myoglobin [Gorilla beringei]",
+                  "taxid": 499232,
+                  "sciname": "Gorilla beringei"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.388,
+                  "score": 677,
+                  "evalue": 1.62189e-91,
+                  "identity": 128,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADISGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADI GHG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAEI+PLAQSHATKHKIP+KYLEFIS+ II VLQSKHP +FGADAQGAM KALELFR D+A+ YKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "sp|C0HJR0.1|",
+                  "accession": "C0HJR0",
+                  "title": "RecName: Full=Myoglobin [Rangifer tarandus]",
+                  "taxid": 9870,
+                  "sciname": "Rangifer tarandus"
+                },
+                {
+                  "id": "sp|P02190.2|",
+                  "accession": "P02190",
+                  "title": "RecName: Full=Myoglobin [Ovis aries]",
+                  "taxid": 9940,
+                  "sciname": "Ovis aries"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.003,
+                  "score": 676,
+                  "evalue": 1.8911e-91,
+                  "identity": 127,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNAWGKVEADVAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAEVKHLAESHANKHKIPVKYLEFISDAIIHVLHAKHPSDFGADAQGAMSKALELFRNDMAAQYKVLGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLFTGHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++ LA+SHA KHKIP+KYLEFISDAIIHVL +KHP++FGADAQGAM KALELFRND+AA+YK LGFQG"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "sp|P68277.2|",
+                  "accession": "P68277",
+                  "title": "RecName: Full=Myoglobin [Phocoenoides dalli dalli]",
+                  "taxid": 9745,
+                  "sciname": "Phocoenoides dalli dalli"
+                },
+                {
+                  "id": "sp|P68278.2|",
+                  "accession": "P68278",
+                  "title": "RecName: Full=Myoglobin [Phocoena phocoena]",
+                  "taxid": 9742,
+                  "sciname": "Phocoena phocoena"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.003,
+                  "score": 676,
+                  "evalue": 2.3039e-91,
+                  "identity": 129,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSEGEWQLVLNVWGKVEADLAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPAEFGADAQGAMNKALELFRKDIATKYKELGFHG",
+                  "midline": "GLS+GEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHH+AE++PLAQSHATKHKIPIKYLEFIS+AIIHVL S+HPAEFGADAQGAM KALELFR DIA KYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "sp|P02191.2|",
+                  "accession": "P02191",
+                  "title": "RecName: Full=Myoglobin [Cervus elaphus]",
+                  "taxid": 9860,
+                  "sciname": "Cervus elaphus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.003,
+                  "score": 676,
+                  "evalue": 2.355e-91,
+                  "identity": 127,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNAWGKVEADVAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAEVKHLAESHANKHKIPVKYLEFISDAIIHVLHAKHPSNFGADAQGAMSKALELFRNDMAAQYKVLGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLFTGHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++ LA+SHA KHKIP+KYLEFISDAIIHVL +KHP+ FGADAQGAM KALELFRND+AA+YK LGFQG"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "sp|P02168.2|",
+                  "accession": "P02168",
+                  "title": "RecName: Full=Myoglobin [Otolemur crassicaudatus]",
+                  "taxid": 9463,
+                  "sciname": "Otolemur crassicaudatus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.003,
+                  "score": 676,
+                  "evalue": 2.40724e-91,
+                  "identity": 129,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLKIWGKVEADLAGHGQDVLIRLFTAHPETLEKFDKFKNLKTADEMKASEDLKKHGVTVLTALGGILKKKGQHEAEIKPLAQSHATKHKIPVKYLEFISEAIIHVLQNKHSGDFGTDVQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVLK WGKVEAD+ GHG+ V +RLFT HPETLEKFDKFK+LKT  EMKASEDLKK GVTVLTALGGILKKKG HEAEI+PLAQSHATKHKIP+KYLEFIS+AIIHVLQ+KH  +FG D QGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "sp|P02173.2|",
+                  "accession": "P02173",
+                  "title": "RecName: Full=Myoglobin [Orcinus orca]",
+                  "taxid": 9733,
+                  "sciname": "Orcinus orca"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 264.618,
+                  "score": 675,
+                  "evalue": 2.65701e-91,
+                  "identity": 128,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQDILIRLFKGHPETLEKFDKFKHLKTEADMKASEDLKKHGNTVLTALGAILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPAEFGADAQGAMNKALELFRKDIAAKYKELGFHG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ + +RLF GHPETLEKFDKFKHLKTE +MKASEDLKK G TVLTALG ILKKKGHH+AE++PLAQSHATKHKIPIKYLEFIS+AIIHVL S+HPAEFGADAQGAM KALELFR DIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "sp|P02181.2|",
+                  "accession": "P02181",
+                  "title": "RecName: Full=Myoglobin [Inia geoffrensis]",
+                  "taxid": 9725,
+                  "sciname": "Inia geoffrensis"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 263.848,
+                  "score": 673,
+                  "evalue": 5.13118e-91,
+                  "identity": 129,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNIWGKVEADLAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQAAMNKALELFRKDIAAKYKELGFHG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFIS+AIIHVL S+HP +FGADAQ AM KALELFR DIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "sp|P02177.2|",
+                  "accession": "P02177",
+                  "title": "RecName: Full=Myoglobin [Eschrichtius robustus]",
+                  "taxid": 9764,
+                  "sciname": "Eschrichtius robustus"
+                },
+                {
+                  "id": "sp|Q0KIY1.3|",
+                  "accession": "Q0KIY1",
+                  "title": "RecName: Full=Myoglobin [Balaenoptera borealis]",
+                  "taxid": 9768,
+                  "sciname": "Balaenoptera borealis"
+                },
+                {
+                  "id": "sp|Q0KIY2.3|",
+                  "accession": "Q0KIY2",
+                  "title": "RecName: Full=Myoglobin [Balaenoptera edeni]",
+                  "taxid": 9769,
+                  "sciname": "Balaenoptera edeni"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 263.462,
+                  "score": 672,
+                  "evalue": 9.38038e-91,
+                  "identity": 127,
+                  "positive": 136,
+                  "query_from": 2,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 154,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "LSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "LSDAEWQLVLNIWAKVEADVAGHGQDILIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPGDFGADAQAAMNKALELFRKDIAAKYKELGFQG",
+                  "midline": "LSD EW+LVL  W KVEAD+ GHG+ + +RLF GHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFISDAIIHVL S+HP +FGADAQ AM KALELFR DIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "sp|P02161.2|",
+                  "accession": "P02161",
+                  "title": "RecName: Full=Myoglobin [Zalophus californianus]",
+                  "taxid": 9704,
+                  "sciname": "Zalophus californianus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 263.077,
+                  "score": 671,
+                  "evalue": 1.30356e-90,
+                  "identity": 128,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNIWGKVEADLVGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKRSEDLKKHGKTVLTALGGILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLQSKHPGDFGADTHAAMKKALELFRNDIAAKYRELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLK+E EMK SEDLKK G TVLTALGGILKKKGHH+AE++PLAQSHATKHKIPIKYLEFIS+AIIHVLQSKHP +FGAD   AMKKALELFRNDIAAKY+ELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "sp|P02157.2|",
+                  "accession": "P02157",
+                  "title": "RecName: Full=Myoglobin [Meles meles]",
+                  "taxid": 9662,
+                  "sciname": "Meles meles"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 262.692,
+                  "score": 670,
+                  "evalue": 1.60561e-90,
+                  "identity": 128,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKGSEDLKKHGNTVLTALGGILKKKGHQEAELKPLAQSHATKHKIPVKYLEFISDAIAQVLQSKHPGNFAAEAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLK+E EMK SEDLKK G TVLTALGGILKKKGH EAE++PLAQSHATKHKIP+KYLEFISDAI  VLQSKHP  F A+AQGAMKKALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "sp|P20856.2|",
+                  "accession": "P20856",
+                  "title": "RecName: Full=Myoglobin [Ctenodactylus gundi]",
+                  "taxid": 10166,
+                  "sciname": "Ctenodactylus gundi"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 262.692,
+                  "score": 670,
+                  "evalue": 1.95607e-90,
+                  "identity": 128,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNAWGKVETDIGGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGTTVLTALGNILKKKGQHEAELAPLAQSHATKHKIPVKYLEFISEAIIQVLESKHPGDFGADAQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVE DI GHG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALG ILKKKG HEAE+ PLAQSHATKHKIP+KYLEFIS+AII VL+SKHP +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "sp|C0HJQ9.1|",
+                  "accession": "C0HJQ9",
+                  "title": "RecName: Full=Myoglobin [Hystrix cristata]",
+                  "taxid": 10137,
+                  "sciname": "Hystrix cristata"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 262.692,
+                  "score": 670,
+                  "evalue": 1.97764e-90,
+                  "identity": 128,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEGDIGGHGQEVLIRLFKGHPETLEKFDKFKHLKAEDEMRASEDLKKHGTTVLTALGGILKKKGQHAAELAPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPADFGADTQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVE DI GHG+ V +RLF GHPETLEKFDKFKHLK E EM+ASEDLKK G TVLTALGGILKKKG H AE+ PLAQSHATKHKIP+KYLEFIS+AII VLQSKHPA+FGAD QGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "sp|P68080.2|",
+                  "accession": "P68080",
+                  "title": "RecName: Full=Myoglobin [Phoca vitulina]",
+                  "taxid": 9720,
+                  "sciname": "Phoca vitulina"
+                },
+                {
+                  "id": "sp|P68081.2|",
+                  "accession": "P68081",
+                  "title": "RecName: Full=Myoglobin [Halichoerus grypus]",
+                  "taxid": 9711,
+                  "sciname": "Halichoerus grypus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 262.307,
+                  "score": 669,
+                  "evalue": 2.38303e-90,
+                  "identity": 127,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWHLVLNVWGKVETDLAGHGQEVLIRLFKSHPETLEKFDKFKHLKSEDDMRRSEDLRKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSKHPAEFGADAQAAMKKALELFRNDIAAKYKELGFHG",
+                  "midline": "GLSDGEW LVL  WGKVE D+ GHG+ V +RLF  HPETLEKFDKFKHLK+E +M+ SEDL+K G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFIS+AIIHVL SKHPAEFGADAQ AMKKALELFRNDIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "sp|Q0KIY6.3|",
+                  "accession": "Q0KIY6",
+                  "title": "RecName: Full=Myoglobin-2 [Stenella attenuata]",
+                  "taxid": 9735,
+                  "sciname": "Stenella attenuata"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 262.307,
+                  "score": 669,
+                  "evalue": 2.51737e-90,
+                  "identity": 127,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQDVLIRLFKGHPETLEKFDKFKHLKTEADMKASEDLKKHGNTVLTALGAILKKKGHHDAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPAEFGADAQAAMNKALELFRKDIATKYKELGFHG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLKTE +MKASEDLKK G TVLTALG ILKKKGHH+AE++PLAQSHATKHKIPIKYLEFIS+AIIHVL S+HPAEFGADAQ AM KALELFR DIA KYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "sp|P02170.2|",
+                  "accession": "P02170",
+                  "title": "RecName: Full=Myoglobin [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 261.536,
+                  "score": 667,
+                  "evalue": 4.5021e-90,
+                  "identity": 127,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDAEWQLVLNVWGKVEADLAGHGQEVLIRLFHTHPETLEKFDKFKHLKSEDEMKASEDLKKHGNTVLTALGAILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISEAIIHVLHSKHPGDFGADAQAAMSKALELFRNDIAAQYKELGFQG",
+                  "midline": "GLSD EW+LVL  WGKVEAD+ GHG+ V +RLF  HPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALG ILKKKGHHEAEI+PLAQSHATKHKIP+KYLEFIS+AIIHVL SKHP +FGADAQ AM KALELFRNDIAA+YKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "sp|B7U9B5.3|",
+                  "accession": "B7U9B5",
+                  "title": "RecName: Full=Myoglobin [Capra hircus]",
+                  "taxid": 9925,
+                  "sciname": "Capra hircus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 261.536,
+                  "score": 667,
+                  "evalue": 4.9692e-90,
+                  "identity": 126,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWTLVLNAWGKVEADVAGHGQEVLIRLFTGHPETLEKFDKFKHLKTGAEMKASEDLKKHGNTVLTALGGILKKKGHHEAEVKHLAESHANKHKIPVKYLEFISDAIIHVLHAKHPSDFGADAQGAMSKALELFRNDMAAQYKVLGFQG",
+                  "midline": "GLSDGEW LVL  WGKVEAD+ GHG+ V +RLFTGHPETLEKFDKFKHLKT  EMKASEDLKK G TVLTALGGILKKKGHHEAE++ LA+SHA KHKIP+KYLEFISDAIIHVL +KHP++FGADAQGAM KALELFRND+AA+YK LGFQG"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "sp|P02192.3|",
+                  "accession": "P02192",
+                  "title": "RecName: Full=Myoglobin [Bos taurus]",
+                  "taxid": 9913,
+                  "sciname": "Bos taurus"
+                },
+                {
+                  "id": "sp|P86873.1|",
+                  "accession": "P86873",
+                  "title": "RecName: Full=Myoglobin [Bison bison]",
+                  "taxid": 9901,
+                  "sciname": "Bison bison"
+                },
+                {
+                  "id": "sp|Q2MJN4.3|",
+                  "accession": "Q2MJN4",
+                  "title": "RecName: Full=Myoglobin [Bos grunniens]",
+                  "taxid": 30521,
+                  "sciname": "Bos grunniens"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 261.536,
+                  "score": 667,
+                  "evalue": 5.48477e-90,
+                  "identity": 125,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNAWGKVEADVAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAEVKHLAESHANKHKIPVKYLEFISDAIIHVLHAKHPSDFGADAQAAMSKALELFRNDMAAQYKVLGFHG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLFTGHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++ LA+SHA KHKIP+KYLEFISDAIIHVL +KHP++FGADAQ AM KALELFRND+AA+YK LGF G"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "sp|P04248.2|",
+                  "accession": "P04248",
+                  "title": "RecName: Full=Myoglobin [Nannospalax ehrenbergi]",
+                  "taxid": 30637,
+                  "sciname": "Nannospalax ehrenbergi"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 261.151,
+                  "score": 666,
+                  "evalue": 6.90545e-90,
+                  "identity": 128,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEGDLAGHGQEVLIKLFKNHPETLEKFDKFKHLKSEDEMKGSEDLKKHGNTVLTALGGILKKKGQHAAEIQPLAQSHATKHKIPIKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVE D+ GHG+ V ++LF  HPETLEKFDKFKHLK+E EMK SEDLKK G TVLTALGGILKKKG H AEIQPLAQSHATKHKIPIKYLEFIS+AII VLQSKHP +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "sp|P02183.2|",
+                  "accession": "P02183",
+                  "title": "RecName: Full=Myoglobin [Mesoplodon carlhubbsi]",
+                  "taxid": 9758,
+                  "sciname": "Mesoplodon carlhubbsi"
+                },
+                {
+                  "id": "sp|Q0KIY0.3|",
+                  "accession": "Q0KIY0",
+                  "title": "RecName: Full=Myoglobin [Mesoplodon stejnegeri]",
+                  "taxid": 52114,
+                  "sciname": "Mesoplodon stejnegeri"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 261.151,
+                  "score": 666,
+                  "evalue": 7.37518e-90,
+                  "identity": 127,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSEAEWQLVLHVWAKVEADLSGHGQEILIRLFKGHPETLEKFDKFKHLKSEAEMKASEDLKKHGHTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPSDFGADAQGAMTKALELFRKDIAAKYKELGFHG",
+                  "midline": "GLS+ EW+LVL  W KVEAD+ GHG+ + +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFISDAIIHVL SKHP++FGADAQGAM KALELFR DIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "sp|C0HKB7.1|",
+                  "accession": "C0HKB7",
+                  "title": "RecName: Full=Myoglobin [Sciurus vulgaris]",
+                  "taxid": 55149,
+                  "sciname": "Sciurus vulgaris"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.766,
+                  "score": 665,
+                  "evalue": 8.78999e-90,
+                  "identity": 129,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLKVWGKVEADIAGHGQEVLIRLFKDHPETLEKFDKFKNLKTEDEMKASEDLKKHGSTVLGALGGILKKKGQHEAEIKPLAQSHATKHKIPVKYLEFISEAIIQVLKSKHSGDFGADAQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVLK WGKVEADI GHG+ V +RLF  HPETLEKFDKFK+LKTE EMKASEDLKK G TVL ALGGILKKKG HEAEI+PLAQSHATKHKIP+KYLEFIS+AII VL+SKH  +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "sp|P02156.2|",
+                  "accession": "P02156",
+                  "title": "RecName: Full=Myoglobin [Erinaceus europaeus]",
+                  "taxid": 9365,
+                  "sciname": "Erinaceus europaeus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.766,
+                  "score": 665,
+                  "evalue": 9.38792e-90,
+                  "identity": 126,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKDHPETLEKFDKFKHLKSEDEMKSSEDLKKHGTTVLTALGGILKKKGQHEAQLAPLAQSHANKHKIPVKYLEFISEAIIQVLKSKHAGDFGADAQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIPGHG+ V +RLF  HPETLEKFDKFKHLK+E EMK+SEDLKK G TVLTALGGILKKKG HEA++ PLAQSHA KHKIP+KYLEFIS+AII VL+SKH  +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "sp|P04250.2|",
+                  "accession": "P04250",
+                  "title": "RecName: Full=Myoglobin [Lagostomus maximus]",
+                  "taxid": 10154,
+                  "sciname": "Lagostomus maximus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.766,
+                  "score": 665,
+                  "evalue": 1.10668e-89,
+                  "identity": 126,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLGGHGQEVLIRLFKGHPETLEKFDKFKHLKAEDEMRASEDLKKHGTTVLTALGGILKKRGQHAAELAPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQAAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLK E EM+ASEDLKK G TVLTALGGILKK+G H AE+ PLAQSHATKHKIP+KYLEFIS+AII VLQSKHP +FGADAQ AM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "sp|P02180.2|",
+                  "accession": "P02180",
+                  "title": "RecName: Full=Myoglobin [Balaenoptera physalus]",
+                  "taxid": 9770,
+                  "sciname": "Balaenoptera physalus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.381,
+                  "score": 664,
+                  "evalue": 1.24859e-89,
+                  "identity": 126,
+                  "positive": 135,
+                  "query_from": 2,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 154,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "LSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "LTDAEWHLVLNIWAKVEADVAGHGQDILISLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPADFGADAQAAMNKALELFRKDIAAKYKELGFQG",
+                  "midline": "L+D EW LVL  W KVEAD+ GHG+ + + LF GHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFISDAIIHVL S+HPA+FGADAQ AM KALELFR DIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "sp|P04249.2|",
+                  "accession": "P04249",
+                  "title": "RecName: Full=Myoglobin [Proechimys guairae]",
+                  "taxid": 10163,
+                  "sciname": "Proechimys guairae"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.381,
+                  "score": 664,
+                  "evalue": 1.34823e-89,
+                  "identity": 126,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEGDLSGHGQEVLIRLFKGHPETLEKFDKFKHLKAEDEMRASEELKKHGTTVLTALGGILKKKGQHAAELAPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVE D+ GHG+ V +RLF GHPETLEKFDKFKHLK E EM+ASE+LKK G TVLTALGGILKKKG H AE+ PLAQSHATKHKIP+KYLEFIS+AII VLQSKHP +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "sp|P02184.2|",
+                  "accession": "P02184",
+                  "title": "RecName: Full=Myoglobin [Kogia sima]",
+                  "taxid": 9752,
+                  "sciname": "Kogia sima"
+                },
+                {
+                  "id": "sp|Q0KIY5.3|",
+                  "accession": "Q0KIY5",
+                  "title": "RecName: Full=Myoglobin [Kogia breviceps]",
+                  "taxid": 27615,
+                  "sciname": "Kogia breviceps"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.381,
+                  "score": 664,
+                  "evalue": 1.37813e-89,
+                  "identity": 125,
+                  "positive": 138,
+                  "query_from": 2,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 154,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "LSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "LSEGEWQLVLHVWAKVEADIAGHGQDILIRLFKHHPETLEKFDRFKHLKSEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPADFGADAQGAMSKALELFRKDIAAKYKELGYQG",
+                  "midline": "LS+GEW+LVL  W KVEADI GHG+ + +RLF  HPETLEKFD+FKHLK+E EMKASEDLKK GVTVLTALG ILKKKGHHEAE++PLAQSHATKHKIPIKYLEFIS+AIIHVL S+HPA+FGADAQGAM KALELFR DIAAKYKELG+QG"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "sp|P02185.2|",
+                  "accession": "P02185",
+                  "title": "RecName: Full=Myoglobin [Physeter catodon]",
+                  "taxid": 9755,
+                  "sciname": "Physeter catodon"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 259.996,
+                  "score": 663,
+                  "evalue": 2.35883e-89,
+                  "identity": 124,
+                  "positive": 137,
+                  "query_from": 2,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 154,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "LSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG",
+                  "midline": "LS+GEW+LVL  W KVEAD+ GHG+ + +RLF  HPETLEKFD+FKHLKTE EMKASEDLKK GVTVLTALG ILKKKGHHEAE++PLAQSHATKHKIPIKYLEFIS+AIIHVL S+HP +FGADAQGAM KALELFR DIAAKYKELG+QG"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "sp|Q0KIY9.3|",
+                  "accession": "Q0KIY9",
+                  "title": "RecName: Full=Myoglobin [Indopacetus pacificus]",
+                  "taxid": 221924,
+                  "sciname": "Indopacetus pacificus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 259.61,
+                  "score": 662,
+                  "evalue": 3.17181e-89,
+                  "identity": 126,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSEAEWQLVLHVWAKVEADLSGHGQEILIRLFKGHPETLEKFDKFKHLKSEAEMKASEDLKKHGHTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPSDFGADAQAAMTKALELFRKDIAAKYKELGFHG",
+                  "midline": "GLS+ EW+LVL  W KVEAD+ GHG+ + +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFISDAIIHVL SKHP++FGADAQ AM KALELFR DIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "sp|P02182.2|",
+                  "accession": "P02182",
+                  "title": "RecName: Full=Myoglobin [Ziphius cavirostris]",
+                  "taxid": 9760,
+                  "sciname": "Ziphius cavirostris"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 258.84,
+                  "score": 660,
+                  "evalue": 5.13919e-89,
+                  "identity": 125,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSEAEWQLVLHVWAKVEADLSGHGQEILIRLFKGHPETLEKFDKFKHLKSEAEMKASEDLKKHGHTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPSDFGADAQAAMTKALELFRKDIAAKYKELGFHG",
+                  "midline": "GLS+ EW+LVL  W KVEAD+ GHG+ + +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFISDAIIHVL S+HP++FGADAQ AM KALELFR DIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "sp|P02171.2|",
+                  "accession": "P02171",
+                  "title": "RecName: Full=Myoglobin [Ochotona princeps]",
+                  "taxid": 9978,
+                  "sciname": "Ochotona princeps"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 258.84,
+                  "score": 660,
+                  "evalue": 5.86211e-89,
+                  "identity": 124,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQEVLIRLFKNHPETLEKFDKFKNLKSEDEMKGSDDLKKHGNTVLSALGGILKKKGQHEAELKPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF  HPETLEKFDKFK+LK+E EMK S+DLKK G TVL+ALGGILKKKG HEAE++PLAQSHATKHKIP+KYLEFIS+AII VLQSKHP +FGADAQGAM KALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "sp|P02193.2|",
+                  "accession": "P02193",
+                  "title": "RecName: Full=Myoglobin [Didelphis virginiana]",
+                  "taxid": 9267,
+                  "sciname": "Didelphis virginiana"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 258.455,
+                  "score": 659,
+                  "evalue": 8.41865e-89,
+                  "identity": 124,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNAWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGNILKKKGNHEAELKPLAQSHATKHKISVQFLEFISEAIIQVIQSKHPGDFGGDAQAAMGKALELFRNDMAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEADIPGHG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G TVLTALG ILKKKG+HEAE++PLAQSHATKHKI +++LEFIS+AII V+QSKHP +FG DAQ AM KALELFRND+AAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "sp|P84997.2|",
+                  "accession": "P84997",
+                  "title": "RecName: Full=Myoglobin [Bubalus bubalis]",
+                  "taxid": 89462,
+                  "sciname": "Bubalus bubalis"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 256.914,
+                  "score": 655,
+                  "evalue": 3.03765e-88,
+                  "identity": 123,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNAWGKVETDVAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHEAEVKHLAESHANKHKIPVKYLEFISDAIIHVLHDKHPSDFGADAQAAMSKALELFRNEMAAQYKVLGFHG",
+                  "midline": "GLSDGEW+LVL  WGKVE D+ GHG+ V +RLFTGHPETLEKFDKFKHLKTE EMKASEDLKK G TVLTALGGILKKKGHHEAE++ LA+SHA KHKIP+KYLEFISDAIIHVL  KHP++FGADAQ AM KALELFRN++AA+YK LGF G"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "sp|P02160.2|",
+                  "accession": "P02160",
+                  "title": "RecName: Full=Myoglobin [Vulpes chama]",
+                  "taxid": 9626,
+                  "sciname": "Vulpes chama"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 256.529,
+                  "score": 654,
+                  "evalue": 4.50828e-88,
+                  "identity": 125,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNIWGKVETDLAGHGQEVLIRLFKNHPETLDKFDKFKHLKTEDEMKGSEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPVKYLEFISDAIIQVLQSKHSGDFHADTEAAMKKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVE D+ GHG+ V +RLF  HPETL+KFDKFKHLKTE EMK SEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIP+KYLEFISDAII VLQSKH  +F AD + AMKKALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "sp|P63113.2|",
+                  "accession": "P63113",
+                  "title": "RecName: Full=Myoglobin [Canis lupus familiaris]",
+                  "taxid": 9615,
+                  "sciname": "Canis lupus familiaris"
+                },
+                {
+                  "id": "sp|P63114.2|",
+                  "accession": "P63114",
+                  "title": "RecName: Full=Myoglobin [Otocyon megalotis]",
+                  "taxid": 9624,
+                  "sciname": "Otocyon megalotis"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 255.758,
+                  "score": 652,
+                  "evalue": 9.29767e-88,
+                  "identity": 124,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQIVLNIWGKVETDLAGHGQEVLIRLFKNHPETLDKFDKFKHLKTEDEMKGSEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPVKYLEFISDAIIQVLQSKHSGDFHADTEAAMKKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW++VL  WGKVE D+ GHG+ V +RLF  HPETL+KFDKFKHLKTE EMK SEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIP+KYLEFISDAII VLQSKH  +F AD + AMKKALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "sp|Q6PL31.3|",
+                  "accession": "Q6PL31",
+                  "title": "RecName: Full=Myoglobin [Ochotona curzoniae]",
+                  "taxid": 130825,
+                  "sciname": "Ochotona curzoniae"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 255.373,
+                  "score": 651,
+                  "evalue": 1.19653e-87,
+                  "identity": 123,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLTVWGKVEADLAGHGQEVLIRLFKNHPETLEKFDKFKNLKSEDEMKGSDDLKKHGNTVLSALGGILKKKGQHEAELKPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDMAAKYKELGFHG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF  HPETLEKFDKFK+LK+E EMK S+DLKK G TVL+ALGGILKKKG HEAE++PLAQSHATKHKIP+KYLEFIS+AII VLQSKHP +FGADAQGAM KALELFRND+AAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "sp|P02159.2|",
+                  "accession": "P02159",
+                  "title": "RecName: Full=Myoglobin [Lycaon pictus]",
+                  "taxid": 9622,
+                  "sciname": "Lycaon pictus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 254.603,
+                  "score": 649,
+                  "evalue": 2.75366e-87,
+                  "identity": 123,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQIVLNIWGKVETDLAGHGQEVLIRLFKNHPETLDKFDKFKHLKTEDEMKGSEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPVKYLEFISDAIIQVLQNKHSGDFHADTEAAMKKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW++VL  WGKVE D+ GHG+ V +RLF  HPETL+KFDKFKHLKTE EMK SEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIP+KYLEFISDAII VLQ+KH  +F AD + AMKKALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "sp|P02194.2|",
+                  "accession": "P02194",
+                  "title": "RecName: Full=Myoglobin [Osphranter rufus]",
+                  "taxid": 9321,
+                  "sciname": "Osphranter rufus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.447,
+                  "score": 646,
+                  "evalue": 9.20085e-87,
+                  "identity": 123,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNIWGKVETDEGGHGKDVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGITVLTALGNILKKKGHHEAELKPLAQSHATKHKIPVQFLEFISDAIIQVIQSKHAGNFGADAQAAMKKALELFRHDMAAKYKEFGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVE D  GHG+ V +RLF GHPETLEKFDKFKHLK+E EMKASEDLKK G+TVLTALG ILKKKGHHEAE++PLAQSHATKHKIP+++LEFISDAII V+QSKH   FGADAQ AMKKALELFR+D+AAKYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "sp|P30562.2|",
+                  "accession": "P30562",
+                  "title": "RecName: Full=Myoglobin [Pusa sibirica]",
+                  "taxid": 9719,
+                  "sciname": "Pusa sibirica"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 252.292,
+                  "score": 643,
+                  "evalue": 2.3628e-86,
+                  "identity": 124,
+                  "positive": 134,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWHLVLNVWGKWETDLAGHGQEVLIRLFKSHPETLEKFDKFKHLKSEDDMRRSFDLRKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSKHPAEFGADAQAAMKKALELFRNDIAAKIKELGFHG",
+                  "midline": "GLSDGEW LVL  WGK E D+ GHG+ V +RLF  HPETLEKFDKFKHLK+E +M+ S DL+K G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYLEFIS+AIIHVL SKHPAEFGADAQ AMKKALELFRNDIAAK KELGF G"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "sp|P02195.2|",
+                  "accession": "P02195",
+                  "title": "RecName: Full=Myoglobin [Tachyglossus aculeatus aculeatus]",
+                  "taxid": 49271,
+                  "sciname": "Tachyglossus aculeatus aculeatus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 251.136,
+                  "score": 640,
+                  "evalue": 6.92102e-86,
+                  "identity": 124,
+                  "positive": 133,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLKVWGKVETDITGHGQDVLIRLFKTHPETLEKFDKFKHLKTEDEMKASADLKKHGGVVLTALGSILKKKGQHEAELKPLAQSHATKHKISIKFLEFISEAIIHVLQSKHSADFGADAQAAMGKALELFRNDMATKYKEFGFQG",
+                  "midline": "GLSDGEW+LVLK WGKVE DI GHG+ V +RLF  HPETLEKFDKFKHLKTE EMKAS DLKK G  VLTALG ILKKKG HEAE++PLAQSHATKHKI IK+LEFIS+AIIHVLQSKH A+FGADAQ AM KALELFRND+A KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "sp|P02196.2|",
+                  "accession": "P02196",
+                  "title": "RecName: Full=Myoglobin [Ornithorhynchus anatinus]",
+                  "taxid": 9258,
+                  "sciname": "Ornithorhynchus anatinus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 251.136,
+                  "score": 640,
+                  "evalue": 7.39173e-86,
+                  "identity": 124,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLKVWGKVEGDLPGHGQEVLIRLFKTHPETLEKFDKFKGLKTEDEMKASADLKKHGGTVLTALGNILKKKGQHEAELKPLAQSHATKHKISIKFLEYISEAIIHVLQSKHSADFGADAQAAMGKALELFRNDMAAKYKEFGFQG",
+                  "midline": "GLSDGEW+LVLK WGKVE D+PGHG+ V +RLF  HPETLEKFDKFK LKTE EMKAS DLKK G TVLTALG ILKKKG HEAE++PLAQSHATKHKI IK+LE+IS+AIIHVLQSKH A+FGADAQ AM KALELFRND+AAKYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "sp|Q9QZ76.3|",
+                  "accession": "Q9QZ76",
+                  "title": "RecName: Full=Myoglobin [Rattus norvegicus]",
+                  "taxid": 10116,
+                  "sciname": "Rattus norvegicus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.128,
+                  "score": 627,
+                  "evalue": 6.77411e-84,
+                  "identity": 118,
+                  "positive": 132,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQMVLNIWGKVEGDLAGHGQEVLISLFKAHPETLEKFDKFKNLKSEEEMKSSEDLKKHGCTVLTALGTILKKKGQHAAEIQPLAQSHATKHKIPVKYLEFISEVIIQVLKKRYSGDFGADAQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW++VL  WGKVE D+ GHG+ V + LF  HPETLEKFDKFK+LK+E EMK+SEDLKK G TVLTALG ILKKKG H AEIQPLAQSHATKHKIP+KYLEFIS+ II VL+ ++  +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "sp|P83682.2|",
+                  "accession": "P83682",
+                  "title": "RecName: Full=Myoglobin [Delphinapterus leucas]",
+                  "taxid": 9749,
+                  "sciname": "Delphinapterus leucas"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 245.743,
+                  "score": 626,
+                  "evalue": 8.91058e-84,
+                  "identity": 123,
+                  "positive": 132,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSEGEWQLVLXXXXKVEADLAGHGQDVLIRLFKGHPETLEKFDKFKHLKTXXXMKASEDLKKHGNTVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLXXXXEAIIHVLHSRHPAEFGADAQGAMNKALELFRKDIAAKYKELGFHG",
+                  "midline": "GLS+GEW+LVL    KVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLKT   MKASEDLKK G TVLTALGGILKKKGHHEAE++PLAQSHATKHKIPIKYL    +AIIHVL S+HPAEFGADAQGAM KALELFR DIAAKYKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "sp|P04247.3|",
+                  "accession": "P04247",
+                  "title": "RecName: Full=Myoglobin [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 244.202,
+                  "score": 622,
+                  "evalue": 3.87276e-83,
+                  "identity": 119,
+                  "positive": 132,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQEVLIGLFKTHPETLDKFDKFKNLKSEEDMKGSEDLKKHGCTVLTALGTILKKKGQHAAEIQPLAQSHATKHKIPVKYLEFISEIIIEVLKKRHSGDFGADAQGAMSKALELFRNDIAAKYKELGFQG",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V + LF  HPETL+KFDKFK+LK+E +MK SEDLKK G TVLTALG ILKKKG H AEIQPLAQSHATKHKIP+KYLEFIS+ II VL+ +H  +FGADAQGAM KALELFRNDIAAKYKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "sp|Q7LZM3.2|",
+                  "accession": "Q7LZM3",
+                  "title": "RecName: Full=Myoglobin [Phalacrocorax capillatus]",
+                  "taxid": 146617,
+                  "sciname": "Phalacrocorax capillatus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 7.63056e-78,
+                  "identity": 109,
+                  "positive": 131,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDQEWQQVLTIWGKVESDLPGHGHEVLMRLFRDHPETLDRFERFKGLKTPDQMKASEDLKKHGVTVLTQLGKILKQKGNHESELKPLAQTHATKHKIPVKYLEFISEVIIKVIAEKHSADFGADSQAAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW+ VL  WGKVE+D+PGHG  V +RLF  HPETL++F++FK LKT  +MKASEDLKK GVTVLT LG ILK+KG+HE+E++PLAQ+HATKHKIP+KYLEFIS+ II V+  KH A+FGAD+Q AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "sp|Q7LZM2.2|",
+                  "accession": "Q7LZM2",
+                  "title": "RecName: Full=Myoglobin [Anas poecilorhyncha]",
+                  "taxid": 75854,
+                  "sciname": "Anas poecilorhyncha"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.794,
+                  "score": 582,
+                  "evalue": 4.65613e-77,
+                  "identity": 110,
+                  "positive": 129,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDQEWQQVLTIWGKVEADLAGHGHAVLMRLFQDHPETLDRFEKFKGLKTPDQMKGSEDLKKHGVTVLTQLGKILKQKGNHEAELKPLAQTHATKHKIPVKYLEFISEVIIKVIAEKHSADFGADSQAAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW+ VL  WGKVEAD+ GHG  V +RLF  HPETL++F+KFK LKT  +MK SEDLKK GVTVLT LG ILK+KG+HEAE++PLAQ+HATKHKIP+KYLEFIS+ II V+  KH A+FGAD+Q AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "sp|Q7LZM5.2|",
+                  "accession": "Q7LZM5",
+                  "title": "RecName: Full=Myoglobin [Aethia pygmaea]",
+                  "taxid": 28687,
+                  "sciname": "Aethia pygmaea"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.254,
+                  "score": 578,
+                  "evalue": 1.75392e-76,
+                  "identity": 108,
+                  "positive": 129,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDQEWQQVLSIWGKVESDLAGHGHQVLMRLFQDHPETLDRFDKFKGLKTPDQMKGSEDLKKHGVTVLTQLGKILKQKGNHESELKPLAQTHATKHKIPVKYLEFISEAIMKVIAEKHAADFGGDSQAAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW+ VL  WGKVE+D+ GHG  V +RLF  HPETL++FDKFK LKT  +MK SEDLKK GVTVLT LG ILK+KG+HE+E++PLAQ+HATKHKIP+KYLEFIS+AI+ V+  KH A+FG D+Q AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "sp|G1NJB6.1|",
+                  "accession": "G1NJB6",
+                  "title": "RecName: Full=Myoglobin [Meleagris gallopavo]",
+                  "taxid": 9103,
+                  "sciname": "Meleagris gallopavo"
+                },
+                {
+                  "id": "sp|P02197.4|",
+                  "accession": "P02197",
+                  "title": "RecName: Full=Myoglobin [Gallus gallus]",
+                  "taxid": 9031,
+                  "sciname": "Gallus gallus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.868,
+                  "score": 577,
+                  "evalue": 2.28167e-76,
+                  "identity": 110,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDQEWQQVLTIWGKVEADIAGHGHEVLMRLFHDHPETLDRFDKFKGLKTPDQMKGSEDLKKHGATVLTQLGKILKQKGNHESELKPLAQTHATKHKIPVKYLEFISEVIIKVIAEKHAADFGADSQAAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW+ VL  WGKVEADI GHG  V +RLF  HPETL++FDKFK LKT  +MK SEDLKK G TVLT LG ILK+KG+HE+E++PLAQ+HATKHKIP+KYLEFIS+ II V+  KH A+FGAD+Q AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "sp|Q7LZM1.2|",
+                  "accession": "Q7LZM1",
+                  "title": "RecName: Full=Myoglobin [Uria lomvia]",
+                  "taxid": 28711,
+                  "sciname": "Uria lomvia"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.713,
+                  "score": 574,
+                  "evalue": 6.82736e-76,
+                  "identity": 108,
+                  "positive": 129,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDQEWQHVLTIWGKVESDLAGHGHQVLMRLFQDHPETLDRFEKFKGLKTPDQMKGSEDLKKHGVTVLTQLGKILKQKGNHESELKPLAQTHATKHKIPVKYLEFISEAIIKVIAEKHASSFGADSQAAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW+ VL  WGKVE+D+ GHG  V +RLF  HPETL++F+KFK LKT  +MK SEDLKK GVTVLT LG ILK+KG+HE+E++PLAQ+HATKHKIP+KYLEFIS+AII V+  KH + FGAD+Q AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "sp|Q7LZM4.2|",
+                  "accession": "Q7LZM4",
+                  "title": "RecName: Full=Myoglobin [Cerorhinca monocerata]",
+                  "taxid": 61263,
+                  "sciname": "Cerorhinca monocerata"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.328,
+                  "score": 573,
+                  "evalue": 1.07006e-75,
+                  "identity": 107,
+                  "positive": 129,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDQEWQQVLSIWGKVESDLAGHGHQVLMRLFQDHPETLDRFEKFKGLKTPDQMKGSEDLKKHGVTVLTQLGKILKQKGNHESELKPLAQTHATKHKIPVKYLEFISEAIMKVIAEKHAADFGGDSQAAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW+ VL  WGKVE+D+ GHG  V +RLF  HPETL++F+KFK LKT  +MK SEDLKK GVTVLT LG ILK+KG+HE+E++PLAQ+HATKHKIP+KYLEFIS+AI+ V+  KH A+FG D+Q AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "sp|P85077.1|",
+                  "accession": "P85077",
+                  "title": "RecName: Full=Myoglobin [Struthio camelus]",
+                  "taxid": 8801,
+                  "sciname": "Struthio camelus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.942,
+                  "score": 572,
+                  "evalue": 1.53633e-75,
+                  "identity": 108,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDQEWQQVLTIWGKVESDIAGHGHAILMRLFQDHPETLDRFEKFKGLTTPEQMKASEELKKHGVTVLTQLGKILKQKGKHEAELKPLAQTHATKHKIPVKYLEFISEVIIKVIAEKHSADFGADSQAAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW+ VL  WGKVE+DI GHG  + +RLF  HPETL++F+KFK L T  +MKASE+LKK GVTVLT LG ILK+KG HEAE++PLAQ+HATKHKIP+KYLEFIS+ II V+  KH A+FGAD+Q AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "sp|P02199.2|",
+                  "accession": "P02199",
+                  "title": "RecName: Full=Myoglobin [Aptenodytes forsteri]",
+                  "taxid": 9233,
+                  "sciname": "Aptenodytes forsteri"
+                }
+              ],
+              "len": 153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.557,
+                  "score": 571,
+                  "evalue": 2.32928e-75,
+                  "identity": 106,
+                  "positive": 129,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 153,
+                  "align_len": 153,
+                  "gaps": 1,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLNDQEWQQVLTMWGKVESDLAGHGHAVLMRLFKSHPETMDRFDKFRGLKTPDEMRGSEDMKKHGVTVLT-LGQILKKKGHHEAELKPLSQTHATKHKVPVKYLEFISEAIMKVIAQKHASNFGADAQEAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GL+D EW+ VL  WGKVE+D+ GHG  V +RLF  HPET+++FDKF+ LKT  EM+ SED+KK GVTVLT LG ILKKKGHHEAE++PL+Q+HATKHK+P+KYLEFIS+AI+ V+  KH + FGADAQ AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "sp|P02203.2|",
+                  "accession": "P02203",
+                  "title": "RecName: Full=Myoglobin [Varanus varius]",
+                  "taxid": 8559,
+                  "sciname": "Varanus varius"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 222.246,
+                  "score": 565,
+                  "evalue": 1.75035e-74,
+                  "identity": 105,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDEEWKKVVDIWGKVEPDLPSHGQEVIIRMFQNHPETQDRFAKFKNLKTLDEMKNSEDLKKHGTTVLTALGRILKQKGHHEAEIAPLAQTHANTHKIPIKYLEFICEVIVGVIAEKHSADFGADSQEAMRKALELFRNDMASRYKELGFQG",
+                  "midline": "GLSD EW+ V+  WGKVE D+P HG+ V +R+F  HPET ++F KFK+LKT  EMK SEDLKK G TVLTALG ILK+KGHHEAEI PLAQ+HA  HKIPIKYLEFI + I+ V+  KH A+FGAD+Q AM+KALELFRND+A++YKELGFQG"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "sp|P86874.1|",
+                  "accession": "P86874",
+                  "title": "RecName: Full=Myoglobin [Dromaius novaehollandiae]",
+                  "taxid": 8790,
+                  "sciname": "Dromaius novaehollandiae"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 216.468,
+                  "score": 550,
+                  "evalue": 3.84226e-72,
+                  "identity": 105,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDQEWQHVLTIWGKVESDLAGHGHEILMRLFHDLPETLDRFERFKGLTTPDQMKASEELKKHGVTVLTQLGKILKLKGKHEAELKPLAQTHATKHKIPVKYLEFISEVIIKVIAEKHSADFGADSQAAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW+ VL  WGKVE+D+ GHG  + +RLF   PETL++F++FK L T  +MKASE+LKK GVTVLT LG ILK KG HEAE++PLAQ+HATKHKIP+KYLEFIS+ II V+  KH A+FGAD+Q AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "sp|P02201.2|",
+                  "accession": "P02201",
+                  "title": "RecName: Full=Myoglobin [Graptemys geographica]",
+                  "taxid": 8481,
+                  "sciname": "Graptemys geographica"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 211.075,
+                  "score": 536,
+                  "evalue": 4.46352e-70,
+                  "identity": 99,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDDEWHHVLGIWAKVEPDLSAHGQEVIIRLFQVHPETQERFAKFKNLKTIDELRSSEEVKKHGTTVLTALGRILKLKNNHEPELKPLAESHATKHKIPVKYLEFICEIIVKVIAEKHPSDFGADSQAAMRKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW  VL  W KVE D+  HG+ V +RLF  HPET E+F KFK+LKT  E+++SE++KK G TVLTALG ILK K +HE E++PLA+SHATKHKIP+KYLEFI + I+ V+  KHP++FGAD+Q AM+KALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "sp|P56208.2|",
+                  "accession": "P56208",
+                  "title": "RecName: Full=Myoglobin [Caretta caretta]",
+                  "taxid": 8467,
+                  "sciname": "Caretta caretta"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 210.305,
+                  "score": 534,
+                  "evalue": 1.0376e-69,
+                  "identity": 99,
+                  "positive": 122,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDDEWNHVLGIWAKVEPDLSAHGQEVIIRLFQLHPETQERFAKFKNLTTIDALKSSEEVKKHGTTVLTALGRILKQKNNHEQELKPLAESHATKHKIPVKYLEFICEIIVKVIAEKHPSDFGADSQAAMKKALELFRNDMASKYKEFGFQG",
+                  "midline": "GLSD EW  VL  W KVE D+  HG+ V +RLF  HPET E+F KFK+L T   +K+SE++KK G TVLTALG ILK+K +HE E++PLA+SHATKHKIP+KYLEFI + I+ V+  KHP++FGAD+Q AMKKALELFRND+A+KYKE GFQG"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "sp|P02202.2|",
+                  "accession": "P02202",
+                  "title": "RecName: Full=Myoglobin [Chelonia mydas]",
+                  "taxid": 8469,
+                  "sciname": "Chelonia mydas"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.223,
+                  "score": 526,
+                  "evalue": 1.7905e-68,
+                  "identity": 98,
+                  "positive": 121,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "GLSDDEWNHVLGIWAKVEPDLTAHGQEVIIRLFQLHPETQERFAKFKNLTTIDALKSSEEVKKHGTTVLTALGRILKQKNNHEQELKPLAESHATKHKIPVKYLEFICEIIVKVIAEKHPSDFGADSQAAMKKALELFRNDMASKYKEFGFLG",
+                  "midline": "GLSD EW  VL  W KVE D+  HG+ V +RLF  HPET E+F KFK+L T   +K+SE++KK G TVLTALG ILK+K +HE E++PLA+SHATKHKIP+KYLEFI + I+ V+  KHP++FGAD+Q AMKKALELFRND+A+KYKE GF G"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "sp|P02200.1|",
+                  "accession": "P02200",
+                  "title": "RecName: Full=Myoglobin [Alligator mississippiensis]",
+                  "taxid": 8496,
+                  "sciname": "Alligator mississippiensis"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 202.986,
+                  "score": 515,
+                  "evalue": 6.09113e-67,
+                  "identity": 94,
+                  "positive": 121,
+                  "query_from": 2,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 154,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "LSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "LSDQEWKHVLDIWTKVESKLPEHGHEVIIRLLQEHPETQERFEKFKHMKTADEMKSSEKMKQHGNTVFTALGNILKQKGNHAEVLKPLAKSHALEHKIPVKYLEFISEIIVKVIAEKYPADFGADSQAAMRKALELFRNDMASKYKEFGYQG",
+                  "midline": "LSD EW+ VL  W KVE+ +P HG  V +RL   HPET E+F+KFKH+KT  EMK+SE +K+ G TV TALG ILK+KG+H   ++PLA+SHA +HKIP+KYLEFIS+ I+ V+  K+PA+FGAD+Q AM+KALELFRND+A+KYKE G+QG"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "sp|Q9DGJ1.3|",
+                  "accession": "Q9DGJ1",
+                  "title": "RecName: Full=Myoglobin [Makaira nigricans]",
+                  "taxid": 13604,
+                  "sciname": "Makaira nigricans"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.102,
+                  "score": 318,
+                  "evalue": 5.62711e-37,
+                  "identity": 72,
+                  "positive": 88,
+                  "query_from": 5,
+                  "query_to": 153,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 149,
+                  "gaps": 3,
+                  "qseq": "GEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "ADFEMVLKHWGPVEADYATHGNLVLTRLFTEHPETQKLFPKFAGI-AKADMAGNAAISAHGATVLKKLGELLKAKGSHAAIIKPMANSHATKHKIPIKNFELISEVIGKVMHEK--AGLDAAGQKALKNVMTTIIADIEANYKELGFTG",
+                  "midline": " ++E+VLK WG VEAD   HG  V  RLFT HPET + F KF  +  + +M  +  +   G TVL  LG +LK KG H A I+P+A SHATKHKIPIK  E IS+ I  V+  K  A   A  Q A+K  +     DI A YKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "sp|P14399.2|",
+                  "accession": "P14399",
+                  "title": "RecName: Full=Myoglobin [Mustelus antarcticus]",
+                  "taxid": 7813,
+                  "sciname": "Mustelus antarcticus"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.479,
+                  "score": 306,
+                  "evalue": 3.81928e-35,
+                  "identity": 61,
+                  "positive": 87,
+                  "query_from": 6,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 149,
+                  "align_len": 148,
+                  "gaps": 1,
+                  "qseq": "EWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "DWEKVNSVWSAVESDLTAIGQNILLRLFEQYPESQNHFPKFKN-KSLGELKDTADIKAQADTVLSALGNIVKKKGSHSQPVKALAATHITTHKIPPHYFTKITTIAVDVLSEMYPSEMNAQVQAAFSGAFKIICSDIEKEYKAANFQG",
+                  "midline": "+WE V   W  VE+D+   G+ + +RLF  +PE+   F KFK+ K+ GE+K + D+K Q  TVL+ALG I+KKKG H   ++ LA +H T HKIP  Y   I+   + VL   +P+E  A  Q A   A ++  +DI  +YK   FQG"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "sp|Q6I7B0.3|",
+                  "accession": "Q6I7B0",
+                  "title": "RecName: Full=Myoglobin [Auxis rochei]",
+                  "taxid": 217026,
+                  "sciname": "Auxis rochei"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 4.5787e-35,
+                  "identity": 66,
+                  "positive": 90,
+                  "query_from": 6,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 148,
+                  "gaps": 3,
+                  "qseq": "EWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "DFDAVLKCWGPVEADFNTVGGMVLARLFKDHPDTQKLFPKFAGI-AAGDLAGNAAVAAHGGTVLKKLGELLKAKGNHAAIIKPLANSHATKHKIPINNFKLITEALVHVMQEK--AGLDAAGQTALRNVMGIVIADLEANYKELGFTG",
+                  "midline": "+++ VLK WG VEAD    G  V  RLF  HP+T + F KF  +   G++  +  +   G TVL  LG +LK KG+H A I+PLA SHATKHKIPI   + I++A++HV+Q K  A   A  Q A++  + +   D+ A YKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "sp|Q9DGJ0.3|",
+                  "accession": "Q9DGJ0",
+                  "title": "RecName: Full=Myoglobin [Sarda chiliensis]",
+                  "taxid": 8231,
+                  "sciname": "Sarda chiliensis"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 9.28912e-35,
+                  "identity": 66,
+                  "positive": 88,
+                  "query_from": 6,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 148,
+                  "gaps": 3,
+                  "qseq": "EWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "DFDAVLKFWGPVEADYTSHGGLVLTRLFKEHPETQKLFPKFTGI-AQADMAGNAAISAHGATVLKKLGELLKAKGNHAAILKPMANSHATKHKIPINNFKLISEIIVKVMQEK--AGMDAGGQQALRNVMAAVIADLEANYKELGFSG",
+                  "midline": "+++ VLK WG VEAD   HG  V  RLF  HPET + F KF  +  + +M  +  +   G TVL  LG +LK KG+H A ++P+A SHATKHKIPI   + IS+ I+ V+Q K  A   A  Q A++  +     D+ A YKELGF G"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "sp|P02206.2|",
+                  "accession": "P02206",
+                  "title": "RecName: Full=Myoglobin [Heterodontus portusjacksoni]",
+                  "taxid": 7793,
+                  "sciname": "Heterodontus portusjacksoni"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 1.60612e-34,
+                  "identity": 62,
+                  "positive": 85,
+                  "query_from": 6,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 149,
+                  "align_len": 148,
+                  "gaps": 1,
+                  "qseq": "EWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "EWEHVNKVWAVVEPDIPAVGLAILLRLFKEHKETKDLFPKFKEIPVQ-QLGNNEDLRKHGVTVLRALGNILKQKGKHSTNVKELADTHINKHKIPPKNFVLITNIAVKVLTEMYPSDMTGPMQESFSKVFTVICSDLETLYKEANFQG",
+                  "midline": "EWE V K W  VE DIP  G  + +RLF  H ET + F KFK +  + ++  +EDL+K GVTVL ALG ILK+KG H   ++ LA +H  KHKIP K    I++  + VL   +P++     Q +  K   +  +D+   YKE  FQG"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "sp|Q9DEN9.3|",
+                  "accession": "Q9DEN9",
+                  "title": "RecName: Full=Myoglobin [Gobionotothen gibberifrons]",
+                  "taxid": 36202,
+                  "sciname": "Gobionotothen gibberifrons"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 2.55553e-34,
+                  "identity": 64,
+                  "positive": 88,
+                  "query_from": 5,
+                  "query_to": 151,
+                  "hit_from": 2,
+                  "hit_to": 145,
+                  "align_len": 147,
+                  "gaps": 3,
+                  "qseq": "GEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGF",
+                  "hseq": "ADFDMVLKCWGPVEADYTTHGSLVLTRLFTEHPETLKLFPKFAGI-AHGDLAGDAGVSAHGATVLNKLGDLLKARGAHAALLKPLSSSHATKHKIPIINFKLIAEVIGKVMEEK--AGLDAAGQTALRNVMAVIIADMEADYKELGF",
+                  "midline": " ++++VLK WG VEAD   HG  V  RLFT HPETL+ F KF  +   G++     +   G TVL  LG +LK +G H A ++PL+ SHATKHKIPI   + I++ I  V++ K  A   A  Q A++  + +   D+ A YKELGF"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "sp|Q701N9.4|",
+                  "accession": "Q701N9",
+                  "title": "RecName: Full=Myoglobin [Tetraodon nigroviridis]",
+                  "taxid": 99883,
+                  "sciname": "Tetraodon nigroviridis"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 3.25879e-34,
+                  "identity": 67,
+                  "positive": 88,
+                  "query_from": 5,
+                  "query_to": 152,
+                  "hit_from": 2,
+                  "hit_to": 146,
+                  "align_len": 148,
+                  "gaps": 3,
+                  "qseq": "GEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQ",
+                  "hseq": "GDFDMVLKFWGPVEADYSAHGGMVLTRLFTENPETQQLFPKFVGI-AQSELAGNAAVSAHGATVLKKLGELLKAKGNHAAILQPLANSHATKHKIPIKNFKLIAEVIGKVMAEK--AGLDTAGQQALRNIMATIIADIDATYKELGFS",
+                  "midline": "G++++VLK WG VEAD   HG  V  RLFT +PET + F KF  +  + E+  +  +   G TVL  LG +LK KG+H A +QPLA SHATKHKIPIK  + I++ I  V+  K  A      Q A++  +     DI A YKELGF "
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "sp|Q7T044.3|",
+                  "accession": "Q7T044",
+                  "title": "RecName: Full=Myoglobin [Channichthys rhinoceratus]",
+                  "taxid": 70438,
+                  "sciname": "Channichthys rhinoceratus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 1.06272e-33,
+                  "identity": 64,
+                  "positive": 88,
+                  "query_from": 6,
+                  "query_to": 151,
+                  "hit_from": 3,
+                  "hit_to": 145,
+                  "align_len": 146,
+                  "gaps": 3,
+                  "qseq": "EWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGF",
+                  "hseq": "DFDMVLKCWGPVEADHATHGSLVLTRLFTEHPETLKLFPKFAGI-AHGDLAGDAGVSAHGATVLKKLGDLLKARGGHAALLKPLSSSHATKHKIPIINFKLIAEVIGKVMEEK--AGLDAAGQTALRNVMAIIITDMEADYKELGF",
+                  "midline": "++++VLK WG VEAD   HG  V  RLFT HPETL+ F KF  +   G++     +   G TVL  LG +LK +G H A ++PL+ SHATKHKIPI   + I++ I  V++ K  A   A  Q A++  + +   D+ A YKELGF"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "sp|P87497.3|",
+                  "accession": "P87497",
+                  "title": "RecName: Full=Myoglobin [Chionodraco rastrospinosus]",
+                  "taxid": 34790,
+                  "sciname": "Chionodraco rastrospinosus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 1.1468e-33,
+                  "identity": 63,
+                  "positive": 88,
+                  "query_from": 5,
+                  "query_to": 151,
+                  "hit_from": 2,
+                  "hit_to": 145,
+                  "align_len": 147,
+                  "gaps": 3,
+                  "qseq": "GEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGF",
+                  "hseq": "ADFDMVLKCWGPMEADHATHGSLVLTRLFTEHPETLKLFPKFAGI-AHGDLAGDAGVSAHGATVLNKLGDLLKARGAHAALLKPLSSSHATKHKIPIINFKLIAEVIGKVMEEK--AGLDAAGQTALRNVMAIIITDMEADYKELGF",
+                  "midline": " ++++VLK WG +EAD   HG  V  RLFT HPETL+ F KF  +   G++     +   G TVL  LG +LK +G H A ++PL+ SHATKHKIPI   + I++ I  V++ K  A   A  Q A++  + +   D+ A YKELGF"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "sp|Q7M3C1.1|",
+                  "accession": "Q7M3C1",
+                  "title": "RecName: Full=Myoglobin [Ailuropoda melanoleuca]",
+                  "taxid": 9646,
+                  "sciname": "Ailuropoda melanoleuca"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 1.22587e-33,
+                  "identity": 60,
+                  "positive": 65,
+                  "query_from": 1,
+                  "query_to": 79,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 79,
+                  "gaps": 3,
+                  "qseq": "GLSDGEWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKK",
+                  "hseq": "GLSDGEWQLVLNVWGKVEADLAGHGQEVLIRLFKGHPETLEKFDKFKHLKSE---KGSEDLKKHGNTVETALEGILKKK",
+                  "midline": "GLSDGEW+LVL  WGKVEAD+ GHG+ V +RLF GHPETLEKFDKFKHLK+E   K SEDLKK G TV TAL GILKKK"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "sp|Q9DEP0.3|",
+                  "accession": "Q9DEP0",
+                  "title": "RecName: Full=Myoglobin [Cryodraco antarcticus]",
+                  "taxid": 36192,
+                  "sciname": "Cryodraco antarcticus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 1.26475e-33,
+                  "identity": 64,
+                  "positive": 87,
+                  "query_from": 6,
+                  "query_to": 151,
+                  "hit_from": 3,
+                  "hit_to": 145,
+                  "align_len": 146,
+                  "gaps": 3,
+                  "qseq": "EWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGF",
+                  "hseq": "DFDMVLKCWGPVEADHATHGSLVLTRLFTEHPETLKLFPKFAGI-AHGDLAGDAGVSAHGATVLKKLGDLLKARGGHAALLKPLSSSHATKHKIPIINFTLIAEVIGKVMEEK--AGLDAAGQTALRNVMAIIITDMEADYKELGF",
+                  "midline": "++++VLK WG VEAD   HG  V  RLFT HPETL+ F KF  +   G++     +   G TVL  LG +LK +G H A ++PL+ SHATKHKIPI     I++ I  V++ K  A   A  Q A++  + +   D+ A YKELGF"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "sp|Q9DEN8.3|",
+                  "accession": "Q9DEN8",
+                  "title": "RecName: Full=Myoglobin [Notothenia neglecta]",
+                  "taxid": 202063,
+                  "sciname": "Notothenia neglecta"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 1.97548e-33,
+                  "identity": 63,
+                  "positive": 88,
+                  "query_from": 6,
+                  "query_to": 151,
+                  "hit_from": 3,
+                  "hit_to": 145,
+                  "align_len": 146,
+                  "gaps": 3,
+                  "qseq": "EWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGF",
+                  "hseq": "DFDMVLKCWGPMEADYATHGGLVLTRLFTEHPETLKLFPKFAGI-AHGDLAGDAGVSAHGATVLNKLGDLLKARGAHAALLKPLSSSHATKHKIPIINFKLIAEVIGKVMEEK--AGLDAAGQTALRNVMAVIIADMEADYKELGF",
+                  "midline": "++++VLK WG +EAD   HG  V  RLFT HPETL+ F KF  +   G++     +   G TVL  LG +LK +G H A ++PL+ SHATKHKIPI   + I++ I  V++ K  A   A  Q A++  + +   D+ A YKELGF"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "sp|Q9DEP1.3|",
+                  "accession": "Q9DEP1",
+                  "title": "RecName: Full=Myoglobin [Pseudochaenichthys georgianus]",
+                  "taxid": 52239,
+                  "sciname": "Pseudochaenichthys georgianus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 2.35097e-33,
+                  "identity": 63,
+                  "positive": 88,
+                  "query_from": 6,
+                  "query_to": 151,
+                  "hit_from": 3,
+                  "hit_to": 145,
+                  "align_len": 146,
+                  "gaps": 3,
+                  "qseq": "EWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGF",
+                  "hseq": "DFDMVLKCWGLVEADYATYGSLVLTRLFTEHPETLKLFPKFAGI-AHGDLAGDAGVSAHGATVLNKLGDLLKARGGHAALLKPLSSSHATKHKIPIINFKLIAEVIGKVMEEK--AGLDAAGQTALRNVMAVIIADMEADYKELGF",
+                  "midline": "++++VLK WG VEAD   +G  V  RLFT HPETL+ F KF  +   G++     +   G TVL  LG +LK +G H A ++PL+ SHATKHKIPI   + I++ I  V++ K  A   A  Q A++  + +   D+ A YKELGF"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "sp|Q9DGI9.3|",
+                  "accession": "Q9DGI9",
+                  "title": "RecName: Full=Myoglobin [Scomber japonicus]",
+                  "taxid": 13676,
+                  "sciname": "Scomber japonicus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 4.97881e-33,
+                  "identity": 65,
+                  "positive": 87,
+                  "query_from": 6,
+                  "query_to": 153,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 148,
+                  "gaps": 3,
+                  "qseq": "EWELVLKTWGKVEADIPGHGETVFVRLFTGHPETLEKFDKFKHLKTEGEMKASEDLKKQGVTVLTALGGILKKKGHHEAEIQPLAQSHATKHKIPIKYLEFISDAIIHVLQSKHPAEFGADAQGAMKKALELFRNDIAAKYKELGFQG",
+                  "hseq": "DFDAVLKFWGPVEADYDKIGNMVLTRLFTEHPDTQKLFPKFAGIGL-GDMAGNAAISAHGATVLKKLAEVLKAKGNHAGIIKPLANSHATKHKIAINNFKLITEIIVKVMQEK--AGLDAGGQTALRNVMGVFIADMDANYKELGFSG",
+                  "midline": "+++ VLK WG VEAD    G  V  RLFT HP+T + F KF  +   G+M  +  +   G TVL  L  +LK KG+H   I+PLA SHATKHKI I   + I++ I+ V+Q K  A   A  Q A++  + +F  D+ A YKELGF G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 482815,
+            "db_len": 183557828,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

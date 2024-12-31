@@ -1,0 +1,126 @@
+Started Fri Mar 29 19:11:49 2024
+/muscle/bin/muscle -in muscle-I20240329-191032-0822-93888983-p1m.sequence -verbose -log muscle-I20240329-191032-0822-93888983-p1m.output -quiet -clw -out muscle-I20240329-191032-0822-93888983-p1m.clw 
+Alphabet Amino
+
+MUSCLE v3.8.425 by Robert C. Edgar
+http://www.drive5.com/muscle
+
+Profile-profile score    LE
+Max iterations           8
+Max trees                1
+Max time                 (No limit)
+Max MB                   4294966851
+Gap open                 -2.9
+Gap extend (dimer)       0
+Gap ambig factor         0
+Gap ambig penalty        -0
+Center (LE)              -0.52
+Term gaps                Half
+Smooth window length     7
+Refine window length     200
+Min anchor spacing       32
+Min diag length (lambda) 24
+Diag margin (mu)         5
+Min diag break           1
+Hydrophobic window       5
+Hydrophobic gap factor   1.2
+Smooth score ceiling     3
+Min best col score       2
+Min anchor score         1
+SUEFF                    0.1
+Brenner root MSA         False
+Normalize counts         True
+Diagonals (1)            False
+Diagonals (2)            False
+Anchors                  True
+MSF output format        False
+Phylip interleaved       False
+Phylip sequential        False
+ClustalW output format   True
+Catch exceptions         True
+Quiet                    True
+Refine                   False
+ProdfDB                  False
+Low complexity profiles  True
+Objective score          SPM
+Distance method (1)      Kmer6_6
+Clustering method (1)    UPGMB
+Root method (1)          Pseudo
+Sequence weighting (1)   ClustalW
+Distance method (2)      PctIdKimura
+Clustering method (2)    UPGMB
+Root method (2)          Pseudo
+Sequence weighting (2)   ClustalW
+
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 K-mer dist pass 1
+Elapsed time 00:00:00  Peak memory use   11 MB(-2%)  Iteration   1 K-mer dist pass 2
+Align: (sequence_141) (sequence_210)
+Align: (sequence_407) (sequence_141,sequence_210)
+Align: (sequence_41) (sequence_407,sequence_141,sequence_210)
+Align: (sequence_17) (sequence_20)
+Align: (sequence_180) (sequence_17,sequence_20)
+Align: (sequence_211) (sequence_180,sequence_17,sequence_20)
+Align: (sequence_274) (sequence_211,sequence_180,sequence_17,sequence_20)
+Align: (sequence_13) (sequence_285)
+Align: (sequence_70) (sequence_384)
+Align: (sequence_132) (sequence_267)
+Align: (sequence_173) (sequence_132,sequence_267)
+Align: (sequence_108) (sequence_173,sequence_132,sequence_267)
+Align: (sequence_26) (sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_35) (sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_245) (sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_289) (sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_278) (sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_70,sequence_384) (sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_214) (sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_15) (sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_13,sequence_285) (sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_3) (sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_390) (sequence_3,sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_340) (sequence_390,sequence_3,sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_10) (sequence_340,sequence_390,sequence_3,sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267)
+Align: (sequence_72) (sequence_185)
+Align: (sequence_230) (sequence_72,sequence_185)
+Align: (sequence_92) (sequence_349)
+Align: (sequence_54) (sequence_120)
+Align: (sequence_287) (sequence_54,sequence_120)
+Align: (sequence_92,sequence_349) (sequence_287,sequence_54,sequence_120)
+Align: (sequence_115) (sequence_312)
+Align: (sequence_44) (sequence_115,sequence_312)
+Align: (sequence_92,sequence_349,sequence_287,sequence_54,sequence_120) (sequence_44,sequence_115,sequence_312)
+Align: (sequence_230,sequence_72,sequence_185) (sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Align: (sequence_345) (sequence_230,sequence_72,sequence_185,sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Align: (sequence_276) (sequence_345,sequence_230,sequence_72,sequence_185,sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Align: (sequence_332) (sequence_276,sequence_345,sequence_230,sequence_72,sequence_185,sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Align: (sequence_10,sequence_340,sequence_390,sequence_3,sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267) (sequence_332,sequence_276,sequence_345,sequence_230,sequence_72,sequence_185,sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Align: (sequence_232) (sequence_10,sequence_340,sequence_390,sequence_3,sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267,sequence_332,sequence_276,sequence_345,sequence_230,sequence_72,sequence_185,sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Align: (sequence_274,sequence_211,sequence_180,sequence_17,sequence_20) (sequence_232,sequence_10,sequence_340,sequence_390,sequence_3,sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267,sequence_332,sequence_276,sequence_345,sequence_230,sequence_72,sequence_185,sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Align: (sequence_41,sequence_407,sequence_141,sequence_210) (sequence_274,sequence_211,sequence_180,sequence_17,sequence_20,sequence_232,sequence_10,sequence_340,sequence_390,sequence_3,sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267,sequence_332,sequence_276,sequence_345,sequence_230,sequence_72,sequence_185,sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Align: (sequence_304) (sequence_41,sequence_407,sequence_141,sequence_210,sequence_274,sequence_211,sequence_180,sequence_17,sequence_20,sequence_232,sequence_10,sequence_340,sequence_390,sequence_3,sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267,sequence_332,sequence_276,sequence_345,sequence_230,sequence_72,sequence_185,sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Align: (sequence_316) (sequence_304,sequence_41,sequence_407,sequence_141,sequence_210,sequence_274,sequence_211,sequence_180,sequence_17,sequence_20,sequence_232,sequence_10,sequence_340,sequence_390,sequence_3,sequence_13,sequence_285,sequence_15,sequence_214,sequence_70,sequence_384,sequence_278,sequence_289,sequence_245,sequence_35,sequence_26,sequence_108,sequence_173,sequence_132,sequence_267,sequence_332,sequence_276,sequence_345,sequence_230,sequence_72,sequence_185,sequence_92,sequence_349,sequence_287,sequence_54,sequence_120,sequence_44,sequence_115,sequence_312)
+Elapsed time 00:00:01  Peak memory use   26 MB(-5%)  Iteration   1 Align node
+Elapsed time 00:00:01  Peak memory use   26 MB(-5%)  Iteration   1 Root alignment
+Elapsed time 00:00:01  Peak memory use   26 MB(-5%)  Iteration   2 Refine tree
+Elapsed time 00:00:01  Peak memory use   26 MB(-5%)  Iteration   2 Root alignment
+Elapsed time 00:00:01  Peak memory use   26 MB(-5%)  Iteration   2 Root alignment
+Anchor columns found       4
+DP area saved by anchors   71.0%
+Elapsed time 00:00:02  Peak memory use   26 MB(-5%)  Iteration   3 Refine biparts
+Elapsed time 00:00:02  Peak memory use   26 MB(-5%)  Iteration   4 Refine biparts
+Elapsed time 00:00:02  Peak memory use   26 MB(-5%)  Iteration   5 Refine biparts
+Elapsed time 00:00:02  Peak memory use   26 MB(-5%)  Iteration   5 Refine biparts
+Elapsed time 00:00:02  Peak memory use   26 MB(-5%)  Iteration   6 Refine biparts
+Elapsed time 00:00:03  Peak memory use   26 MB(-5%)  Iteration   7 Refine biparts
+Elapsed time 00:00:03  Peak memory use   26 MB(-5%)  Iteration   8 Refine biparts
+Elapsed time 00:00:03  Peak memory use   26 MB(-5%)  Iteration   8 Refine biparts
+Elapsed time 00:00:03  Peak memory use   26 MB(-5%)  Iteration   9 Refine biparts
+Elapsed time 00:00:03  Peak memory use   26 MB(-5%)  Iteration  10 Refine biparts
+Elapsed time 00:00:03  Peak memory use   26 MB(-5%)  Iteration  11 Refine biparts
+Elapsed time 00:00:04  Peak memory use   26 MB(-5%)  Iteration  12 Refine biparts
+Elapsed time 00:00:04  Peak memory use   26 MB(-5%)  Iteration  13 Refine biparts
+Elapsed time 00:00:04  Peak memory use   26 MB(-5%)  Iteration  13 Refine biparts
+Elapsed time 00:00:05  Peak memory use   26 MB(-5%)  Iteration  14 Refine biparts
+Elapsed time 00:00:05  Peak memory use   26 MB(-5%)  Iteration  15 Refine biparts
+Elapsed time 00:00:06  Peak memory use   26 MB(-5%)  Iteration  16 Refine biparts
+Elapsed time 00:00:06  Peak memory use   26 MB(-5%)  Iteration  16 Refine biparts
+Finished Fri Mar 29 19:11:55 2024

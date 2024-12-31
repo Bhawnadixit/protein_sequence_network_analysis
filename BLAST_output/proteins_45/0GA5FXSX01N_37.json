@@ -1,0 +1,3245 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.15.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprot"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_146886",
+          "query_title": "sequence_312",
+          "query_len": 235,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P0DOX8.1|",
+                  "accession": "P0DOX8",
+                  "title": "RecName: Full=Immunoglobulin lambda-1 light chain; AltName: Full=Immunoglobulin lambda-1 light chain MCG [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 216,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 350.517,
+                  "score": 898,
+                  "evalue": 8.49356e-123,
+                  "identity": 174,
+                  "positive": 194,
+                  "query_from": 20,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 216,
+                  "align_len": 217,
+                  "gaps": 2,
+                  "qseq": "QSVLTQPPSASGTPGQSVNISCSGSSSNIGN-SYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "QSALTQPPSASGSLGQSVTISCTGTSSDVGGYNYVSWYQQHAGKAPKVIIYEVNKRPSGVPDRFSGSKSGNTASLTVSGLQAEDEADYYCSSYEGS-DNFVFGTGTKVTVLGQPKANPTVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADGSPVKAGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "midline": "QS LTQPPSASG+ GQSV ISC+G+SS++G  +YV WYQQ  G APK++IY  N+RPSGVPDRFSGSKS  +ASL +SGL++EDEADYYC++++ S    +FG GTK+TVLGQPKA P+VTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKAD SPVKAGVETT PSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|B9A064.2|",
+                  "accession": "B9A064",
+                  "title": "RecName: Full=Immunoglobulin lambda-like polypeptide 5; AltName: Full=G lambda-1; AltName: Full=Germline immunoglobulin lambda 1; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 222.631,
+                  "score": 566,
+                  "evalue": 2.29919e-72,
+                  "identity": 110,
+                  "positive": 113,
+                  "query_from": 119,
+                  "query_to": 235,
+                  "hit_from": 98,
+                  "hit_to": 214,
+                  "align_len": 117,
+                  "gaps": 0,
+                  "qseq": "LFGGGTKLTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "VFGTGTKVTVLGQPKANPTVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADGSPVKAGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "midline": "+FG GTK+TVLGQPKA P+VTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKAD SPVKAGVETT PSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P0DOY2.1|",
+                  "accession": "P0DOY2",
+                  "title": "RecName: Full=Immunoglobulin lambda constant 2; AltName: Full=Ig lambda chain C region Kern; AltName: Full=Ig lambda chain C region NIG-64; AltName: Full=Ig lambda chain C region SH; AltName: Full=Ig lambda chain C region X; AltName: Full=Ig lambda-2 chain C region [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 215.312,
+                  "score": 547,
+                  "evalue": 4.42257e-71,
+                  "identity": 106,
+                  "positive": 106,
+                  "query_from": 130,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 106,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "midline": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P0DOY3.1|",
+                  "accession": "P0DOY3",
+                  "title": "RecName: Full=Immunoglobulin lambda constant 3; AltName: Full=Ig lambda chain C region DOT; AltName: Full=Ig lambda chain C region NEWM; AltName: Full=Ig lambda-3 chain C regions [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 214.157,
+                  "score": 544,
+                  "evalue": 1.33457e-70,
+                  "identity": 105,
+                  "positive": 106,
+                  "query_from": 130,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 106,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHKSYSCQVTHEGSTVEKTVAPTECS",
+                  "midline": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSH+SYSCQVTHEGSTVEKTVAPTECS"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P0CG04.1|",
+                  "accession": "P0CG04",
+                  "title": "RecName: Full=Immunoglobulin lambda constant 1; AltName: Full=Ig lambda chain C region MGC; AltName: Full=Ig lambda-1 chain C region [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.994,
+                  "score": 528,
+                  "evalue": 3.40981e-68,
+                  "identity": 102,
+                  "positive": 103,
+                  "query_from": 130,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 106,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "GQPKANPTVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADGSPVKAGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "midline": "GQPKA P+VTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKAD SPVKAGVETT PSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P0CF74.1|",
+                  "accession": "P0CF74",
+                  "title": "RecName: Full=Immunoglobulin lambda constant 6; AltName: Full=Ig lambda-6 chain C region [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 205.682,
+                  "score": 522,
+                  "evalue": 2.66202e-67,
+                  "identity": 101,
+                  "positive": 101,
+                  "query_from": 130,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 106,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVKVAWKADGSPVNTGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPAECS",
+                  "midline": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAV VAWKAD SPV  GVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAP ECS"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|A0M8Q6.3|",
+                  "accession": "A0M8Q6",
+                  "title": "RecName: Full=Immunoglobulin lambda constant 7; AltName: Full=Ig lambda-7 chain C region [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 202.601,
+                  "score": 514,
+                  "evalue": 4.04665e-66,
+                  "identity": 99,
+                  "positive": 101,
+                  "query_from": 130,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 106,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "GQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "GQPKAAPSVTLFPPSSEELQANKATLVCLVSDFNPGAVTVAWKADGSPVKVGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCRVTHEGSTVEKTVAPAECS",
+                  "midline": "GQPKAAPSVTLFPPSSEELQANKATLVCL+SDF PGAVTVAWKAD SPVK GVETT PSKQSNNKYAASSYLSLTPEQWKSHRSYSC+VTHEGSTVEKTVAP ECS"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P15814.1|",
+                  "accession": "P15814",
+                  "title": "RecName: Full=Immunoglobulin lambda-like polypeptide 1; AltName: Full=CD179 antigen-like family member B; AltName: Full=Ig lambda-5; AltName: Full=Immunoglobulin omega polypeptide; AltName: Full=Immunoglobulin-related protein 14.1; AltName: CD_antigen=CD179b; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 203.371,
+                  "score": 516,
+                  "evalue": 8.35112e-65,
+                  "identity": 97,
+                  "positive": 105,
+                  "query_from": 118,
+                  "query_to": 235,
+                  "hit_from": 96,
+                  "hit_to": 213,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "RLFGGGTKLTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "HVFGSGTQLTVLSQPKATPSVTLFPPSSEELQANKATLVCLMNDFYPGILTVTWKADGTPITQGVEMTTPSKQSNNKYAASSYLSLTPEQWRSRRSYSCQVMHEGSTVEKTVAPAECS",
+                  "midline": " +FG GT+LTVL QPKA PSVTLFPPSSEELQANKATLVCL++DFYPG +TV WKAD +P+  GVE TTPSKQSNNKYAASSYLSLTPEQW+S RSYSCQV HEGSTVEKTVAP ECS"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P01700.2|",
+                  "accession": "P01700",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 1-47; AltName: Full=Ig lambda chain V-I region HA; AltName: Full=Ig lambda chain V-I region WAH; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 199.134,
+                  "score": 505,
+                  "evalue": 1.39954e-64,
+                  "identity": 109,
+                  "positive": 112,
+                  "query_from": 1,
+                  "query_to": 117,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 117,
+                  "gaps": 0,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSG",
+                  "hseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQRVTISCSGSSSNIGSNYVYWYQQLPGTAPKLLIYSNNQRPSGVPDRFSGSKSGTSASLAISGLRSEDEADYYCAAWDDSLSG",
+                  "midline": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQ V ISCSGSSSNIG++YVYWYQQLPGTAPKLLIY NN+RPSGVPDRFSGSKS TSASLAISGLRSEDEADYYCA WDDSLSG"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P01701.2|",
+                  "accession": "P01701",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 1-51; AltName: Full=Ig lambda chain V-I region BL2; AltName: Full=Ig lambda chain V-I region EPS; AltName: Full=Ig lambda chain V-I region NEW; AltName: Full=Ig lambda chain V-I region NIG-64; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 192.586,
+                  "score": 488,
+                  "evalue": 6.27052e-62,
+                  "identity": 92,
+                  "positive": 99,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 116,
+                  "gaps": 0,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLS",
+                  "hseq": "MTCSPLLLTLLIHCTGSWAQSVLTQPPSVSAAPGQKVTISCSGSSSNIGNNYVSWYQQLPGTAPKLLIYDNNKRPSGIPDRFSGSKSGTSATLGITGLQTGDEADYYCGTWDSSLS",
+                  "midline": "M   PLLLTLL HC GSWAQSVLTQPPS S  PGQ V ISCSGSSSNIGN+YV WYQQLPGTAPKLLIY NN+RPSG+PDRFSGSKS TSA+L I+GL++ DEADYYC TWD SLS"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "sp|P01699.2|",
+                  "accession": "P01699",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 1-44; AltName: Full=Ig lambda chain V-I region MEM; AltName: Full=Ig lambda chain V-I region VOR; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 187.578,
+                  "score": 475,
+                  "evalue": 5.04881e-60,
+                  "identity": 104,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 117,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 117,
+                  "gaps": 0,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSG",
+                  "hseq": "MASFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQRVTISCSGSSSNIGSNTVNWYQQLPGTAPKLLIYSNNQRPSGVPDRFSGSKSGTSASLAISGLQSEDEADYYCAAWDDSLNG",
+                  "midline": "MA FPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQ V ISCSGSSSNIG++ V WYQQLPGTAPKLLIY NN+RPSGVPDRFSGSKS TSASLAISGL+SEDEADYYCA WDDSL+G"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "sp|P01703.2|",
+                  "accession": "P01703",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 1-40; AltName: Full=Ig lambda chain V-I region NEWM; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 187.578,
+                  "score": 475,
+                  "evalue": 5.62686e-60,
+                  "identity": 94,
+                  "positive": 102,
+                  "query_from": 1,
+                  "query_to": 117,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSY-VYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSG",
+                  "hseq": "MAWSPLLLTLLAHCTGSWAQSVLTQPPSVSGAPGQRVTISCTGSSSNIGAGYDVHWYQQLPGTAPKLLIYGNSNRPSGVPDRFSGSKSGTSASLAITGLQAEDEADYYCQSYDSSLSG",
+                  "midline": "MA  PLLLTLL HC GSWAQSVLTQPPS SG PGQ V ISC+GSSSNIG  Y V+WYQQLPGTAPKLLIY N+ RPSGVPDRFSGSKS TSASLAI+GL++EDEADYYC ++D SLSG"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "sp|A0A0B4J1U3.5|",
+                  "accession": "A0A0B4J1U3",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 1-36; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 186.037,
+                  "score": 471,
+                  "evalue": 2.40427e-59,
+                  "identity": 93,
+                  "positive": 99,
+                  "query_from": 1,
+                  "query_to": 117,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 117,
+                  "gaps": 0,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSG",
+                  "hseq": "MAWSPLFLTLITHCAGSWAQSVLTQPPSVSEAPRQRVTISCSGSSSNIGNNAVNWYQQLPGKAPKLLIYYDDLLPSGVSDRFSGSKSGTSASLAISGLQSEDEADYYCAAWDDSLNG",
+                  "midline": "MA  PL LTL+THCAGSWAQSVLTQPPS S  P Q V ISCSGSSSNIGN+ V WYQQLPG APKLLIY ++  PSGV DRFSGSKS TSASLAISGL+SEDEADYYCA WDDSL+G"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "sp|A0A075B6I6.1|",
+                  "accession": "A0A075B6I6",
+                  "title": "RecName: Full=Probable non-functional immunoglobulin lambda variable 1-50; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 184.496,
+                  "score": 467,
+                  "evalue": 7.63825e-59,
+                  "identity": 92,
+                  "positive": 100,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 117,
+                  "gaps": 1,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYV-YWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLS",
+                  "hseq": "MAWSSLLLTLLAHCTGSWAQSVLTQPPSVSGAPGQRVTISCTGSSSNIGAGYVVHWYQQLPGTAPKLLIYGNSNRPSGVPDQFSGSKSGTSASLAITGLQSEDEADYYCKAWDNSLN",
+                  "midline": "MA   LLLTLL HC GSWAQSVLTQPPS SG PGQ V ISC+GSSSNIG  YV +WYQQLPGTAPKLLIY N+ RPSGVPD+FSGSKS TSASLAI+GL+SEDEADYYC  WD+SL+"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "sp|P20764.3|",
+                  "accession": "P20764",
+                  "title": "RecName: Full=Immunoglobulin lambda-like polypeptide 1; AltName: Full=CD179 antigen-like family member B; AltName: Full=Ig lambda-5; AltName: CD_antigen=CD179b; Flags: Precursor [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 209,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 171.014,
+                  "score": 432,
+                  "evalue": 3.02344e-52,
+                  "identity": 79,
+                  "positive": 94,
+                  "query_from": 119,
+                  "query_to": 235,
+                  "hit_from": 93,
+                  "hit_to": 209,
+                  "align_len": 117,
+                  "gaps": 0,
+                  "qseq": "LFGGGTKLTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "VFGGGTQLTILGQPKSDPLVTLFLPSLKNLQANKATLVCLVSEFYPGTLVVDWKVDGVPVTQGVETTQPSKQTNNKYMVSSYLTLISDQWMPHSRYSCRVTHEGNTVEKSVSPAECS",
+                  "midline": "+FGGGT+LT+LGQPK+ P VTLF PS + LQANKATLVCL+S+FYPG + V WK D  PV  GVETT PSKQ+NNKY  SSYL+L  +QW  H  YSC+VTHEG+TVEK+V+P ECS"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "sp|P01846.1|",
+                  "accession": "P01846",
+                  "title": "RecName: Full=Ig lambda chain C region [Sus scrofa]",
+                  "taxid": 9823,
+                  "sciname": "Sus scrofa"
+                }
+              ],
+              "len": 105,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 161.77,
+                  "score": 408,
+                  "evalue": 5.24772e-50,
+                  "identity": 78,
+                  "positive": 87,
+                  "query_from": 131,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "QPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "QPKAAPTVNLFPPSSEELGTNKATLVCLISDFYPGAVTVTWKAGGTTVTQGVETTKPSKQSNNKYAASSYLALSASDWKSSSGFTCQVTHEGTIVEKTVTPSECA",
+                  "midline": "QPKAAP+V LFPPSSEEL  NKATLVCLISDFYPGAVTV WKA  + V  GVETT PSKQSNNKYAASSYL+L+   WKS   ++CQVTHEG+ VEKTV P+EC+"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "sp|P01843.1|",
+                  "accession": "P01843",
+                  "title": "RecName: Full=Ig lambda-1 chain C region [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 105,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 160.614,
+                  "score": 405,
+                  "evalue": 1.30995e-49,
+                  "identity": 75,
+                  "positive": 87,
+                  "query_from": 131,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "QPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "QPKSSPSVTLFPPSSEELETNKATLVCTITDFYPGVVTVDWKVDGTPVTQGMETTQPSKQSNNKYMASSYLTLTARAWERHSSYSCQVTHEGHTVEKSLSRADCS",
+                  "midline": "QPK++PSVTLFPPSSEEL+ NKATLVC I+DFYPG VTV WK D +PV  G+ETT PSKQSNNKY ASSYL+LT   W+ H SYSCQVTHEG TVEK+++  +CS"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "sp|P01847.2|",
+                  "accession": "P01847",
+                  "title": "RecName: Full=Ig lambda chain C region [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 105,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.147,
+                  "score": 396,
+                  "evalue": 3.18153e-48,
+                  "identity": 76,
+                  "positive": 85,
+                  "query_from": 131,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "QPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "QPAVTPSVILFPPSSEELKDNKATLVCLISDFYPRTVKVNWKADGNSVTQGVDTTQPSKQSNNKYAASSFLHLTANQWKSYQSVTCQVTHEGHTVEKSLAPAECS",
+                  "midline": "QP   PSV LFPPSSEEL+ NKATLVCLISDFYP  V V WKAD + V  GV+TT PSKQSNNKYAASS+L LT  QWKS++S +CQVTHEG TVEK++AP ECS"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "sp|P0DOX7.1|",
+                  "accession": "P0DOX7",
+                  "title": "RecName: Full=Immunoglobulin kappa light chain; AltName: Full=Immunoglobulin kappa light chain EU [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 159.844,
+                  "score": 403,
+                  "evalue": 7.93782e-48,
+                  "identity": 92,
+                  "positive": 136,
+                  "query_from": 23,
+                  "query_to": 234,
+                  "hit_from": 4,
+                  "hit_to": 214,
+                  "align_len": 217,
+                  "gaps": 11,
+                  "qseq": "LTQPPSA-SGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAG--VETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEG--STVEKTVAPTEC",
+                  "hseq": "MTQSPSTLSASVGDRVTITCRASQSI--NTWLAWYQQKPGKAPKLLMYKASSLESGVPSRFIGSGSGTEFTLTISSLQPDDFATYYCQQYNS--DSKMFGQGTKVEVKGTV-AAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNA-LQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "+TQ PS  S + G  V I+C  S S   N+++ WYQQ PG APKLL+Y+ +   SGVP RF GS S T  +L IS L+ +D A YYC  ++     ++FG GTK+ V G   AAPSV +FPPS E+L++  A++VCL+++FYP    V WK D++ +++G   E+ T     ++ Y+ SS L+L+   ++ H+ Y+C+VTH+G  S V K+    EC"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "sp|P20766.1|",
+                  "accession": "P20766",
+                  "title": "RecName: Full=Ig lambda-1 chain C region [Rattus norvegicus]",
+                  "taxid": 10116,
+                  "sciname": "Rattus norvegicus"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.984,
+                  "score": 380,
+                  "evalue": 8.93564e-46,
+                  "identity": 70,
+                  "positive": 87,
+                  "query_from": 131,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 104,
+                  "align_len": 105,
+                  "gaps": 1,
+                  "qseq": "QPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "QPKATPSVTLFPPSSEELKTDKATLVCMVTDFYPGVMTVVWKADGTPITQGVETTQPFKQ-NNKYMATSYLLLTAKAWETHSNYSCQVTHEENTVEKSLSRAECS",
+                  "midline": "QPKA PSVTLFPPSSEEL+ +KATLVC+++DFYPG +TV WKAD +P+  GVETT P KQ NNKY A+SYL LT + W++H +YSCQVTHE +TVEK+++  ECS"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "sp|P20767.1|",
+                  "accession": "P20767",
+                  "title": "RecName: Full=Ig lambda-2 chain C region [Rattus norvegicus]",
+                  "taxid": 10116,
+                  "sciname": "Rattus norvegicus"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.443,
+                  "score": 376,
+                  "evalue": 3.75426e-45,
+                  "identity": 68,
+                  "positive": 86,
+                  "query_from": 131,
+                  "query_to": 234,
+                  "hit_from": 1,
+                  "hit_to": 103,
+                  "align_len": 104,
+                  "gaps": 1,
+                  "qseq": "QPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTEC",
+                  "hseq": "QPKSTPTLTVFPPSTEELQGNKATLVCLISDFYPSDVEVAWKANGAPISQGVDTANPTKQG-NKYIASSFLRLTAEQWRSRNSFTCQVTHEGNTVEKSLSPAEC",
+                  "midline": "QPK+ P++T+FPPS+EELQ NKATLVCLISDFYP  V VAWKA+ +P+  GV+T  P+KQ  NKY ASS+L LT EQW+S  S++CQVTHEG+TVEK+++P EC"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "sp|P20765.1|",
+                  "accession": "P20765",
+                  "title": "RecName: Full=Immunoglobulin lambda-like polypeptide 1; AltName: Full=CD179 antigen-like family member B; AltName: Full=Ig lambda-5; AltName: CD_antigen=CD179b [Mus spretus]",
+                  "taxid": 10096,
+                  "sciname": "Mus spretus"
+                }
+              ],
+              "len": 105,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.443,
+                  "score": 376,
+                  "evalue": 4.08747e-45,
+                  "identity": 69,
+                  "positive": 81,
+                  "query_from": 131,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "QPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS",
+                  "hseq": "QPKSDPLVTLFLPSLKNLQANKVTLVCLVSEFYPGTLVVDWKVDGVPVTQGVETTQPSKQTNNKYMVSSYLTLISDQWMPHSRYSCRVTHEGNTVEKSVSPAECS",
+                  "midline": "QPK+ P VTLF PS + LQANK TLVCL+S+FYPG + V WK D  PV  GVETT PSKQ+NNKY  SSYL+L  +QW  H  YSC+VTHEG+TVEK+V+P ECS"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "sp|P01845.1|",
+                  "accession": "P01845",
+                  "title": "RecName: Full=Ig lambda-3 chain C region [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.517,
+                  "score": 371,
+                  "evalue": 1.85604e-44,
+                  "identity": 66,
+                  "positive": 87,
+                  "query_from": 131,
+                  "query_to": 234,
+                  "hit_from": 1,
+                  "hit_to": 103,
+                  "align_len": 104,
+                  "gaps": 1,
+                  "qseq": "QPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTEC",
+                  "hseq": "QPKSTPTLTMFPPSPEELQENKATLVCLISNFSPSGVTVAWKANGTPITQGVDTSNPTKE-DNKYMASSFLHLTSDQWRSHNSFTCQVTHEGDTVEKSLSPAEC",
+                  "midline": "QPK+ P++T+FPPS EELQ NKATLVCLIS+F P  VTVAWKA+ +P+  GV+T+ P+K+ +NKY ASS+L LT +QW+SH S++CQVTHEG TVEK+++P EC"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "sp|P01844.1|",
+                  "accession": "P01844",
+                  "title": "RecName: Full=Ig lambda-2 chain C region [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 1.22993e-43,
+                  "identity": 65,
+                  "positive": 87,
+                  "query_from": 131,
+                  "query_to": 234,
+                  "hit_from": 1,
+                  "hit_to": 103,
+                  "align_len": 104,
+                  "gaps": 1,
+                  "qseq": "QPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTEC",
+                  "hseq": "QPKSTPTLTVFPPSSEELKENKATLVCLISNFSPSGVTVAWKANGTPITQGVDTSNPTKEG-NKFMASSFLHLTSDQWRSHNSFTCQVTHEGDTVEKSLSPAEC",
+                  "midline": "QPK+ P++T+FPPSSEEL+ NKATLVCLIS+F P  VTVAWKA+ +P+  GV+T+ P+K+  NK+ ASS+L LT +QW+SH S++CQVTHEG TVEK+++P EC"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "sp|P01709.2|",
+                  "accession": "P01709",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 2-8; AltName: Full=Ig lambda chain V-II region BO; AltName: Full=Ig lambda chain V-II region MGC; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 1.47195e-43,
+                  "identity": 70,
+                  "positive": 86,
+                  "query_from": 16,
+                  "query_to": 114,
+                  "hit_from": 16,
+                  "hit_to": 115,
+                  "align_len": 100,
+                  "gaps": 1,
+                  "qseq": "GSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGN-SYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "GSWAQSALTQPPSASGSPGQSVTISCTGTSSDVGGYNYVSWYQQHPGKAPKLMIYEVSKRPSGVPDRFSGSKSGNTASLTVSGLQAEDEADYYCSSYAGS",
+                  "midline": "GSWAQS LTQPPSASG+PGQSV ISC+G+SS++G  +YV WYQQ PG APKL+IY  ++RPSGVPDRFSGSKS  +ASL +SGL++EDEADYYC+++  S"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "sp|A0A075B6J9.2|",
+                  "accession": "A0A075B6J9",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 2-18; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 141.739,
+                  "score": 356,
+                  "evalue": 5.12618e-42,
+                  "identity": 70,
+                  "positive": 84,
+                  "query_from": 16,
+                  "query_to": 114,
+                  "hit_from": 16,
+                  "hit_to": 115,
+                  "align_len": 100,
+                  "gaps": 1,
+                  "qseq": "GSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGN-SYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "GSWAQSALTQPPSVSGSPGQSVTISCTGTSSDVGSYNRVSWYQQPPGTAPKLMIYEVSNRPSGVPDRFSGSKSGNTASLTISGLQAEDEADYYCSLYTSS",
+                  "midline": "GSWAQS LTQPPS SG+PGQSV ISC+G+SS++G+ + V WYQQ PGTAPKL+IY  + RPSGVPDRFSGSKS  +ASL ISGL++EDEADYYC+ +  S"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "sp|P01721.2|",
+                  "accession": "P01721",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 6-57; AltName: Full=Ig lambda chain V-VI region AR; AltName: Full=Ig lambda chain V-VI region EB4; AltName: Full=Ig lambda chain V-VI region NIG-48; AltName: Full=Ig lambda chain V-VI region SUT; AltName: Full=Ig lambda chain V-VI region WLT; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 141.354,
+                  "score": 355,
+                  "evalue": 7.42853e-42,
+                  "identity": 73,
+                  "positive": 89,
+                  "query_from": 1,
+                  "query_to": 114,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 116,
+                  "gaps": 2,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRF--SGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "MAWAPLLLTLLAHCTGSWANFMLTQPHSVSESPGKTVTISCTGSSGSIASNYVQWYQQRPGSAPTTVIYEDNQRPSGVPDRFSGSIDSSSNSASLTISGLKTEDEADYYCQSYDSS",
+                  "midline": "MA  PLLLTLL HC GSWA  +LTQP S S +PG++V ISC+GSS +I ++YV WYQQ PG+AP  +IY +N+RPSGVPDRF  S   S  SASL ISGL++EDEADYYC ++D S"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "sp|P01706.2|",
+                  "accession": "P01706",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 2-11; AltName: Full=Ig gamma lambda chain V-II region DOT; AltName: Full=Ig lambda chain V-II region BOH; AltName: Full=Ig lambda chain V-II region BUR; AltName: Full=Ig lambda chain V-II region NIG-58; AltName: Full=Ig lambda chain V-II region TRO; AltName: Full=Ig lambda chain V-II region WIN; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.969,
+                  "score": 354,
+                  "evalue": 1.07014e-41,
+                  "identity": 70,
+                  "positive": 85,
+                  "query_from": 12,
+                  "query_to": 116,
+                  "hit_from": 12,
+                  "hit_to": 117,
+                  "align_len": 106,
+                  "gaps": 1,
+                  "qseq": "THCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGN-SYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLS",
+                  "hseq": "TQGTGSWAQSALTQPRSVSGSPGQSVTISCTGTSSDVGGYNYVSWYQQHPGKAPKLMIYDVSKRPSGVPDRFSGSKSGNTASLTISGLQAEDEADYYCCSYAGSYT",
+                  "midline": "T   GSWAQS LTQP S SG+PGQSV ISC+G+SS++G  +YV WYQQ PG APKL+IY  ++RPSGVPDRFSGSKS  +ASL ISGL++EDEADYYC ++  S +"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "sp|P01705.2|",
+                  "accession": "P01705",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 2-23; AltName: Full=Ig lambda chain V-II region NEI; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 113,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.42,
+                  "score": 337,
+                  "evalue": 3.54972e-39,
+                  "identity": 64,
+                  "positive": 81,
+                  "query_from": 16,
+                  "query_to": 111,
+                  "hit_from": 16,
+                  "hit_to": 112,
+                  "align_len": 97,
+                  "gaps": 1,
+                  "qseq": "GSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGN-SYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATW",
+                  "hseq": "GSWAQSALTQPASVSGSPGQSITISCTGTSSDVGSYNLVSWYQQHPGKAPKLMIYEGSKRPSGVSNRFSGSKSGNTASLTISGLQAEDEADYYCCSY",
+                  "midline": "GSWAQS LTQP S SG+PGQS+ ISC+G+SS++G+ + V WYQQ PG APKL+IY  ++RPSGV +RFSGSKS  +ASL ISGL++EDEADYYC ++"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "sp|P01715.2|",
+                  "accession": "P01715",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-1; AltName: Full=Ig lambda chain V-IV region Bau; AltName: Full=Ig lambda chain V-IV region MOL; AltName: Full=Ig lambda chain V-IV region X; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 131.724,
+                  "score": 330,
+                  "evalue": 4.27173e-38,
+                  "identity": 62,
+                  "positive": 82,
+                  "query_from": 1,
+                  "query_to": 114,
+                  "hit_from": 1,
+                  "hit_to": 112,
+                  "align_len": 114,
+                  "gaps": 2,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "MAWIPLFLGVLAYCTGSVASYELTQPPSVSVSPGQTASITCSGD--KLGDKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAWDSS",
+                  "midline": "MA  PL L +L +C GS A   LTQPPS S +PGQ+ +I+CSG    +G+ Y  WYQQ PG +P L+IY++++RPSG+P+RFSGS S  +A+L ISG ++ DEADYYC  WD S"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "sp|P80748.2|",
+                  "accession": "P80748",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-21; AltName: Full=Ig lambda chain V-III region LOI; AltName: Full=Ig lambda chain V-V region DEL; AltName: Full=Ig lambda chain V-VII region MOT; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 1.62847e-37,
+                  "identity": 64,
+                  "positive": 80,
+                  "query_from": 1,
+                  "query_to": 114,
+                  "hit_from": 1,
+                  "hit_to": 112,
+                  "align_len": 114,
+                  "gaps": 2,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "MAWTVLLLGLLSHCTGSVTSYVLTQPPSVSVAPGQTARITCGGN--NIGSKSVHWYQQKPGQAPVLVVYDDSDRPSGIPERFSGSNSGNTATLTISRVEAGDEADYYCQVWDSS",
+                  "midline": "MA   LLL LL+HC GS    VLTQPPS S  PGQ+  I+C G+  NIG+  V+WYQQ PG AP L++Y ++ RPSG+P+RFSGS S  +A+L IS + + DEADYYC  WD S"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "sp|P01704.2|",
+                  "accession": "P01704",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 2-14; AltName: Full=Ig lambda chain V-II region NIG-84; AltName: Full=Ig lambda chain V-II region TOG; AltName: Full=Ig lambda chain V-II region VIL; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.716,
+                  "score": 317,
+                  "evalue": 4.53037e-36,
+                  "identity": 62,
+                  "positive": 75,
+                  "query_from": 16,
+                  "query_to": 105,
+                  "hit_from": 16,
+                  "hit_to": 106,
+                  "align_len": 91,
+                  "gaps": 1,
+                  "qseq": "GSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGN-SYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEAD",
+                  "hseq": "GSWAQSALTQPASVSGSPGQSITISCTGTSSDVGGYNYVSWYQQHPGKAPKLMIYEVSNRPSGVSNRFSGSKSGNTASLTISGLQAEDEAD",
+                  "midline": "GSWAQS LTQP S SG+PGQS+ ISC+G+SS++G  +YV WYQQ PG APKL+IY  + RPSGV +RFSGSKS  +ASL ISGL++EDEAD"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "sp|A0A075B6K5.1|",
+                  "accession": "A0A075B6K5",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-9; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 8.23273e-35,
+                  "identity": 63,
+                  "positive": 78,
+                  "query_from": 1,
+                  "query_to": 114,
+                  "hit_from": 1,
+                  "hit_to": 112,
+                  "align_len": 114,
+                  "gaps": 2,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "MAWTALLLSLLAHFTGSVASYELTQPLSVSVALGQTARITCGGN--NIGSKNVHWYQQKPGQAPVLVIYRDSNRPSGIPERFSGSNSGNTATLTISRAQAGDEADYYCQVWDSS",
+                  "midline": "MA   LLL+LL H  GS A   LTQP S S   GQ+  I+C G+  NIG+  V+WYQQ PG AP L+IYR++ RPSG+P+RFSGS S  +A+L IS  ++ DEADYYC  WD S"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "sp|A0A075B6J2.2|",
+                  "accession": "A0A075B6J2",
+                  "title": "RecName: Full=Probable non-functional immunoglobulin lambda variable 2-33; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 6.29299e-34,
+                  "identity": 60,
+                  "positive": 75,
+                  "query_from": 16,
+                  "query_to": 114,
+                  "hit_from": 16,
+                  "hit_to": 115,
+                  "align_len": 100,
+                  "gaps": 1,
+                  "qseq": "GSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGN-SYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "GSWAQSALTQPPFVSGAPGQSVTISCTGTSSDVGDYDHVFWYQKRLSTTSRLLIYNVNTRPSGISDLFSGSKSGNMASLTISGLKSEVEANYHCSLYSSS",
+                  "midline": "GSWAQS LTQPP  SG PGQSV ISC+G+SS++G+  +V+WYQ+   T  +LLIY  N RPSG+ D FSGSKS   ASL ISGL+SE EA+Y+C+ +  S"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "sp|A0A075B6K2.2|",
+                  "accession": "A0A075B6K2",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-12; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 1.80893e-33,
+                  "identity": 60,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 114,
+                  "hit_from": 1,
+                  "hit_to": 112,
+                  "align_len": 114,
+                  "gaps": 2,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "MAWTPLLLSLLAHCTGSATSYELTQPHSVSVATAQMARITCGGN--NIGSKAVHWYQQKPGQDPVLVIYSDSNRPSGIPERFSGSNPGNTATLTISRIEAGDEADYYCQVWDSS",
+                  "midline": "MA  PLLL+LL HC GS     LTQP S S    Q   I+C G+  NIG+  V+WYQQ PG  P L+IY ++ RPSG+P+RFSGS    +A+L IS + + DEADYYC  WD S"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "sp|P01717.2|",
+                  "accession": "P01717",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-25; AltName: Full=Ig lambda chain V-IV region Hil; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 112,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.398,
+                  "score": 298,
+                  "evalue": 2.19193e-33,
+                  "identity": 57,
+                  "positive": 74,
+                  "query_from": 14,
+                  "query_to": 114,
+                  "hit_from": 14,
+                  "hit_to": 112,
+                  "align_len": 101,
+                  "gaps": 2,
+                  "qseq": "CAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "CTGSEASYELTQPPSVSVSPGQTARITCSGDA--LPKQYAYWYQQKPGQAPVLVIYKDSERPSGIPERFSGSSSGTTVTLTISGVQAEDEADYYCQSADSS",
+                  "midline": "C GS A   LTQPPS S +PGQ+  I+CSG +  +   Y YWYQQ PG AP L+IY+++ RPSG+P+RFSGS S T+ +L ISG+++EDEADYYC + D S"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "sp|P04210.1|",
+                  "accession": "P04210",
+                  "title": "RecName: Full=Ig lambda chain V-1 region; Flags: Precursor [Gallus gallus]",
+                  "taxid": 9031,
+                  "sciname": "Gallus gallus"
+                }
+              ],
+              "len": 113,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 6.29644e-33,
+                  "identity": 61,
+                  "positive": 78,
+                  "query_from": 1,
+                  "query_to": 114,
+                  "hit_from": 1,
+                  "hit_to": 110,
+                  "align_len": 115,
+                  "gaps": 6,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQ-LPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "MAWAPLLLAVLAHTSGSLVQAALTQPSSVSANPGETVKITCSGD-----RSYYGWYQQKAPGSAPVTLIYDNTNRPSNIPSRFSGSKSGSTATLTITGVQADDEAVYYCGSADSS",
+                  "midline": "MA  PLLL +L H +GS  Q+ LTQP S S  PG++V I+CSG       SY  WYQQ  PG+AP  LIY N  RPS +P RFSGSKS ++A+L I+G++++DEA YYC + D S"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "sp|A0A087WSX0.1|",
+                  "accession": "A0A087WSX0",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 5-45; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 1.07682e-31,
+                  "identity": 67,
+                  "positive": 86,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 123,
+                  "align_len": 124,
+                  "gaps": 9,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSS-NIGNSYVYWYQQLPGTAPK-LLIYRNN---RRPSGVPDRFSGSKSDTSAS---LAISGLRSEDEADYYCATWDDSLS",
+                  "hseq": "MAWTPLLLLFLSHCTGSLSQAVLTQPSSLSASPGASASLTCTLCSGINVGTYRIYWYQQKPGSPPQYLLRYKSDSDKQQGSGVPSRFSGSK-DASANAGILLISGLQSEDEADYYCMIWHSSAS",
+                  "midline": "MA  PLLL  L+HC GS +Q+VLTQP S S +PG S +++C+  S  N+G   +YWYQQ PG+ P+ LL Y+++   ++ SGVP RFSGSK D SA+   L ISGL+SEDEADYYC  W  S S"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "sp|A0A075B6K0.2|",
+                  "accession": "A0A075B6K0",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-16; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 111.694,
+                  "score": 278,
+                  "evalue": 2.51084e-30,
+                  "identity": 55,
+                  "positive": 70,
+                  "query_from": 14,
+                  "query_to": 114,
+                  "hit_from": 14,
+                  "hit_to": 112,
+                  "align_len": 101,
+                  "gaps": 2,
+                  "qseq": "CAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "CTGSEASYELTQPPSVSVSLGQMARITCSGEA--LPKKYAYWYQQKPGQFPVLVIYKDSERPSGIPERFSGSSSGTIVTLTISGVQAEDEADYYCLSADSS",
+                  "midline": "C GS A   LTQPPS S + GQ   I+CSG +  +   Y YWYQQ PG  P L+IY+++ RPSG+P+RFSGS S T  +L ISG+++EDEADYYC + D S"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "sp|P20763.1|",
+                  "accession": "P20763",
+                  "title": "RecName: Full=Ig lambda chain C region [Gallus gallus]",
+                  "taxid": 9031,
+                  "sciname": "Gallus gallus"
+                }
+              ],
+              "len": 103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 110.923,
+                  "score": 276,
+                  "evalue": 3.27177e-30,
+                  "identity": 62,
+                  "positive": 80,
+                  "query_from": 131,
+                  "query_to": 234,
+                  "hit_from": 1,
+                  "hit_to": 103,
+                  "align_len": 105,
+                  "gaps": 3,
+                  "qseq": "QPKAAPSVTLFPPSSEEL-QANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTEC",
+                  "hseq": "QPKVAPTITLFPPSKEELNEATKATLVCLINDFYPSPVTVDWVIDGS-TRSG-ETTAPQRQSNSQYMASSYLSLSASDWSSHETYTCRVTHNGTSITKTLKRSEC",
+                  "midline": "QPK AP++TLFPPS EEL +A KATLVCLI+DFYP  VTV W  D S  ++G ETT P +QSN++Y ASSYLSL+   W SH +Y+C+VTH G+++ KT+  +EC"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "sp|A0A075B6I4.1|",
+                  "accession": "A0A075B6I4",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 10-54; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 111.309,
+                  "score": 277,
+                  "evalue": 3.59743e-30,
+                  "identity": 56,
+                  "positive": 71,
+                  "query_from": 13,
+                  "query_to": 116,
+                  "hit_from": 13,
+                  "hit_to": 116,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "HCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLS",
+                  "hseq": "HSAVSVVQAGLTQPPSVSKGLRQTATLTCTGNSNIVGNQGAAWLQQHQGHPPKLLSYRNNNRPSGISERFSASRSGNTASLTITGLQPEDEADYYCSALDSSLS",
+                  "midline": "H A S  Q+ LTQPPS S    Q+  ++C+G+S+ +GN    W QQ  G  PKLL YRNN RPSG+ +RFS S+S  +ASL I+GL+ EDEADYYC+  D SLS"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "sp|A0A075B6K4.2|",
+                  "accession": "A0A075B6K4",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-10; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 111.309,
+                  "score": 277,
+                  "evalue": 4.34798e-30,
+                  "identity": 56,
+                  "positive": 70,
+                  "query_from": 14,
+                  "query_to": 114,
+                  "hit_from": 14,
+                  "hit_to": 112,
+                  "align_len": 101,
+                  "gaps": 2,
+                  "qseq": "CAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "CTVSEASYELTQPPSVSVSPGQTARITCSGDA--LPKKYAYWYQQKSGQAPVLVIYEDSKRPSGIPERFSGSSSGTMATLTISGAQVEDEADYYCYSTDSS",
+                  "midline": "C  S A   LTQPPS S +PGQ+  I+CSG +  +   Y YWYQQ  G AP L+IY +++RPSG+P+RFSGS S T A+L ISG + EDEADYYC + D S"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "sp|P01714.2|",
+                  "accession": "P01714",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-19; AltName: Full=Ig lambda chain V-III region SH; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 112,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 109.383,
+                  "score": 272,
+                  "evalue": 2.13623e-29,
+                  "identity": 56,
+                  "positive": 68,
+                  "query_from": 14,
+                  "query_to": 114,
+                  "hit_from": 14,
+                  "hit_to": 112,
+                  "align_len": 101,
+                  "gaps": 2,
+                  "qseq": "CAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "CIGSVVSSELTQDPAVSVALGQTVRITCQGDS--LRSYYASWYQQKPGQAPVLVIYGKNNRPSGIPDRFSGSSSGNTASLTITGAQAEDEADYYCNSRDSS",
+                  "midline": "C GS   S LTQ P+ S   GQ+V I+C G S  + + Y  WYQQ PG AP L+IY  N RPSG+PDRFSGS S  +ASL I+G ++EDEADYYC + D S"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "sp|A0A075B6J1.1|",
+                  "accession": "A0A075B6J1",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 5-37; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 108.997,
+                  "score": 271,
+                  "evalue": 4.32234e-29,
+                  "identity": 66,
+                  "positive": 84,
+                  "query_from": 1,
+                  "query_to": 111,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 119,
+                  "gaps": 9,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCS-GSSSNIGNSYVYWYQQLPGTAPKLLIY----RNNRRPSGVPDRFSGSKSDTSAS---LAISGLRSEDEADYYCATW",
+                  "hseq": "MAWTPLLLLLLSHCTGSLSQPVLTQPPSSSASPGESARLTCTLPSDINVGSYNIYWYQQKPGSPPRYLLYYYSDSDKGQGSGVPSRFSGSK-DASANTGILLISGLQSEDEADYYCMIW",
+                  "midline": "MA  PLLL LL+HC GS +Q VLTQPPS+S +PG+S  ++C+  S  N+G+  +YWYQQ PG+ P+ L+Y     +  + SGVP RFSGSK D SA+   L ISGL+SEDEADYYC  W"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "sp|A0A075B6I0.7|",
+                  "accession": "A0A075B6I0",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 8-61; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 107.457,
+                  "score": 267,
+                  "evalue": 1.25681e-28,
+                  "identity": 56,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 111,
+                  "hit_from": 6,
+                  "hit_to": 117,
+                  "align_len": 112,
+                  "gaps": 1,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYV-YWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATW",
+                  "hseq": "MAWMMLLLGLLAYGSGVDSQTVVTQEPSFSVSPGGTVTLTCGLSSGSVSTSYYPSWYQQTPGQAPRTLIYSTNTRSSGVPDRFSGSILGNKAALTITGAQADDESDYYCVLY",
+                  "midline": "MA   LLL LL + +G  +Q+V+TQ PS S +PG +V ++C  SS ++  SY   WYQQ PG AP+ LIY  N R SGVPDRFSGS     A+L I+G +++DE+DYYC  +"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "sp|P01718.2|",
+                  "accession": "P01718",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-27; AltName: Full=Ig lambda chain V-IV region Kern; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 113,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.145,
+                  "score": 261,
+                  "evalue": 8.41046e-28,
+                  "identity": 51,
+                  "positive": 65,
+                  "query_from": 14,
+                  "query_to": 108,
+                  "hit_from": 14,
+                  "hit_to": 106,
+                  "align_len": 95,
+                  "gaps": 2,
+                  "qseq": "CAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "CTVSVASYELTQPSSVSVSPGQTARITCSGDV--LAKKYARWFQQKPGQAPVLVIYKDSERPSGIPERFSGSSSGTTVTLTISGAQVEDEADYYC",
+                  "midline": "C  S A   LTQP S S +PGQ+  I+CSG    +   Y  W+QQ PG AP L+IY+++ RPSG+P+RFSGS S T+ +L ISG + EDEADYYC"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "sp|P04945.1|",
+                  "accession": "P04945",
+                  "title": "RecName: Full=Ig kappa chain V-VI region NQ2-6.1 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.145,
+                  "score": 261,
+                  "evalue": 8.74604e-28,
+                  "identity": 57,
+                  "positive": 72,
+                  "query_from": 20,
+                  "query_to": 128,
+                  "hit_from": 1,
+                  "hit_to": 107,
+                  "align_len": 110,
+                  "gaps": 4,
+                  "qseq": "QSVLTQPPS-ASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "QILLTQSPAIMSASPGQKVTMTCSASSSV---SYMYWYQQKPGSSPRLLIYDTSNLASGVPVRFSGSGSATSYSLTITRMQAEDAATYYCQQWSSYPPMLTFGAGTKLEL",
+                  "midline": "Q +LTQ P+  S +PGQ V ++CS SSS    SY+YWYQQ PG++P+LLIY  +   SGVP RFSGS S TS SL I+ +++ED A YYC  W        FG GTKL +"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "sp|A0A0G2JS06.1|",
+                  "accession": "A0A0G2JS06",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 5-39; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.145,
+                  "score": 261,
+                  "evalue": 1.31484e-27,
+                  "identity": 67,
+                  "positive": 83,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 123,
+                  "align_len": 123,
+                  "gaps": 7,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSS-NIGNSYVYWYQQLPGTAPK-LLIYRNN---RRPSGVPDRFSGSK--SDTSASLAISGLRSEDEADYYCATWDDSLS",
+                  "hseq": "MAWTPLLLLLLSHCTGSLSQPVLTQPTSLSASPGASARFTCTLRSGINVGTYRIYWYQQKPGSLPRYLLRYKSDSDKQQGSGVPSRFSGSKDASTNAGLLLISGLQSEDEADYYCAIWYSSTS",
+                  "midline": "MA  PLLL LL+HC GS +Q VLTQP S S +PG S   +C+  S  N+G   +YWYQQ PG+ P+ LL Y+++   ++ SGVP RFSGSK  S  +  L ISGL+SEDEADYYCA W  S S"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "sp|P01630.1|",
+                  "accession": "P01630",
+                  "title": "RecName: Full=Ig kappa chain V-II region 7S34.1 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 113,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.3673,
+                  "score": 246,
+                  "evalue": 1.4014e-25,
+                  "identity": 57,
+                  "positive": 72,
+                  "query_from": 22,
+                  "query_to": 128,
+                  "hit_from": 3,
+                  "hit_to": 111,
+                  "align_len": 111,
+                  "gaps": 6,
+                  "qseq": "VLTQ-PPSASGTPGQSVNISCSGSSSNI---GNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "VMTQTAPSALVTPGESVSISCRSSKSLLHSNGNTYLYWFLQRPGQCPQLLIYRMSNLASGVPDRFSGSGSGTAFTLRISRVEAEDVGVYYCMQQRE--YPYTFGGGTKLEI",
+                  "midline": "V+TQ  PSA  TPG+SV+ISC  S S +   GN+Y+YW+ Q PG  P+LLIYR +   SGVPDRFSGS S T+ +L IS + +ED   YYC    +      FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "sp|P11364.1|",
+                  "accession": "P11364",
+                  "title": "RecName: Full=Viral T-cell receptor beta chain-like T17T-22; Flags: Precursor [Feline leukemia virus]",
+                  "taxid": 11768,
+                  "sciname": "Feline leukemia virus"
+                }
+              ],
+              "len": 321,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 104.76,
+                  "score": 260,
+                  "evalue": 1.80948e-25,
+                  "identity": 82,
+                  "positive": 114,
+                  "query_from": 19,
+                  "query_to": 222,
+                  "hit_from": 28,
+                  "hit_to": 246,
+                  "align_len": 222,
+                  "gaps": 21,
+                  "qseq": "AQSVLTQPPS-ASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSG---VPDRFSGSKS-DTSASLAISGLRSEDEADYYCATW--DDSLSGR--LFGGGTKLTVLGQPKAA--PSVTLFPPSSEEL-QANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETT-TPSKQSN----NKYAASSYLSLTPEQWKSHRS-YSCQVTHEG",
+                  "hseq": "ADSGLTQTPRHLVKARGQQVTLSCFPISGHLS---LYWYQQAVGQGPQLLIQYYNREERGKGNFPERFSAQQFPDSHSELNMTSLELTDSALYLCASSPNEDSEYGETLYFGEGSRLTVVEDLKKVSPPKVTVFEPSEAEISRTLKATLVCLATGFYPDHVELSWWVNGKEVRDGVSTDPEPYKEQSGANVSSYCLSSRLRVSATFWHNPRNHFRCQVQFHG",
+                  "midline": "A S LTQ P       GQ V +SC   S ++    +YWYQQ  G  P+LLI   NR   G    P+RFS  +  D+ + L ++ L   D A Y CA+   +DS  G    FG G++LTV+   K    P VT+F PS  E+ +  KATLVCL + FYP  V ++W  +   V+ GV T   P K+ +    + Y  SS L ++   W + R+ + CQV   G"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "sp|A0A075B6J6.1|",
+                  "accession": "A0A075B6J6",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 3-22; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.3673,
+                  "score": 246,
+                  "evalue": 1.83684e-25,
+                  "identity": 50,
+                  "positive": 67,
+                  "query_from": 16,
+                  "query_to": 113,
+                  "hit_from": 16,
+                  "hit_to": 111,
+                  "align_len": 98,
+                  "gaps": 2,
+                  "qseq": "GSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDD",
+                  "hseq": "GSVASYELTQLPSVSVSPGQTARITCSGDV--LGENYADWYQQKPGQAPELVIYEDSERYPGIPERFSGSTSGNTTTLTISRVLTEDEADYYCLSGDE",
+                  "midline": "GS A   LTQ PS S +PGQ+  I+CSG    +G +Y  WYQQ PG AP+L+IY ++ R  G+P+RFSGS S  + +L IS + +EDEADYYC + D+"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "sp|P04940.1|",
+                  "accession": "P04940",
+                  "title": "RecName: Full=Ig kappa chain V-VI region NQ2-17.4.1 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.5969,
+                  "score": 244,
+                  "evalue": 2.69804e-25,
+                  "identity": 57,
+                  "positive": 72,
+                  "query_from": 20,
+                  "query_to": 128,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 110,
+                  "gaps": 6,
+                  "qseq": "QSVLTQPPS-ASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "QIVLTQSPAIMSASPGQKVTMTCSASSSV---SYMHWYQQKSGTSPKRWIYDTSKLASGVPARFSGSGSATSYSLTITSMQAEDAATYYCQQW--SSNPLTFGAGTKLEL",
+                  "midline": "Q VLTQ P+  S +PGQ V ++CS SSS    SY++WYQQ  GT+PK  IY  ++  SGVP RFSGS S TS SL I+ +++ED A YYC  W  S +   FG GTKL +"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "sp|A0A0A0MS00.5|",
+                  "accession": "A0A0A0MS00",
+                  "title": "RecName: Full=Probable non-functional immunoglobulin lambda variable 3-32; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.5969,
+                  "score": 244,
+                  "evalue": 3.25215e-25,
+                  "identity": 56,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 113,
+                  "hit_from": 1,
+                  "hit_to": 110,
+                  "align_len": 113,
+                  "gaps": 3,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDD",
+                  "hseq": "MAWTPPLL-VLTLCTGSVISSGPTQVPAVSVALGQMARITCQGDS--MEGSYEHWYQQKPGQAPVLVIYDSSDRPSRIPERFSGSKSGNTTTLTITGAQAEDEADYYYQLIDN",
+                  "midline": "MA  P LL +LT C GS   S  TQ P+ S   GQ   I+C G S  +  SY +WYQQ PG AP L+IY ++ RPS +P+RFSGSKS  + +L I+G ++EDEADYY    D+"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "sp|P04942.1|",
+                  "accession": "P04942",
+                  "title": "RecName: Full=Ig kappa chain V-VI region NQ5-61.1.2 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.2117,
+                  "score": 243,
+                  "evalue": 3.52624e-25,
+                  "identity": 57,
+                  "positive": 72,
+                  "query_from": 20,
+                  "query_to": 128,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 110,
+                  "gaps": 6,
+                  "qseq": "QSVLTQPPS-ASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "QIVLTQSPAIMSASPGQKVTMTCSASSSV---SYMHWYQQKSGTSPKRWIYDTSKLDSGVPARFSGSGSATSYSLTITSMQAEDAATYYCQQW--SSNPLTFGAGTKLEL",
+                  "midline": "Q VLTQ P+  S +PGQ V ++CS SSS    SY++WYQQ  GT+PK  IY  ++  SGVP RFSGS S TS SL I+ +++ED A YYC  W  S +   FG GTKL +"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "sp|P04941.1|",
+                  "accession": "P04941",
+                  "title": "RecName: Full=Ig kappa chain V-VI region NQ2-48.2.2 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.4413,
+                  "score": 241,
+                  "evalue": 8.30282e-25,
+                  "identity": 56,
+                  "positive": 72,
+                  "query_from": 20,
+                  "query_to": 128,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 110,
+                  "gaps": 6,
+                  "qseq": "QSVLTQPPS-ASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "QILLTQSPAIMSASPGQKVTMTCSASSSV---SYMHWYQQKSGTSPKRWIYDTSKLASGVPARFSGSGSATSYSLTITSMQAEDAATYYCQQW--SSNPLTFGAGTKLXL",
+                  "midline": "Q +LTQ P+  S +PGQ V ++CS SSS    SY++WYQQ  GT+PK  IY  ++  SGVP RFSGS S TS SL I+ +++ED A YYC  W  S +   FG GTKL +"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "sp|P04211.2|",
+                  "accession": "P04211",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 7-43; AltName: Full=Ig lambda chain V region 4A; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.4413,
+                  "score": 241,
+                  "evalue": 1.08778e-24,
+                  "identity": 51,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 108,
+                  "hit_from": 1,
+                  "hit_to": 109,
+                  "align_len": 109,
+                  "gaps": 1,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYV-YWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "MAWTPLFLFLLTCCPGSNSQTVVTQEPSLTVSPGGTVTLTCASSTGAVTSGYYPNWFQQKPGQAPRALIYSTSNKHSWTPARFSGSLLGGKAALTLSGVQPEDEAEYYC",
+                  "midline": "MA  PL L LLT C GS +Q+V+TQ PS + +PG +V ++C+ S+  + + Y   W+QQ PG AP+ LIY  + + S  P RFSGS     A+L +SG++ EDEA+YYC"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "sp|P04943.1|",
+                  "accession": "P04943",
+                  "title": "RecName: Full=Ig kappa chain V-VI region NQ6-8.3.1 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.2857,
+                  "score": 238,
+                  "evalue": 2.06139e-24,
+                  "identity": 56,
+                  "positive": 71,
+                  "query_from": 20,
+                  "query_to": 128,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 110,
+                  "gaps": 6,
+                  "qseq": "QSVLTQPPS-ASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "QIVLTQSPAIMSASPGQKVTMTCSASSSV---SYMHWYQQKSGTSPKRWIYDTSKLASGXPARFSGSGSATSYSLTITSMQAEDAATYYCQQW--SSNPLTFGAGTKLEL",
+                  "midline": "Q VLTQ P+  S +PGQ V ++CS SSS    SY++WYQQ  GT+PK  IY  ++  SG P RFSGS S TS SL I+ +++ED A YYC  W  S +   FG GTKL +"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "sp|A0A075B6I9.4|",
+                  "accession": "A0A075B6I9",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 7-46; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.6709,
+                  "score": 239,
+                  "evalue": 2.22627e-24,
+                  "identity": 51,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 108,
+                  "hit_from": 1,
+                  "hit_to": 109,
+                  "align_len": 109,
+                  "gaps": 1,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNI-GNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "MAWTPLFLFLLTCCPGSNSQAVVTQEPSLTVSPGGTVTLTCGSSTGAVTSGHYPYWFQQKPGQAPRTLIYDTSNKHSWTPARFSGSLLGGKAALTLLGAQPEDEAEYYC",
+                  "midline": "MA  PL L LLT C GS +Q+V+TQ PS + +PG +V ++C  S+  +    Y YW+QQ PG AP+ LIY  + + S  P RFSGS     A+L + G + EDEA+YYC"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "sp|P04944.1|",
+                  "accession": "P04944",
+                  "title": "RecName: Full=Ig kappa chain V-VI region NQ5-78.2.6 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.1301,
+                  "score": 235,
+                  "evalue": 5.39596e-24,
+                  "identity": 55,
+                  "positive": 70,
+                  "query_from": 20,
+                  "query_to": 126,
+                  "hit_from": 1,
+                  "hit_to": 103,
+                  "align_len": 108,
+                  "gaps": 6,
+                  "qseq": "QSVLTQPPS-ASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKL",
+                  "hseq": "QILLTQSPAIMSASPGQKVTMTCSASSSV---SYMHWYQQKSGTSPKRWIYDTSKLASGVPARFXGSGSATSYSLTITSMQAEDAATYYCQQW--SSNPLTFGSGTKL",
+                  "midline": "Q +LTQ P+  S +PGQ V ++CS SSS    SY++WYQQ  GT+PK  IY  ++  SGVP RF GS S TS SL I+ +++ED A YYC  W  S +   FG GTKL"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "sp|A0A075B6I3.3|",
+                  "accession": "A0A075B6I3",
+                  "title": "RecName: Full=Probable non-functional immunoglobulin lambda variable 11-55; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.5153,
+                  "score": 236,
+                  "evalue": 6.31365e-24,
+                  "identity": 58,
+                  "positive": 79,
+                  "query_from": 1,
+                  "query_to": 114,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 7,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSS-NIGNSYVYWYQQLPGTAPKLLIYR----NNRRPSGVPDRFSGSK--SDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "MALTPLLLLLLSHCTGSLSRPVLTQPPSLSASPGATARLPCTLSSDLSVGGKNMFWYQQKLGSSPRLFLYHYSDSDKQLGPGVPSRVSGSKETSSNTAFLLISGLQPEDEADYYCQVYESS",
+                  "midline": "MA  PLLL LL+HC GS ++ VLTQPPS S +PG +  + C+ SS  ++G   ++WYQQ  G++P+L +Y     + +   GVP R SGSK  S  +A L ISGL+ EDEADYYC  ++ S"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "sp|A0A075B6H9.1|",
+                  "accession": "A0A075B6H9",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 4-69; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 3.01864e-23,
+                  "identity": 52,
+                  "positive": 67,
+                  "query_from": 13,
+                  "query_to": 111,
+                  "hit_from": 14,
+                  "hit_to": 115,
+                  "align_len": 104,
+                  "gaps": 7,
+                  "qseq": "HCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSY-VYWYQQLPGTAPKLLIYRN----NRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATW",
+                  "hseq": "HCTGSLSQLVLTQSPSASASLGASVKLTCTLSSGH--SSYAIAWHQQQPEKGPRYLMKLNSDGSHSKGDGIPDRFSGSSSGAERYLTISSLQSEDEADYYCQTW",
+                  "midline": "HC GS +Q VLTQ PSAS + G SV ++C+ SS +  +SY + W+QQ P   P+ L+  N    + +  G+PDRFSGS S     L IS L+SEDEADYYC TW"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "sp|A2NJV5.2|",
+                  "accession": "A2NJV5",
+                  "title": "RecName: Full=Immunoglobulin kappa variable 2-29; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 3.23821e-23,
+                  "identity": 55,
+                  "positive": 67,
+                  "query_from": 6,
+                  "query_to": 108,
+                  "hit_from": 7,
+                  "hit_to": 113,
+                  "align_len": 107,
+                  "gaps": 4,
+                  "qseq": "LLLTLLTHCAGSWAQSVLTQPP-SASGTPGQSVNISCSGSSSNI---GNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "LLGLLMLWIPGSSADIVMTQTPLSLSVTPGQPASISCKSSQSLLHSDGKTYLYWYLQKPGQSPQLLIYEVSSRFSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYC",
+                  "midline": "LL  L+    GS A  V+TQ P S S TPGQ  +ISC  S S +   G +Y+YWY Q PG +P+LLIY  + R SGVPDRFSGS S T  +L IS + +ED   YYC"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "sp|A0A075B6S2.1|",
+                  "accession": "A0A075B6S2",
+                  "title": "RecName: Full=Immunoglobulin kappa variable 2D-29; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 4.60375e-23,
+                  "identity": 55,
+                  "positive": 66,
+                  "query_from": 6,
+                  "query_to": 108,
+                  "hit_from": 7,
+                  "hit_to": 113,
+                  "align_len": 107,
+                  "gaps": 4,
+                  "qseq": "LLLTLLTHCAGSWAQSVLTQPP-SASGTPGQSVNISCSGSSSNI---GNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "LLGLLMLWIPGSSADIVMTQTPLSLSVTPGQPASISCKSSQSLLHSDGKTYLYWYLQKPGQPPQLLIYEVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYC",
+                  "midline": "LL  L+    GS A  V+TQ P S S TPGQ  +ISC  S S +   G +Y+YWY Q PG  P+LLIY  + R SGVPDRFSGS S T  +L IS + +ED   YYC"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "sp|P01649.1|",
+                  "accession": "P01649",
+                  "title": "RecName: Full=Ig kappa chain V-V regions; AltName: Full=Anti-arsonate antibodies [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.4337,
+                  "score": 228,
+                  "evalue": 7.3526e-23,
+                  "identity": 52,
+                  "positive": 66,
+                  "query_from": 23,
+                  "query_to": 128,
+                  "hit_from": 4,
+                  "hit_to": 106,
+                  "align_len": 107,
+                  "gaps": 5,
+                  "qseq": "LTQPPSA-SGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "MTQTPSSLSASLGDRVSISCRASQDL--SQYLFWYQQKPGQPPKLLIYRVSRLTNGVPDRFSGSGSGTDFTLTIDPMEEDDTATYFCQ--QSRLIPRTFGGGTKLEI",
+                  "midline": "+TQ PS+ S + G  V+ISC  S     + Y++WYQQ PG  PKLLIYR +R  +GVPDRFSGS S T  +L I  +  +D A Y+C      L  R FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "sp|P84750.1|",
+                  "accession": "P84750",
+                  "title": "RecName: Full=Ig kappa chain V region Mem5 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.6633,
+                  "score": 226,
+                  "evalue": 1.75456e-22,
+                  "identity": 52,
+                  "positive": 74,
+                  "query_from": 34,
+                  "query_to": 144,
+                  "hit_from": 16,
+                  "hit_to": 121,
+                  "align_len": 111,
+                  "gaps": 5,
+                  "qseq": "GQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLGQPKAAPSVTLFPPS",
+                  "hseq": "GDRVSVTCK-ASQNVGTN-VAWYQKKPGQSPKPLMYSASYRYSGVPDRFTGSGSGTDFTLTISNVQSEDLAEYFCQQFNR--YPLTFGSGTKLE-LKRADAAPTVSIFPPS",
+                  "midline": "G  V+++C  +S N+G + V WYQ+ PG +PK L+Y  + R SGVPDRF+GS S T  +L IS ++SED A+Y+C  ++       FG GTKL  L +  AAP+V++FPPS"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "sp|P01660.1|",
+                  "accession": "P01660",
+                  "title": "RecName: Full=Ig kappa chain V-III region PC 3741/TEPC 111 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.2781,
+                  "score": 225,
+                  "evalue": 1.81577e-22,
+                  "identity": 53,
+                  "positive": 69,
+                  "query_from": 22,
+                  "query_to": 128,
+                  "hit_from": 3,
+                  "hit_to": 110,
+                  "align_len": 110,
+                  "gaps": 5,
+                  "qseq": "VLTQ-PPSASGTPGQSVNISCSGSSS--NIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "VLTQSPASLAVSLGQRATISCRASESVDSYGNSFMHWYQQKPGQPPKLLIYRASNLESGIPARFSGSGSRTDFTLTINPVEADDVATYYCQQSNE--DPYTFGGGTKLEI",
+                  "midline": "VLTQ P S + + GQ   ISC  S S  + GNS+++WYQQ PG  PKLLIYR +   SG+P RFSGS S T  +L I+ + ++D A YYC   ++      FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "sp|P01729.1|",
+                  "accession": "P01729",
+                  "title": "RecName: Full=Ig lambda-2 chain V region MOPC 315; Flags: Precursor [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.6633,
+                  "score": 226,
+                  "evalue": 2.45096e-22,
+                  "identity": 54,
+                  "positive": 80,
+                  "query_from": 1,
+                  "query_to": 130,
+                  "hit_from": 1,
+                  "hit_to": 129,
+                  "align_len": 131,
+                  "gaps": 3,
+                  "qseq": "MAGFPLLLTLLTHCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNS-YVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "MAWTSLILSLLALCSGASSQAVVTQESALTTSPGGTVILTCRSSTGAVTTSNYANWIQEKPDHLFTGLIGGTSNRAPGVPVRFSGSLIGDKAALTITGAQTEDDAMYFCALWFR--NHFVFGGGTKVTVLG",
+                  "midline": "MA   L+L+LL  C+G+ +Q+V+TQ  + + +PG +V ++C  S+  +  S Y  W Q+ P      LI   + R  GVP RFSGS     A+L I+G ++ED+A Y+CA W    +  +FGGGTK+TVLG"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "sp|P01696.1|",
+                  "accession": "P01696",
+                  "title": "RecName: Full=Ig kappa chain V region K29-213 [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.1225,
+                  "score": 222,
+                  "evalue": 4.80868e-22,
+                  "identity": 50,
+                  "positive": 66,
+                  "query_from": 22,
+                  "query_to": 130,
+                  "hit_from": 2,
+                  "hit_to": 109,
+                  "align_len": 110,
+                  "gaps": 3,
+                  "qseq": "VLTQPPSASGTP-GQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "VMTQTPSSKSVPVGDTVTINCQASQSVYSNNRLAWFQQKPGQPPKLLIYKASTLASGVPSRFKGSGSGTQFTLTISDVQCADAATYYCRV--ASTNNIVFGGGTEVVVKG",
+                  "midline": "V+TQ PS+   P G +V I+C  S S   N+ + W+QQ PG  PKLLIY+ +   SGVP RF GS S T  +L IS ++  D A YYC     S +  +FGGGT++ V G"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "sp|A0A0C4DH25.1|",
+                  "accession": "A0A0C4DH25",
+                  "title": "RecName: Full=Immunoglobulin kappa variable 3D-20; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 116,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.7373,
+                  "score": 221,
+                  "evalue": 7.96894e-22,
+                  "identity": 48,
+                  "positive": 63,
+                  "query_from": 22,
+                  "query_to": 114,
+                  "hit_from": 23,
+                  "hit_to": 115,
+                  "align_len": 94,
+                  "gaps": 2,
+                  "qseq": "VLTQPPSA-SGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "VLTQSPATLSLSPGERATLSC-GASQSVSSSYLAWYQQKPGLAPRLLIYDASSRATGIPDRFSGSGSGTDFTLTISRLEPEDFAVYYCQQYGSS",
+                  "midline": "VLTQ P+  S +PG+   +SC G+S ++ +SY+ WYQQ PG AP+LLIY  + R +G+PDRFSGS S T  +L IS L  ED A YYC  +  S"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "sp|A0A0A0MRZ9.1|",
+                  "accession": "A0A0A0MRZ9",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 5-52; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.7373,
+                  "score": 221,
+                  "evalue": 1.03327e-21,
+                  "identity": 56,
+                  "positive": 72,
+                  "query_from": 12,
+                  "query_to": 111,
+                  "hit_from": 12,
+                  "hit_to": 118,
+                  "align_len": 108,
+                  "gaps": 9,
+                  "qseq": "THCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSS-NIGNSYVYWYQQLPGTAPKLLIY----RNNRRPSGVPDRFSGSKSDTSAS---LAISGLRSEDEADYYCATW",
+                  "hseq": "SHCTGSLSQPVLTQPSSHSASSGASVRLTCMLSSGFSVGDFWIRWYQQKPGNPPRYLLYYHSDSNKGQGSGVPSRFSGS-NDASANAGILRISGLQPEDEADYYCGTW",
+                  "midline": "+HC GS +Q VLTQP S S + G SV ++C  SS  ++G+ ++ WYQQ PG  P+ L+Y     N  + SGVP RFSGS +D SA+   L ISGL+ EDEADYYC TW"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "sp|P01634.1|",
+                  "accession": "P01634",
+                  "title": "RecName: Full=Ig kappa chain V-V region MOPC 21; Flags: Precursor [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.1225,
+                  "score": 222,
+                  "evalue": 1.11536e-21,
+                  "identity": 52,
+                  "positive": 75,
+                  "query_from": 6,
+                  "query_to": 128,
+                  "hit_from": 16,
+                  "hit_to": 135,
+                  "align_len": 124,
+                  "gaps": 5,
+                  "qseq": "LLLTLLTHCAGSWAQSVLTQ-PPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "VFISILLCLYGADGNIVMTQSPKSMSMSVGERVTLTCKASENVV--TYVSWYQQKPEQSPKLLIYGASNRYTGVPDRFTGSGSATDFTLTISSVQAEDLADYHCG--QGYSYPYTFGGGTKLEI",
+                  "midline": "+ +++L    G+    V+TQ P S S + G+ V ++C  S + +  +YV WYQQ P  +PKLLIY  + R +GVPDRF+GS S T  +L IS +++ED ADY+C           FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "sp|P01724.1|",
+                  "accession": "P01724",
+                  "title": "RecName: Full=Ig lambda-1 chain V regions MOPC 104E/RPC20/J558/S104; Flags: Precursor [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.7373,
+                  "score": 221,
+                  "evalue": 1.16942e-21,
+                  "identity": 51,
+                  "positive": 71,
+                  "query_from": 16,
+                  "query_to": 130,
+                  "hit_from": 16,
+                  "hit_to": 129,
+                  "align_len": 116,
+                  "gaps": 3,
+                  "qseq": "GSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNS-YVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "GAISQAVVTQESALTTSPGETVTLTCRSSTGAVTTSNYANWVQQKPDHLFTGLIGGTNNRAPGVPARFSGSLIGNKAALTITGAQTEDEAIYFCALWYSNH--WVFGGGTKLTVLG",
+                  "midline": "G+ +Q+V+TQ  + + +PG++V ++C  S+  +  S Y  W QQ P      LI   N R  GVP RFSGS     A+L I+G ++EDEA Y+CA W  +    +FGGGTKLTVLG"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "sp|P01725.1|",
+                  "accession": "P01725",
+                  "title": "RecName: Full=Ig lambda-1 chain V region S178 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 1.3362e-21,
+                  "identity": 51,
+                  "positive": 69,
+                  "query_from": 20,
+                  "query_to": 130,
+                  "hit_from": 1,
+                  "hit_to": 110,
+                  "align_len": 113,
+                  "gaps": 5,
+                  "qseq": "QSVLTQPPSASGTPGQSVNISCSGSSSNIGNS-YVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGR-LFGGGTKLTVLG",
+                  "hseq": "QAVVTQESALTTSPGETVTLTCRSNTGAVTTSNYANWVQQKPDHLFTGLIGNTNNRAPGVPARFSGSLIGNKAALTITGAQTEDEAIYFCALW---YSNRWVFGGGTKLTVLG",
+                  "midline": "Q+V+TQ  + + +PG++V ++C  ++  +  S Y  W QQ P      LI   N R  GVP RFSGS     A+L I+G ++EDEA Y+CA W    S R +FGGGTKLTVLG"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "sp|P01684.1|",
+                  "accession": "P01684",
+                  "title": "RecName: Full=Ig kappa chain V region 3374 [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 1.35659e-21,
+                  "identity": 54,
+                  "positive": 69,
+                  "query_from": 19,
+                  "query_to": 130,
+                  "hit_from": 1,
+                  "hit_to": 109,
+                  "align_len": 113,
+                  "gaps": 5,
+                  "qseq": "AQSVLTQ-PPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "ADIVMTQTPASVSAAVGGTVTINCQ-ASQNI-DSWLAWYQQKPGQPPKVLIYRTSTLASGVPSRFKGSRSGTEFTLTISDLECADAATYYCQSYYSISSA--FGGGTEVVVKG",
+                  "midline": "A  V+TQ P S S   G +V I+C  +S NI +S++ WYQQ PG  PK+LIYR +   SGVP RF GS+S T  +L IS L   D A YYC ++    S   FGGGT++ V G"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "sp|P01662.1|",
+                  "accession": "P01662",
+                  "title": "RecName: Full=Ig kappa chain V-III region ABPC 22/PC 9245 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 1.64557e-21,
+                  "identity": 53,
+                  "positive": 67,
+                  "query_from": 22,
+                  "query_to": 128,
+                  "hit_from": 3,
+                  "hit_to": 110,
+                  "align_len": 110,
+                  "gaps": 5,
+                  "qseq": "VLTQ-PPSASGTPGQSVNISCSGSSS--NIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "VLTQSPASLAVSLGQRATISCRASESVDSYGNSFMHWYQQKPGQPPKLLIYLASNLESGVPARFSGSGSRTDFTLTIDPVEADDAATYYCQQNNE--DPYTFGGGTKLEI",
+                  "midline": "VLTQ P S + + GQ   ISC  S S  + GNS+++WYQQ PG  PKLLIY  +   SGVP RFSGS S T  +L I  + ++D A YYC   ++      FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "sp|P01682.1|",
+                  "accession": "P01682",
+                  "title": "RecName: Full=Ig kappa chain V region 2717 [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 1.79993e-21,
+                  "identity": 50,
+                  "positive": 64,
+                  "query_from": 22,
+                  "query_to": 130,
+                  "hit_from": 3,
+                  "hit_to": 110,
+                  "align_len": 110,
+                  "gaps": 3,
+                  "qseq": "VLTQPPS-ASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "VLTQTPSPVSAAVGGTVTISCQSTKSIYBBBYLAWYQZKPGQPPKALIYTASSLASGVPSRFTGSGSGTZFTLTLSDVZCDDAATYYCGGAD--YTGYSFGGGTEVVVKG",
+                  "midline": "VLTQ PS  S   G +V ISC  + S   + Y+ WYQ+ PG  PK LIY  +   SGVP RF+GS S T  +L +S +  +D A YYC   D   +G  FGGGT++ V G"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "sp|P01670.1|",
+                  "accession": "P01670",
+                  "title": "RecName: Full=Ig kappa chain V-III region PC 6684 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 1.81091e-21,
+                  "identity": 56,
+                  "positive": 65,
+                  "query_from": 22,
+                  "query_to": 128,
+                  "hit_from": 3,
+                  "hit_to": 110,
+                  "align_len": 110,
+                  "gaps": 5,
+                  "qseq": "VLTQ-PPSASGTPGQSVNISC--SGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "VLTQSPASLAVSLGQRATISCRASKSVSTSGYSYMHWYQQKPGQPPKLLIYLASNLESGVPARFSGSGSGTDFTLNIHPVEEEDAATYYCQHSRE--LPRTFGGGTKLEI",
+                  "midline": "VLTQ P S + + GQ   ISC  S S S  G SY++WYQQ PG  PKLLIY  +   SGVP RFSGS S T  +L I  +  ED A YYC    +    R FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "sp|P01661.1|",
+                  "accession": "P01661",
+                  "title": "RecName: Full=Ig kappa chain V-III region MOPC 63; Flags: Precursor [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 2.14267e-21,
+                  "identity": 55,
+                  "positive": 69,
+                  "query_from": 16,
+                  "query_to": 128,
+                  "hit_from": 17,
+                  "hit_to": 130,
+                  "align_len": 116,
+                  "gaps": 5,
+                  "qseq": "GSWAQSVLTQ-PPSASGTPGQSVNISCSGSSS--NIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "GSTGNIVLTQSPASLAVSLGQRATISCRASESVDSYGNSFMHWYQQKPGQPPKLLIYLASNLESGVPARFSGSGSRTDFTLTIDPVEADDAATYYCQ--QNNEDPWTFGGGTKLEI",
+                  "midline": "GS    VLTQ P S + + GQ   ISC  S S  + GNS+++WYQQ PG  PKLLIY  +   SGVP RFSGS S T  +L I  + ++D A YYC    ++     FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "sp|P01694.1|",
+                  "accession": "P01694",
+                  "title": "RecName: Full=Ig kappa chain V region 3547 [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 2.72529e-21,
+                  "identity": 52,
+                  "positive": 64,
+                  "query_from": 23,
+                  "query_to": 130,
+                  "hit_from": 4,
+                  "hit_to": 110,
+                  "align_len": 109,
+                  "gaps": 3,
+                  "qseq": "LTQPPSA-SGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "MTQTPSSVSAAVGGTVTINCQASEDISAN--LAWYQQKPGQPPKLLIYAASDLASGVPSRFKGSGSGTEYTLTISGVQCADAATYYCQSADYSGSAVTFGGGTEVVVKG",
+                  "midline": "+TQ PS+ S   G +V I+C  S     N  + WYQQ PG  PKLLIY  +   SGVP RF GS S T  +L ISG++  D A YYC + D S S   FGGGT++ V G"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "sp|P06312.1|",
+                  "accession": "P06312",
+                  "title": "RecName: Full=Immunoglobulin kappa variable 4-1; AltName: Full=Ig kappa chain V-IV region B17; AltName: Full=Ig kappa chain V-IV region JI; AltName: Full=Ig kappa chain V-IV region Len; AltName: Full=Ig kappa chain V-IV region STH; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 3.87419e-21,
+                  "identity": 50,
+                  "positive": 68,
+                  "query_from": 6,
+                  "query_to": 108,
+                  "hit_from": 7,
+                  "hit_to": 114,
+                  "align_len": 108,
+                  "gaps": 5,
+                  "qseq": "LLLTLLTHCAGSWAQSVLTQ-PPSASGTPGQSVNISCSGSSSNIGNS----YVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "VFISLLLWISGAYGDIVMTQSPDSLAVSLGERATINCKSSQSVLYSSNNKNYLAWYQQKPGQPPKLLIYWASTRESGVPDRFSGSGSGTDFTLTISSLQAEDVAVYYC",
+                  "midline": "+ ++LL   +G++   V+TQ P S + + G+   I+C  S S + +S    Y+ WYQQ PG  PKLLIY  + R SGVPDRFSGS S T  +L IS L++ED A YYC"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "sp|P01678.1|",
+                  "accession": "P01678",
+                  "title": "RecName: Full=Ig kappa chain V-VI region SAPC 10 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 4.41123e-21,
+                  "identity": 57,
+                  "positive": 70,
+                  "query_from": 22,
+                  "query_to": 128,
+                  "hit_from": 3,
+                  "hit_to": 105,
+                  "align_len": 108,
+                  "gaps": 6,
+                  "qseq": "VLTQPPSASG-TPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "VLTQSPAITAASLGQKVTITCSASSSV---SYMHWYQQKSGTSPKPWIYEISKLASGVPARFSGSGSGTSYSLTISSMEAEDAAIYYCQQWNYPL--ITFGGGTKLEI",
+                  "midline": "VLTQ P+ +  + GQ V I+CS SSS    SY++WYQQ  GT+PK  IY  ++  SGVP RFSGS S TS SL IS + +ED A YYC  W+  L    FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "sp|P01675.1|",
+                  "accession": "P01675",
+                  "title": "RecName: Full=Ig kappa chain V-VI region XRPC 44 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 4.75207e-21,
+                  "identity": 57,
+                  "positive": 70,
+                  "query_from": 22,
+                  "query_to": 128,
+                  "hit_from": 3,
+                  "hit_to": 105,
+                  "align_len": 108,
+                  "gaps": 6,
+                  "qseq": "VLTQPPS-ASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "VLTQSPAITAASLGQKVTITCSASSSV---SYMHWYQQKSGTSPKPWIYEISKLASGVPARFSGSGSGTSYSLTISSMEAEDAAIYYCQQWNYPL--WTFGGGTKLEI",
+                  "midline": "VLTQ P+  + + GQ V I+CS SSS    SY++WYQQ  GT+PK  IY  ++  SGVP RFSGS S TS SL IS + +ED A YYC  W+  L    FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "sp|P01727.1|",
+                  "accession": "P01727",
+                  "title": "RecName: Full=Ig lambda-1 chain V region S43; Flags: Precursor [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 5.39322e-21,
+                  "identity": 50,
+                  "positive": 71,
+                  "query_from": 16,
+                  "query_to": 130,
+                  "hit_from": 16,
+                  "hit_to": 129,
+                  "align_len": 116,
+                  "gaps": 3,
+                  "qseq": "GSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNS-YVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "GAISQAVVTQESALTTSPGETVTLTCRSSTGAVTTSNYANWVQEKPDHLFTGLIGGTNNRAPGVPARFSGSLIGDKAALTITGTQTEDEAMYFCALWYSNH--WVFGGGTKLTVLG",
+                  "midline": "G+ +Q+V+TQ  + + +PG++V ++C  S+  +  S Y  W Q+ P      LI   N R  GVP RFSGS     A+L I+G ++EDEA Y+CA W  +    +FGGGTKLTVLG"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "sp|P01693.1|",
+                  "accession": "P01693",
+                  "title": "RecName: Full=Ig kappa chain V region 3368 [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 5.89434e-21,
+                  "identity": 53,
+                  "positive": 67,
+                  "query_from": 19,
+                  "query_to": 128,
+                  "hit_from": 1,
+                  "hit_to": 110,
+                  "align_len": 112,
+                  "gaps": 4,
+                  "qseq": "AQSVLTQPPSA-SGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCAT-WDDSLSGRLFGGGTKLTV",
+                  "hseq": "ADIVMTQTPSSVSAAVGGTVTIKCQASES-IGNE-LAWYQQKPGQPPKLLIYRASKLASGVSSRFKGSGSGTEFTLTISGVQCDDAGIYYCQQDWNSNNVVNNFGGGTEVVV",
+                  "midline": "A  V+TQ PS+ S   G +V I C  S S IGN  + WYQQ PG  PKLLIYR ++  SGV  RF GS S T  +L ISG++ +D   YYC   W+ +     FGGGT++ V"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "sp|P01663.1|",
+                  "accession": "P01663",
+                  "title": "RecName: Full=Ig kappa chain V-III region PC 4050 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 6.41733e-21,
+                  "identity": 54,
+                  "positive": 68,
+                  "query_from": 22,
+                  "query_to": 128,
+                  "hit_from": 3,
+                  "hit_to": 110,
+                  "align_len": 111,
+                  "gaps": 7,
+                  "qseq": "VLTQ-PPSASGTPGQSVNISCSGSSS--NIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC-ATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "VLTQSPASLAVSLGQRATISCRASESVDSYGNSFMHWYQQKPGQPPKLLIYLASNLESGVPARFSGSGSRTDFTLTIDPVEADDAATYYCQQNNEDPLT---FGAGTKLEL",
+                  "midline": "VLTQ P S + + GQ   ISC  S S  + GNS+++WYQQ PG  PKLLIY  +   SGVP RFSGS S T  +L I  + ++D A YYC    +D L+   FG GTKL +"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "sp|P01637.1|",
+                  "accession": "P01637",
+                  "title": "RecName: Full=Ig kappa chain V-V region T1; Flags: Precursor [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 8.37518e-21,
+                  "identity": 51,
+                  "positive": 62,
+                  "query_from": 23,
+                  "query_to": 128,
+                  "hit_from": 24,
+                  "hit_to": 126,
+                  "align_len": 107,
+                  "gaps": 5,
+                  "qseq": "LTQPPSAS-GTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "MTQSPSSMYASLGERVTISCKASQDI--NSYLTWFQQKPGKSPKTLLYRANRLVDGVPSRFSGSGSGQDFSLTISSLEYEDMGIYYCLQYDE--FPLTFGAGTKLEL",
+                  "midline": "+TQ PS+   + G+ V ISC  S     NSY+ W+QQ PG +PK L+YR NR   GVP RFSGS S    SL IS L  ED   YYC  +D+      FG GTKL +"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "sp|P01619.2|",
+                  "accession": "P01619",
+                  "title": "RecName: Full=Immunoglobulin kappa variable 3-20; AltName: Full=Ig kappa chain V-III region B6; AltName: Full=Ig kappa chain V-III region GOL; AltName: Full=Ig kappa chain V-III region HAH; AltName: Full=Ig kappa chain V-III region HIC; AltName: Full=Ig kappa chain V-III region IARC/BL41; AltName: Full=Ig kappa chain V-III region NG9; AltName: Full=Ig kappa chain V-III region SIE; AltName: Full=Ig kappa chain V-III region Ti; AltName: Full=Ig kappa chain V-III region WOL; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 116,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 8.80352e-21,
+                  "identity": 48,
+                  "positive": 61,
+                  "query_from": 22,
+                  "query_to": 114,
+                  "hit_from": 23,
+                  "hit_to": 115,
+                  "align_len": 94,
+                  "gaps": 2,
+                  "qseq": "VLTQPP-SASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDS",
+                  "hseq": "VLTQSPGTLSLSPGERATLSCRASQS-VSSSYLAWYQQKPGQAPRLLIYGASSRATGIPDRFSGSGSGTDFTLTISRLEPEDFAVYYCQQYGSS",
+                  "midline": "VLTQ P + S +PG+   +SC  S S + +SY+ WYQQ PG AP+LLIY  + R +G+PDRFSGS S T  +L IS L  ED A YYC  +  S"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "sp|P0DSE2.1|",
+                  "accession": "P0DSE2",
+                  "title": "RecName: Full=M1-specific T cell receptor beta chain; AltName: Full=TR beta chain TRBV19*01J2S7*01C*02; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.2781,
+                  "score": 225,
+                  "evalue": 1.38912e-20,
+                  "identity": 66,
+                  "positive": 104,
+                  "query_from": 34,
+                  "query_to": 222,
+                  "hit_from": 35,
+                  "hit_to": 233,
+                  "align_len": 202,
+                  "gaps": 16,
+                  "qseq": "GQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYR---NNRRPSGVPDRFSGSKSDT-SASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLGQPKAA--PSVTLFPPSSEEL-QANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETT-TPSKQ----SNNKYAASSYLSLTPEQWKSHRS-YSCQVTHEG",
+                  "hseq": "GQNVTLSCE---QNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSIRSSYEQYFGPGTRLTVTEDLKNVFPPKVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVSTDPQPLKEQPALNDSRYCLSSRLRVSATFWQNPRNHFRCQVQFYG",
+                  "midline": "GQ+V +SC     N+ +  +YWY+Q PG   +L+ Y    N+ +   + + +S S+    S  L ++  +    A Y CA+   S   + FG GT+LTV    K    P V +F PS  E+    KATLVCL + FYP  V ++W  +   V +GV T   P K+    ++++Y  SS L ++   W++ R+ + CQV   G"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "sp|P01687.1|",
+                  "accession": "P01687",
+                  "title": "RecName: Full=Ig kappa chain V region BS-5 [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 1.39837e-20,
+                  "identity": 49,
+                  "positive": 64,
+                  "query_from": 22,
+                  "query_to": 130,
+                  "hit_from": 3,
+                  "hit_to": 108,
+                  "align_len": 110,
+                  "gaps": 5,
+                  "qseq": "VLTQPPSASGTP-GQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "VMTQTPASVSEPVGGTVTIKCQASQSIYSN--LAWYQZKPGQPPKLLIYKASTLESGVPSRFKGSGSGTDFTLTISDLECADAATYFCQGSB--YTGTVFGGGTEVVVKG",
+                  "midline": "V+TQ P++   P G +V I C  S S   N  + WYQ+ PG  PKLLIY+ +   SGVP RF GS S T  +L IS L   D A Y+C   +   +G +FGGGT++ V G"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "sp|P01837.2|",
+                  "accession": "P01837",
+                  "title": "RecName: Full=Immunoglobulin kappa constant; AltName: Full=Ig kappa chain C region MOPC 21 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 1.43506e-20,
+                  "identity": 42,
+                  "positive": 68,
+                  "query_from": 134,
+                  "query_to": 234,
+                  "hit_from": 4,
+                  "hit_to": 107,
+                  "align_len": 104,
+                  "gaps": 3,
+                  "qseq": "AAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETT-TPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGST--VEKTVAPTEC",
+                  "hseq": "AAPTVSIFPPSSEQLTSGGASVVCFLNNFYPKDINVKWKIDGSERQNGVLNSWTDQDSKDSTYSMSSTLTLTKDEYERHNSYTCEATHKTSTSPIVKSFNRNEC",
+                  "midline": "AAP+V++FPPSSE+L +  A++VC +++FYP  + V WK D S  + GV  + T     ++ Y+ SS L+LT ++++ H SY+C+ TH+ ST  + K+    EC"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "sp|P04434.1|",
+                  "accession": "P04434",
+                  "title": "RecName: Full=Ig kappa chain V-III region VH; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 116,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 1.49679e-20,
+                  "identity": 46,
+                  "positive": 60,
+                  "query_from": 22,
+                  "query_to": 108,
+                  "hit_from": 23,
+                  "hit_to": 109,
+                  "align_len": 88,
+                  "gaps": 2,
+                  "qseq": "VLTQ-PPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "VMTQSPPTLSLSPGERVTLSCRASQS-VSSSYLTWYQQKPGQAPRLLIYGASTRATSIPARFSGSGSGTDFTLTISSLQPEDFAVYYC",
+                  "midline": "V+TQ PP+ S +PG+ V +SC  S S + +SY+ WYQQ PG AP+LLIY  + R + +P RFSGS S T  +L IS L+ ED A YYC"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "sp|P01664.1|",
+                  "accession": "P01664",
+                  "title": "RecName: Full=Ig kappa chain V-III region CBPC 101 [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 1.61683e-20,
+                  "identity": 53,
+                  "positive": 64,
+                  "query_from": 22,
+                  "query_to": 128,
+                  "hit_from": 3,
+                  "hit_to": 110,
+                  "align_len": 110,
+                  "gaps": 5,
+                  "qseq": "VLTQ-PPSASGTPGQSVNISCSGSSS--NIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTV",
+                  "hseq": "VLTQSPASLAVSLGQRATISCKASQSVDYTGESYMNWYQQNPGQSPKLLIYAASNLESGIPARFSGSGSGTDFTLNIHPVEEEDAATYYCQQSNE--DPYTFGGGTKLEI",
+                  "midline": "VLTQ P S + + GQ   ISC  S S    G SY+ WYQQ PG +PKLLIY  +   SG+P RFSGS S T  +L I  +  ED A YYC   ++      FGGGTKL +"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "sp|P06310.2|",
+                  "accession": "P06310",
+                  "title": "RecName: Full=Immunoglobulin kappa variable 2-30; AltName: Full=Ig kappa chain V-II region RPMI 6410; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 1.66666e-20,
+                  "identity": 51,
+                  "positive": 65,
+                  "query_from": 6,
+                  "query_to": 108,
+                  "hit_from": 7,
+                  "hit_to": 113,
+                  "align_len": 107,
+                  "gaps": 4,
+                  "qseq": "LLLTLLTHCAGSWAQSVLTQPP-SASGTPGQSVNISCSGSSSNI---GNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "LLGLLMLWVPGSSGDVVMTQSPLSLPVTLGQPASISCRSSQSLVYSDGNTYLNWFQQRPGQSPRRLIYKVSNRDSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYC",
+                  "midline": "LL  L+    GS    V+TQ P S   T GQ  +ISC  S S +   GN+Y+ W+QQ PG +P+ LIY+ + R SGVPDRFSGS S T  +L IS + +ED   YYC"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "sp|A0A075B6H7.1|",
+                  "accession": "A0A075B6H7",
+                  "title": "RecName: Full=Probable non-functional immunoglobulin kappa variable 3-7; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 116,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 1.73653e-20,
+                  "identity": 46,
+                  "positive": 60,
+                  "query_from": 22,
+                  "query_to": 108,
+                  "hit_from": 23,
+                  "hit_to": 109,
+                  "align_len": 88,
+                  "gaps": 2,
+                  "qseq": "VLTQ-PPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "VMTQSPPTLSLSPGERVTLSCRASQS-VSSSYLTWYQQKPGQAPRLLIYGASTRATSIPARFSGSGSGTDFTLTISSLQPEDFAVYYC",
+                  "midline": "V+TQ PP+ S +PG+ V +SC  S S + +SY+ WYQQ PG AP+LLIY  + R + +P RFSGS S T  +L IS L+ ED A YYC"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "sp|P01683.1|",
+                  "accession": "P01683",
+                  "title": "RecName: Full=Ig kappa chain V region 3315 [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 1.85975e-20,
+                  "identity": 53,
+                  "positive": 68,
+                  "query_from": 19,
+                  "query_to": 130,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 115,
+                  "gaps": 3,
+                  "qseq": "AQSVLTQPPSA-SGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGR--LFGGGTKLTVLG",
+                  "hseq": "AQIVMTQTPSSVSAAVGGTVTINCQSSQSVYENGRLSWFQQKPGQPPKRLIYRASTLASGVSSRFTGSGSGTQFTLSISDVQCDDAATYYCLGNYDCSSGDSFTFGGGTEVVVKG",
+                  "midline": "AQ V+TQ PS+ S   G +V I+C  S S   N  + W+QQ PG  PK LIYR +   SGV  RF+GS S T  +L+IS ++ +D A YYC    D  SG    FGGGT++ V G"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "sp|P01726.1|",
+                  "accession": "P01726",
+                  "title": "RecName: Full=Ig lambda-1 chain V region H2020; Flags: Precursor [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 2.11721e-20,
+                  "identity": 50,
+                  "positive": 72,
+                  "query_from": 16,
+                  "query_to": 130,
+                  "hit_from": 16,
+                  "hit_to": 129,
+                  "align_len": 117,
+                  "gaps": 5,
+                  "qseq": "GSWAQSVLTQPPSASGTPGQSVNISCSGSSSNI--GNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "GAISQAVVTQESALTTSPGETVTLTCRSTTGAVTTGN-YANWVQEKPDHLFTGLIGGTNNRAPGVPARFSGSLIGDKAALTITGAQTEDEAIYFCALWYSNH--WVFGGGTKLTVLG",
+                  "midline": "G+ +Q+V+TQ  + + +PG++V ++C  ++  +  GN Y  W Q+ P      LI   N R  GVP RFSGS     A+L I+G ++EDEA Y+CA W  +    +FGGGTKLTVLG"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "sp|P01688.1|",
+                  "accession": "P01688",
+                  "title": "RecName: Full=Ig kappa chain V region K-25 [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.8853,
+                  "score": 211,
+                  "evalue": 2.30338e-20,
+                  "identity": 53,
+                  "positive": 63,
+                  "query_from": 23,
+                  "query_to": 130,
+                  "hit_from": 4,
+                  "hit_to": 108,
+                  "align_len": 109,
+                  "gaps": 5,
+                  "qseq": "LTQ-PPSASGTPGQSVNISCSGSSSNIGNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWDDSLSGRLFGGGTKLTVLG",
+                  "hseq": "LTQTPASVEAAVGGTVTIKCQ-ASQBI-YSYLSWYQQKPGQPPKLLIYKASTLASGVSSRFKGSGSGTEFTLTISDLZCADAATYYCQTY--SYSSTYFGGGTEVVVKG",
+                  "midline": "LTQ P S     G +V I C  +S +I  SY+ WYQQ PG  PKLLIY+ +   SGV  RF GS S T  +L IS L   D A YYC T+  S S   FGGGT++ V G"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "sp|A0A087WW87.2|",
+                  "accession": "A0A087WW87",
+                  "title": "RecName: Full=Immunoglobulin kappa variable 2-40; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                },
+                {
+                  "id": "sp|P01614.2|",
+                  "accession": "P01614",
+                  "title": "RecName: Full=Immunoglobulin kappa variable 2D-40; AltName: Full=Ig kappa chain V-II region Cum; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 2.37813e-20,
+                  "identity": 52,
+                  "positive": 65,
+                  "query_from": 6,
+                  "query_to": 108,
+                  "hit_from": 7,
+                  "hit_to": 114,
+                  "align_len": 108,
+                  "gaps": 5,
+                  "qseq": "LLLTLLTHCAGSWAQSVLTQPP-SASGTPGQSVNISCSGSSSNI----GNSYVYWYQQLPGTAPKLLIYRNNRRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYC",
+                  "hseq": "LLGLLMLWVPGSSEDIVMTQTPLSLPVTPGEPASISCRSSQSLLDSDDGNTYLDWYLQKPGQSPQLLIYTLSYRASGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYC",
+                  "midline": "LL  L+    GS    V+TQ P S   TPG+  +ISC  S S +    GN+Y+ WY Q PG +P+LLIY  + R SGVPDRFSGS S T  +L IS + +ED   YYC"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "sp|A0A075B6I1.1|",
+                  "accession": "A0A075B6I1",
+                  "title": "RecName: Full=Immunoglobulin lambda variable 4-60; Flags: Precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.8853,
+                  "score": 211,
+                  "evalue": 2.60185e-20,
+                  "identity": 54,
+                  "positive": 67,
+                  "query_from": 13,
+                  "query_to": 112,
+                  "hit_from": 15,
+                  "hit_to": 117,
+                  "align_len": 105,
+                  "gaps": 7,
+                  "qseq": "HCAGSWAQSVLTQPPSASGTPGQSVNISCSGSSSNIGNSYVY-WYQQLPGTAPKLLIYRNN----RRPSGVPDRFSGSKSDTSASLAISGLRSEDEADYYCATWD",
+                  "hseq": "HCTGSLSQPVLTQSSSASASLGSSVKLTCTLSSGH--SSYIIAWHQQQPGKAPRYLMKLEGSGSYNKGSGVPDRFSGSSSGADRYLTISNLQFEDEADYYCETWD",
+                  "midline": "HC GS +Q VLTQ  SAS + G SV ++C+ SS +  +SY+  W+QQ PG AP+ L+         + SGVPDRFSGS S     L IS L+ EDEADYYC TWD"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "sp|P01835.1|",
+                  "accession": "P01835",
+                  "title": "RecName: Full=Ig kappa chain C region, B allele [Rattus norvegicus]",
+                  "taxid": 10116,
+                  "sciname": "Rattus norvegicus"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 2.72647e-20,
+                  "identity": 42,
+                  "positive": 68,
+                  "query_from": 134,
+                  "query_to": 234,
+                  "hit_from": 3,
+                  "hit_to": 106,
+                  "align_len": 104,
+                  "gaps": 3,
+                  "qseq": "AAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGV-ETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGST--VEKTVAPTEC",
+                  "hseq": "AAPTVSIFPPSTEQLATGGASVVCLMNNFYPRDISVKWKIDGTERRDGVLDSVTDQDSKDSTYSMSSTLSLTKADYESHNLYTCEVVHKTSSSPVVKSFNRNEC",
+                  "midline": "AAP+V++FPPS+E+L    A++VCL+++FYP  ++V WK D +  + GV ++ T     ++ Y+ SS LSLT   ++SH  Y+C+V H+ S+  V K+    EC"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 482815,
+            "db_len": 183557828,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

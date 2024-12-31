@@ -1,0 +1,230 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.15.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprot"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_146876",
+          "query_title": "sequence_232",
+          "query_len": 321,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P08083.1|",
+                  "accession": "P08083",
+                  "title": "RecName: Full=Colicin-N [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 387,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 639.802,
+                  "score": 1649,
+                  "evalue": 0,
+                  "identity": 321,
+                  "positive": 321,
+                  "query_from": 1,
+                  "query_to": 321,
+                  "hit_from": 67,
+                  "hit_to": 387,
+                  "align_len": 321,
+                  "gaps": 0,
+                  "qseq": "HGDNNSKPKPGGNSGNRGNNGDGASAKVGEITITPDNSKPGRYISSNPEYSLLAKLIDAESIKGTEVYTFHTRKGQYVKVTVPDSNIDKMRVDYVNWKGPKYNNKLVKRFVSQFLLFRKEEKEKNEKEALLKASELVSGMGDKLGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANPKMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVADLAIKVEKIREKSIEGYNTGNWGPLLLEVESWIIGGVVAGVAISLFGAVLSFLPISGLAVTALGVIGIMTISYLSSFIDANRVSNINNIISSVIR",
+                  "hseq": "HGDNNSKPKPGGNSGNRGNNGDGASAKVGEITITPDNSKPGRYISSNPEYSLLAKLIDAESIKGTEVYTFHTRKGQYVKVTVPDSNIDKMRVDYVNWKGPKYNNKLVKRFVSQFLLFRKEEKEKNEKEALLKASELVSGMGDKLGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANPKMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVADLAIKVEKIREKSIEGYNTGNWGPLLLEVESWIIGGVVAGVAISLFGAVLSFLPISGLAVTALGVIGIMTISYLSSFIDANRVSNINNIISSVIR",
+                  "midline": "HGDNNSKPKPGGNSGNRGNNGDGASAKVGEITITPDNSKPGRYISSNPEYSLLAKLIDAESIKGTEVYTFHTRKGQYVKVTVPDSNIDKMRVDYVNWKGPKYNNKLVKRFVSQFLLFRKEEKEKNEKEALLKASELVSGMGDKLGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANPKMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVADLAIKVEKIREKSIEGYNTGNWGPLLLEVESWIIGGVVAGVAISLFGAVLSFLPISGLAVTALGVIGIMTISYLSSFIDANRVSNINNIISSVIR"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q47108.1|",
+                  "accession": "Q47108",
+                  "title": "RecName: Full=Colicin-A [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 204,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 243.047,
+                  "score": 619,
+                  "evalue": 2.66744e-79,
+                  "identity": 114,
+                  "positive": 156,
+                  "query_from": 121,
+                  "query_to": 316,
+                  "hit_from": 3,
+                  "hit_to": 199,
+                  "align_len": 197,
+                  "gaps": 1,
+                  "qseq": "EKEKNEKEALLKASELVSGMGDKLGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANPKMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVADLAIKVEKIREKSIEGYNTGNWGPLLLEVESWIIGGVVAGVAISLFGAVLSFLPIS-GLAVTALGVIGIMTISYLSSFIDANRVSNINNII",
+                  "hseq": "EKAKDERELLEKTSELIAGMGDKIGEHLGDKYKAIAKDIADNIKNFQGKTIRSFDDAMASLNKITANPAMKINKADRDALVNAWKHVDAQDMANKLGNLSKAFKVADVVMKVEKVREKSIEGYETGNWGPLMLEVESWVLSGIASSVALGIFSATLGAYALSLGVPAIAVGIAGILLAAVVGALIDDKFADALNNEI",
+                  "midline": "EK K+E+E L K SEL++GMGDK+GE+LG KYK +AK++A++IKNF G+ IRS+++AMASLNK+ ANP MK+NK+D+DA+VNAWK V+A+DMANK+GNL KAFKVAD+ +KVEK+REKSIEGY TGNWGPL+LEVESW++ G+ + VA+ +F A L    +S G+   A+G+ GI+  + + + ID      +NN I"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P04480.1|",
+                  "accession": "P04480",
+                  "title": "RecName: Full=Colicin-A [Citrobacter freundii]",
+                  "taxid": 546,
+                  "sciname": "Citrobacter freundii"
+                }
+              ],
+              "len": 592,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 245.358,
+                  "score": 625,
+                  "evalue": 2.12662e-75,
+                  "identity": 114,
+                  "positive": 156,
+                  "query_from": 121,
+                  "query_to": 316,
+                  "hit_from": 391,
+                  "hit_to": 587,
+                  "align_len": 197,
+                  "gaps": 1,
+                  "qseq": "EKEKNEKEALLKASELVSGMGDKLGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANPKMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVADLAIKVEKIREKSIEGYNTGNWGPLLLEVESWIIGGVVAGVAISLFGAVLSFLPIS-GLAVTALGVIGIMTISYLSSFIDANRVSNINNII",
+                  "hseq": "EKAKDERELLEKTSELIAGMGDKIGEHLGDKYKAIAKDIADNIKNFQGKTIRSFDDAMASLNKITANPAMKINKADRDALVNAWKHVDAQDMANKLGNLSKAFKVADVVMKVEKVREKSIEGYETGNWGPLMLEVESWVLSGIASSVALGIFSATLGAYALSLGVPAIAVGIAGILLAAVVGALIDDKFADALNNEI",
+                  "midline": "EK K+E+E L K SEL++GMGDK+GE+LG KYK +AK++A++IKNF G+ IRS+++AMASLNK+ ANP MK+NK+D+DA+VNAWK V+A+DMANK+GNL KAFKVAD+ +KVEK+REKSIEGY TGNWGPL+LEVESW++ G+ + VA+ +F A L    +S G+   A+G+ GI+  + + + ID      +NN I"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P05819.3|",
+                  "accession": "P05819",
+                  "title": "RecName: Full=Colicin-B [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 511,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.787,
+                  "score": 569,
+                  "evalue": 4.90599e-68,
+                  "identity": 110,
+                  "positive": 148,
+                  "query_from": 117,
+                  "query_to": 316,
+                  "hit_from": 308,
+                  "hit_to": 509,
+                  "align_len": 202,
+                  "gaps": 2,
+                  "qseq": "FR-KEEKEKNEKEALLKASELVSGMGDKLGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANPKMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVADLAIKVEKIREKSIEGYNTGNWGPLLLEVESWIIGGVVAGVAISLFGAVL-SFLPISGLAVTALGVIGIMTISYLSSFIDANRVSNINNII",
+                  "hseq": "FRVKKEQENDEKTVLTKTSEVIISVGDKVGEYLGDKYKALSREIAENINNFQGKTIRSYDDAMSSINKLMANPSLKINATDKEAIVNAWKAFNAEDMGNKFAALGKTFKAADYAIKANNIREKSIEGYQTGNWGPLMLEVESWVISGMASAVALSLFSLTLGSALIAFGLSATVVGFVGVVIAGAIGAFIDDKFVDELNHKI",
+                  "midline": "FR K+E+E +EK  L K SE++  +GDK+GEYLG KYK +++E+A +I NF G+ IRSY++AM+S+NK++ANP +K+N +DK+AIVNAWK  NA+DM NK   LGK FK AD AIK   IREKSIEGY TGNWGPL+LEVESW+I G+ + VA+SLF   L S L   GL+ T +G +G++    + +FID   V  +N+ I"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P21178.2|",
+                  "accession": "P21178",
+                  "title": "RecName: Full=Colicin-E1* [Shigella sonnei]",
+                  "taxid": 624,
+                  "sciname": "Shigella sonnei"
+                }
+              ],
+              "len": 521,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 78.1814,
+                  "score": 191,
+                  "evalue": 9.2962e-15,
+                  "identity": 58,
+                  "positive": 91,
+                  "query_from": 144,
+                  "query_to": 316,
+                  "hit_from": 358,
+                  "hit_to": 519,
+                  "align_len": 181,
+                  "gaps": 27,
+                  "qseq": "LGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANPKMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVA-------DLAIKVEKIREKSIEGYNTGNWGPLLLEVESWIIGGVVAGVAISLFGAVLSFLPISGLAVTALGVIGIMTIS-YLSSFIDANRVSNINNII",
+                  "hseq": "LSEKYGEKYSKMAQELADKSK---GKKISNVNEALAAFEKYKDVLNKKFSKADRDAIFNALEAVKYEDWAKHLDQFAKYLKITGHVSFGYDVVSDILKIK-------DTGDWKPLFLTLEKKAVDAGVSYVVVLLF---------SVLAGTTLGIWGIAIVTGILCAFIDKNKLNTINEVL",
+                  "midline": "L E  G KY  +A+E+A+  K   G+ I + NEA+A+  K       K +K+D+DAI NA + V  +D A  +    K  K+        D+   + KI+       +TG+W PL L +E   +   V+ V + LF         S LA T LG+ GI  ++  L +FID N+++ IN ++"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P02978.1|",
+                  "accession": "P02978",
+                  "title": "RecName: Full=Colicin-E1 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 522,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.8626,
+                  "score": 172,
+                  "evalue": 2.10738e-12,
+                  "identity": 58,
+                  "positive": 87,
+                  "query_from": 144,
+                  "query_to": 316,
+                  "hit_from": 359,
+                  "hit_to": 520,
+                  "align_len": 181,
+                  "gaps": 27,
+                  "qseq": "LGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANPKMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVA-------DLAIKVEKIREKSIEGYNTGNWGPLLLEVESWIIGGVVAGVAISLFGAVLSFLPISGLAVTALGVIGIMTIS-YLSSFIDANRVSNINNII",
+                  "hseq": "LTEKYGEKYSKMAQELADKSK---GKKIGNVNEALAAFEKYKDVLNKKFSKADRDAIFNALASVKYDDWAKHLDQFAKYLKITGHVSFGYDVVSDILKIK-------DTGDWKPLFLTLEKKAADAGVSYVVALLF---------SLLAGTTLGIWGIAIVTGILCSYIDKNKLNTINEVL",
+                  "midline": "L E  G KY  +A+E+A+  K   G+ I + NEA+A+  K       K +K+D+DAI NA   V   D A  +    K  K+        D+   + KI+       +TG+W PL L +E       V+ V   LF         S LA T LG+ GI  ++  L S+ID N+++ IN ++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 482815,
+            "db_len": 183557828,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

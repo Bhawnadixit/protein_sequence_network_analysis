@@ -1,0 +1,3385 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.15.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprot"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_146850",
+          "query_title": "sequence_3",
+          "query_len": 146,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P02123.1|",
+                  "accession": "P02123",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Struthio camelus]",
+                  "taxid": 8801,
+                  "sciname": "Struthio camelus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 291.582,
+                  "score": 745,
+                  "evalue": 4.2815e-102,
+                  "identity": 139,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VQWSAEEKQLISGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFTKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "VQWSAEEKQLIS LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF KEFTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P02117.1|",
+                  "accession": "P02117",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Anser anser anser]",
+                  "taxid": 8844,
+                  "sciname": "Anser anser anser"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 290.041,
+                  "score": 741,
+                  "evalue": 1.41627e-101,
+                  "identity": 138,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF+SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P02124.1|",
+                  "accession": "P02124",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Rhea americana]",
+                  "taxid": 8797,
+                  "sciname": "Rhea americana"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 289.656,
+                  "score": 740,
+                  "evalue": 2.17289e-101,
+                  "identity": 137,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VQWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKDFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "VQW+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAK+FTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P02118.1|",
+                  "accession": "P02118",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Anser indicus]",
+                  "taxid": 8846,
+                  "sciname": "Anser indicus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 288.886,
+                  "score": 738,
+                  "evalue": 3.97367e-101,
+                  "identity": 137,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF+SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P02121.1|",
+                  "accession": "P02121",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Phoenicopterus ruber]",
+                  "taxid": 9217,
+                  "sciname": "Phoenicopterus ruber"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 288.115,
+                  "score": 736,
+                  "evalue": 7.42808e-101,
+                  "identity": 137,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITSLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKDFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+SLWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAK+FTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P82113.1|",
+                  "accession": "P82113",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Stercorarius maccormicki]",
+                  "taxid": 395889,
+                  "sciname": "Stercorarius maccormicki"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 288.115,
+                  "score": 736,
+                  "evalue": 8.19925e-101,
+                  "identity": 137,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSPTAIIGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF+SFGNLSS +AIIGNPMVRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P84792.2|",
+                  "accession": "P84792",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Aythya fuligula]",
+                  "taxid": 219594,
+                  "sciname": "Aythya fuligula"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.345,
+                  "score": 734,
+                  "evalue": 1.51791e-100,
+                  "identity": 134,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQIITGLWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIVVLAAHFSKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQ+I+ LWGKVNVA+CGAEALARLLIVYPWTQRFF+SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILI+VLAAHF+KEFTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P02112.2|",
+                  "accession": "P02112",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Gallus gallus]",
+                  "taxid": 9031,
+                  "sciname": "Gallus gallus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.345,
+                  "score": 734,
+                  "evalue": 2.06396e-100,
+                  "identity": 135,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFSQLSELHCDKLHVDPENFRLLGDILIIVLAAHFSKDFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVAECGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTF+QLSELHCDKLHVDPENFRLLGDILIIVLAAHF+K+FTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P30893.1|",
+                  "accession": "P30893",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Coturnix japonica]",
+                  "taxid": 93934,
+                  "sciname": "Coturnix japonica"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.96,
+                  "score": 733,
+                  "evalue": 2.25049e-100,
+                  "identity": 136,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFSQLSELHCDKLHVDPENFRLLGDILIIVLAAHFTKDFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVAECGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTF+QLSELHCDKLHVDPENFRLLGDILIIVLAAHF K+FTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P02115.1|",
+                  "accession": "P02115",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Anas platyrhynchos platyrhynchos]",
+                  "taxid": 8840,
+                  "sciname": "Anas platyrhynchos platyrhynchos"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.96,
+                  "score": 733,
+                  "evalue": 2.25049e-100,
+                  "identity": 136,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFPKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF KEFTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "sp|P68944.1|",
+                  "accession": "P68944",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Branta canadensis]",
+                  "taxid": 8853,
+                  "sciname": "Branta canadensis"
+                },
+                {
+                  "id": "sp|P68945.1|",
+                  "accession": "P68945",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Cygnus olor]",
+                  "taxid": 8869,
+                  "sciname": "Cygnus olor"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.96,
+                  "score": 733,
+                  "evalue": 2.27533e-100,
+                  "identity": 135,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKDFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF+SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAK+FTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "sp|P10058.1|",
+                  "accession": "P10058",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Eudyptes chrysocome]",
+                  "taxid": 79626,
+                  "sciname": "Eudyptes chrysocome"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.574,
+                  "score": 732,
+                  "evalue": 2.96098e-100,
+                  "identity": 135,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVAQCGGEALARLLIVYPWTQRFFSSFGNLSSPSAILGNPMVRAHGKKVLTSFGDAVKNMDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKDFTPECQAAWEKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVA+CG EALARLLIVYPWTQRFF+SFGNLSS SAI+GNPMVRAHGKKVLTSFGDAVKN+DNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAK+FTPECQAAW+KLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "sp|P02114.2|",
+                  "accession": "P02114",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Anas platyrhynchos]",
+                  "taxid": 8839,
+                  "sciname": "Anas platyrhynchos"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.574,
+                  "score": 732,
+                  "evalue": 3.65212e-100,
+                  "identity": 135,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFTKDFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF K+FTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "sp|P02113.1|",
+                  "accession": "P02113",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Phasianus colchicus colchicus]",
+                  "taxid": 9057,
+                  "sciname": "Phasianus colchicus colchicus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.189,
+                  "score": 731,
+                  "evalue": 5.01438e-100,
+                  "identity": 135,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFSQLSELHCDKLHVDPENFRLLGDILIIVLAAHFSKDFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTF+QLSELHCDKLHVDPENFRLLGDILIIVLAAHF+K+FTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "sp|P22742.1|",
+                  "accession": "P22742",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Francolinus pondicerianus]",
+                  "taxid": 9019,
+                  "sciname": "Francolinus pondicerianus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 285.419,
+                  "score": 729,
+                  "evalue": 1.03464e-99,
+                  "identity": 134,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFSQLSELHCDKLHVDPENFRLLGDILIIVLAAHFSKDFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVAECGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTF+QLSELHCDKLHVDPENFRLLGDILIIVLAAHF+K+FTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "sp|P14260.2|",
+                  "accession": "P14260",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Cairina moschata]",
+                  "taxid": 8855,
+                  "sciname": "Cairina moschata"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 285.419,
+                  "score": 729,
+                  "evalue": 1.04737e-99,
+                  "identity": 134,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFTKDFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF K+FTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "sp|P02120.1|",
+                  "accession": "P02120",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Anseranas semipalmata]",
+                  "taxid": 8851,
+                  "sciname": "Anseranas semipalmata"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 284.648,
+                  "score": 727,
+                  "evalue": 1.83077e-99,
+                  "identity": 134,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTERFFSSFGNLSSPTAIIGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFSKDFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWT+RFF+SFGNLSS +AIIGNPMVRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF+K+FTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "sp|P07411.1|",
+                  "accession": "P07411",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Vultur gryphus]",
+                  "taxid": 8924,
+                  "sciname": "Vultur gryphus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 283.878,
+                  "score": 725,
+                  "evalue": 3.53675e-99,
+                  "identity": 135,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSPTAIIGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCEKLHVDPENFRLLGDILIIVLAAHFAKDFTPDCQAAWQKLVRAVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVAECGAEALARLLIVYPWTQRFF SFGNLSS +AIIGNPMVRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHC+KLHVDPENFRLLGDILIIVLAAHFAK+FTP+CQAAWQKLVR VAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "sp|P21668.1|",
+                  "accession": "P21668",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Psittacula krameri]",
+                  "taxid": 9228,
+                  "sciname": "Psittacula krameri"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 283.493,
+                  "score": 724,
+                  "evalue": 6.6111e-99,
+                  "identity": 134,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAVLGNPNVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAGHFGKDFTPDCQAAWQKLVRAVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASA++GNP VRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLA HF K+FTP+CQAAWQKLVR VAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "sp|P08851.1|",
+                  "accession": "P08851",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Accipiter gentilis]",
+                  "taxid": 8957,
+                  "sciname": "Accipiter gentilis"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 282.722,
+                  "score": 722,
+                  "evalue": 1.07148e-98,
+                  "identity": 131,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VQWAAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSATAVLGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIVVLAAHFGKDFSPDCQAAWQKLVRAVAHALARKYH",
+                  "midline": "VQW+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSSA+A++GNPMVRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILI+VLAAHF K+F+P+CQAAWQKLVR VAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "sp|P07036.1|",
+                  "accession": "P07036",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Chloephaga melanoptera]",
+                  "taxid": 8860,
+                  "sciname": "Chloephaga melanoptera"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 282.722,
+                  "score": 722,
+                  "evalue": 1.36407e-98,
+                  "identity": 133,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAISGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFSQLSELHCDKLHVDPENFRLLGDILIIVLAAHFTKDFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI GNPMVRAHGKKVLTSFGDAVKNLDNIKNTF+QLSELHCDKLHVDPENFRLLGDILIIVLAAHF K+FTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "sp|P02122.1|",
+                  "accession": "P02122",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Aquila chrysaetos]",
+                  "taxid": 8962,
+                  "sciname": "Aquila chrysaetos"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.796,
+                  "score": 717,
+                  "evalue": 5.80701e-98,
+                  "identity": 132,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAIIGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFTKDFSPDCQAAWQKLVRAVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AIIGNPMVRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF K+F+P+CQAAWQKLVR VAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "sp|P10782.1|",
+                  "accession": "P10782",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Phalacrocorax carbo]",
+                  "taxid": 9209,
+                  "sciname": "Phalacrocorax carbo"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.796,
+                  "score": 717,
+                  "evalue": 5.80701e-98,
+                  "identity": 134,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSATAITGNPMVRAHGKKVLTSFGEAVKNLDNIKATFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKDFTPECQAAWQKLVGAVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVAECGAEALARLLIVYPWTQRFF SFGNLSSA+AI GNPMVRAHGKKVLTSFG+AVKNLDNIK TFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAK+FTPECQAAWQKLV  VAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "sp|P11342.1|",
+                  "accession": "P11342",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Columba livia]",
+                  "taxid": 8932,
+                  "sciname": "Columba livia"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.796,
+                  "score": 717,
+                  "evalue": 5.87109e-98,
+                  "identity": 132,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITSIWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSATAISGNPNVKAHGKKVLTSFGDAVKNLDNIKGTFAQLSELHCDKLHVDPENFRLLGDILVIILAAHFGKDFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+S+WGKVNVA+CGAEALARLLIVYPWTQRFF+SFGNLSSA+AI GNP V+AHGKKVLTSFGDAVKNLDNIK TFAQLSELHCDKLHVDPENFRLLGDIL+I+LAAHF K+FTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "sp|P68061.1|",
+                  "accession": "P68061",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Aegypius monachus]",
+                  "taxid": 8959,
+                  "sciname": "Aegypius monachus"
+                },
+                {
+                  "id": "sp|P68062.1|",
+                  "accession": "P68062",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Trigonoceps occipitalis]",
+                  "taxid": 8975,
+                  "sciname": "Trigonoceps occipitalis"
+                },
+                {
+                  "id": "sp|P68063.1|",
+                  "accession": "P68063",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Gyps rueppelli]",
+                  "taxid": 8967,
+                  "sciname": "Gyps rueppelli"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.796,
+                  "score": 717,
+                  "evalue": 6.48056e-98,
+                  "identity": 132,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAIIGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFGKDFSPDCQAAWQKLVRAVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AIIGNPMVRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF K+F+P+CQAAWQKLVR VAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "sp|P02116.1|",
+                  "accession": "P02116",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Ara ararauna]",
+                  "taxid": 9226,
+                  "sciname": "Ara ararauna"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.796,
+                  "score": 717,
+                  "evalue": 7.1533e-98,
+                  "identity": 133,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFGKDFTPECQAALQKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNPMVRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF K+FTPECQAA QKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "sp|P08261.1|",
+                  "accession": "P08261",
+                  "title": "RecName: Full=Hemoglobin subunit beta/beta'; AltName: Full=Beta/beta'-globin; AltName: Full=Hemoglobin beta/beta' chain [Chroicocephalus ridibundus]",
+                  "taxid": 1192867,
+                  "sciname": "Chroicocephalus ridibundus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.411,
+                  "score": 716,
+                  "evalue": 8.34123e-98,
+                  "identity": 134,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAINGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKDFTPDSQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSS +AI GNPMVRAHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAK+FTP+ QAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "sp|P80216.1|",
+                  "accession": "P80216",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Aptenodytes forsteri]",
+                  "taxid": 9233,
+                  "sciname": "Aptenodytes forsteri"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.026,
+                  "score": 715,
+                  "evalue": 1.2519e-97,
+                  "identity": 132,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSPAAVLANPMVRAHGKKVLTSFGDAVKNMDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFSKDFTPDCQAAAQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNVAECGAEALARLLIVYPWTQRFF SFGNLSS +A++ NPMVRAHGKKVLTSFGDAVKN+DNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF+K+FTP+CQAA QKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "sp|P02126.1|",
+                  "accession": "P02126",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Sturnus vulgaris]",
+                  "taxid": 9172,
+                  "sciname": "Sturnus vulgaris"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 279.256,
+                  "score": 713,
+                  "evalue": 3.25241e-97,
+                  "identity": 129,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VQWTAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSPTAVLGNPKVQAHGKKVLTSFGDAVKNLDSIKNTFSQLSELHCDKLHVDPENFRLLGDILVVVLAAHFGKDFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "VQW+AEEKQLI+ LWGKVNVAECGAEALARLLIVYPWTQRFF SFGNLSS +A++GNP V+AHGKKVLTSFGDAVKNLD+IKNTF+QLSELHCDKLHVDPENFRLLGDIL++VLAAHF K+FTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "sp|Q7LZB9.1|",
+                  "accession": "Q7LZB9",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Streptopelia orientalis]",
+                  "taxid": 36243,
+                  "sciname": "Streptopelia orientalis"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 277.715,
+                  "score": 709,
+                  "evalue": 1.07568e-96,
+                  "identity": 131,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITSIWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSATAISGNPNVKAHGKKVLTSFGDAVKNLDNIKGTFAQLSELHCNKLHVDPENFKLLGDILVIVLAAHFGKDFTPECQAAWQKLVRVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+S+WGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSSA+AI GNP V+AHGKKVLTSFGDAVKNLDNIK TFAQLSELHC+KLHVDPENF+LLGDIL+IVLAAHF K+FTPECQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "sp|P15165.1|",
+                  "accession": "P15165",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Apus apus]",
+                  "taxid": 8895,
+                  "sciname": "Apus apus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.944,
+                  "score": 707,
+                  "evalue": 2.29362e-96,
+                  "identity": 130,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VQWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSATAVIGNPMVRAHGKKVLTSFGEAVKNLDSIKSTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFSKDFTPEAQQAWAKLVRAVAHALARKYH",
+                  "midline": "VQW+AEEKQLI+ LWGKVNVA+CGAEALARLLIVYPWTQRFF SFGNLSSA+A+IGNPMVRAHGKKVLTSFG+AVKNLD+IK+TFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHF+K+FTPE Q AW KLVR VAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "sp|P07406.1|",
+                  "accession": "P07406",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Passer montanus]",
+                  "taxid": 9160,
+                  "sciname": "Passer montanus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 275.789,
+                  "score": 704,
+                  "evalue": 6.02427e-96,
+                  "identity": 127,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VQWTAEEKQLITGLWGKVNVAECGGEALARLLIVYPWTQRFFASFGNLSSPTAVLGNPKVQAHGKKVLTSFGEAVKNLDSIKNTFSQLSELHCDKLHVDPENFRLLGDILVVVLAAHFGKDFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "VQW+AEEKQLI+ LWGKVNVAECG EALARLLIVYPWTQRFF SFGNLSS +A++GNP V+AHGKKVLTSFG+AVKNLD+IKNTF+QLSELHCDKLHVDPENFRLLGDIL++VLAAHF K+FTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "sp|P14524.1|",
+                  "accession": "P14524",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Turdus merula]",
+                  "taxid": 9187,
+                  "sciname": "Turdus merula"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 275.018,
+                  "score": 702,
+                  "evalue": 1.53104e-95,
+                  "identity": 127,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VQWTAEEKQLITGLWGKVNVAECGGEALARLLIVYPWTQRFFASFGNLSSPTAVLGNPKVQAHGKKVLTSFGEAVKNLDSIKGTFAQLSELHCDKLHVDPENFRLLGDILVVVLAAHFGKDFTPDCQAAWQKLVRVVAHALARKYH",
+                  "midline": "VQW+AEEKQLI+ LWGKVNVAECG EALARLLIVYPWTQRFF SFGNLSS +A++GNP V+AHGKKVLTSFG+AVKNLD+IK TFAQLSELHCDKLHVDPENFRLLGDIL++VLAAHF K+FTP+CQAAWQKLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "sp|P02125.1|",
+                  "accession": "P02125",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Ciconia ciconia]",
+                  "taxid": 8928,
+                  "sciname": "Ciconia ciconia"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 273.863,
+                  "score": 699,
+                  "evalue": 3.33691e-95,
+                  "identity": 129,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITGLWGKVNVDECGAEALARLLIVYPWTQRFFASFGNLATASAITGNAMVHAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFKLLGDILIIVLAAHFGKDFTPDCQAAWKKLVRVVAHALARKYH",
+                  "midline": "V W+AEEKQLI+ LWGKVNV ECGAEALARLLIVYPWTQRFF SFGNL++ASAI GN MV AHGKKVLTSFG+AVKNLDNIKNTFAQLSELHCDKLHVDPENF+LLGDILIIVLAAHF K+FTP+CQAAW+KLVRVVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "sp|P02128.2|",
+                  "accession": "P02128",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Gallus gallus]",
+                  "taxid": 9031,
+                  "sciname": "Gallus gallus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 268.47,
+                  "score": 685,
+                  "evalue": 4.55718e-93,
+                  "identity": 126,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITSVWSKVNVEECGAEALARLLIVYPWTQRFFASFGNLSSPTAIMGNPRVRAHGKKVLSSFGEAVKNLDNIKNTYAKLSELHCDKLHVDPENFRLLGDILIIVLASHFARDFTPACQFAWQKLVNVVAHALARKYH",
+                  "midline": "V WSAEEKQLI+S+W KVNV ECGAEALARLLIVYPWTQRFF SFGNLSS +AI+GNP VRAHGKKVL+SFG+AVKNLDNIKNT+A+LSELHCDKLHVDPENFRLLGDILIIVLA+HFA++FTP CQ AWQKLV VVAHALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "sp|P02127.2|",
+                  "accession": "P02127",
+                  "title": "RecName: Full=Hemoglobin subunit rho; AltName: Full=Hemoglobin rho chain; AltName: Full=Rho-globin [Gallus gallus]",
+                  "taxid": 9031,
+                  "sciname": "Gallus gallus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 263.848,
+                  "score": 673,
+                  "evalue": 3.83495e-91,
+                  "identity": 124,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITSVWSKVNVEECGAEALARLLIVYPWTQRFFDNFGNLSSPTAIIGNPKVRAHGKKVLSSFGEAVKNLDNIKNTYAKLSELHCEKLHVDPENFRLLGNILIIVLAAHFTKDFTPTCQAVWQKLVSVVAHALAYKYH",
+                  "midline": "V WSAEEKQLI+S+W KVNV ECGAEALARLLIVYPWTQRFF +FGNLSS +AIIGNP VRAHGKKVL+SFG+AVKNLDNIKNT+A+LSELHC+KLHVDPENFRLLG+ILIIVLAAHF K+FTP CQA WQKLV VVAHALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "sp|P10061.1|",
+                  "accession": "P10061",
+                  "title": "RecName: Full=Hemoglobin subunit beta-2; AltName: Full=Beta-2-globin; AltName: Full=Hemoglobin beta-2 chain [Sphenodon punctatus]",
+                  "taxid": 8508,
+                  "sciname": "Sphenodon punctatus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 254.218,
+                  "score": 648,
+                  "evalue": 2.53827e-87,
+                  "identity": 118,
+                  "positive": 131,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLVTSLWTKVNVDECGGEALGRLLIVYPWTQRFFSSFGNLSSSTAICGNPRVKAHGKKVFTSFGEAVKNLDNIKATYAKLSELHCEKLHVDPQNFNLLGDIFIIVLAAHFGKDFTPACQAAWQKLVRVVAHALAYHYH",
+                  "midline": "V W+AEEKQL++SLW KVNV ECG EAL RLLIVYPWTQRFF+SFGNLSS++AI GNP V+AHGKKV TSFG+AVKNLDNIK T+A+LSELHC+KLHVDP+NF LLGDI IIVLAAHF K+FTP CQAAWQKLVRVVAHALA  YH"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "sp|P14261.2|",
+                  "accession": "P14261",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Cairina moschata]",
+                  "taxid": 8855,
+                  "sciname": "Cairina moschata"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.832,
+                  "score": 647,
+                  "evalue": 3.06111e-87,
+                  "identity": 118,
+                  "positive": 130,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVNVEECGAEALARLLIVYPWTQRFFSSFGNLSSPTAIIGNPKVPPHGRKFFTSFGEPVKNLDNIKNTYAKLSELHCEKLQVEPENFRLLGDILIIVLASHFARDFTPACQFPWQKLVSVVAHALPRKYH",
+                  "midline": "V WSAEEKQLI+ LWGKVNV ECGAEALARLLIVYPWTQRFF+SFGNLSS +AIIGNP V  HG+K  TSFG+ VKNLDNIKNT+A+LSELHC+KL V+PENFRLLGDILIIVLA+HFA++FTP CQ  WQKLV VVAHAL RKYH"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "sp|P13274.1|",
+                  "accession": "P13274",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Chrysemys picta bellii]",
+                  "taxid": 8478,
+                  "sciname": "Chrysemys picta bellii"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.21,
+                  "score": 635,
+                  "evalue": 2.3298e-85,
+                  "identity": 116,
+                  "positive": 132,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTADEKQLITSLWGKVNVEECGSEALARLLIVYPWTQRFFSTFGNLSNAEAILHNPHVHAHGKKVLTSFGEAVKNLDHIKQTFATLSKLHCEKLHVDPENFKLLGNVLIIVLASHFTKEFTPACQAAWQKLVSAVAHALALGYH",
+                  "midline": "V W+A+EKQLI+SLWGKVNV ECG+EALARLLIVYPWTQRFF++FGNLS+A AI+ NP V AHGKKVLTSFG+AVKNLD+IK TFA LS+LHC+KLHVDPENF+LLG++LIIVLA+HF KEFTP CQAAWQKLV  VAHALA  YH"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "sp|Q28931.3|",
+                  "accession": "Q28931",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin embryonic beta chain; AltName: Full=Hemoglobin epsilon chain [Sminthopsis crassicaudata]",
+                  "taxid": 9301,
+                  "sciname": "Sminthopsis crassicaudata"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.514,
+                  "score": 628,
+                  "evalue": 2.35919e-84,
+                  "identity": 114,
+                  "positive": 131,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKNAITTIWGKVNVEETGGEALGRLLVVYPWTQRFFDSFGNLSSASAILGNPKVKAHGKKVLTSFGDAVKNLDNLKGTFSKLSELHCDKLHVDPENFRLLGNVLVIVMAAHFNKEFTPEVQAAFQKLVTGVANALAHKYH",
+                  "midline": "V ++AEEK  I+++WGKVNV E G EAL RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTSFGDAVKNLDN+K TF++LSELHCDKLHVDPENFRLLG++L+IV+AAHF KEFTPE QAA+QKLV  VA+ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "sp|P86390.1|",
+                  "accession": "P86390",
+                  "title": "RecName: Full=Hemoglobin subunit beta-2; AltName: Full=Beta-2-globin; AltName: Full=Hemoglobin beta-2 chain; AltName: Full=Hemoglobin beta-II chain [Iguana iguana]",
+                  "taxid": 8517,
+                  "sciname": "Iguana iguana"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.514,
+                  "score": 628,
+                  "evalue": 2.46331e-84,
+                  "identity": 112,
+                  "positive": 131,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITCLWGKVDVPTVGADALAGMLVMYPWTQRFFADFGNLSSATAICGNPKVRAHGKKVLTAFGDAIKNLDNIKDTFAKLSELHCDKLHVDPENFKLLGNVLIIVLAGHYGKDFTPACHAAYQKLVNVVAHALARRYH",
+                  "midline": "V W+AEEKQLI+ LWGKV+V   GA+ALA +L++YPWTQRFF  FGNLSSA+AI GNP VRAHGKKVLT+FGDA+KNLDNIK+TFA+LSELHCDKLHVDPENF+LLG++LIIVLA H+ K+FTP C AA+QKLV VVAHALAR+YH"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "sp|Q45XH7.3|",
+                  "accession": "Q45XH7",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Elephas maximus]",
+                  "taxid": 9783,
+                  "sciname": "Elephas maximus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.128,
+                  "score": 627,
+                  "evalue": 3.46327e-84,
+                  "identity": 114,
+                  "positive": 130,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITSLWGQVNVEETGGEALGRLLVVYPWTQRFFDTFGNLSSASAIMGNPRVKAHGKKVLTSFGDAVKNLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVIVLANHFGKEFTPQVQAAWQKMVTGVANALAYKYH",
+                  "midline": "V ++AEEK  I+SLWG+VNV E G EAL RLL+VYPWTQRFF +FGNLSSASAI+GNP V+AHGKKVLTSFGDAVKNLDN+K TFA+LSELHCDKLHVDPENFRLLG++L+IVLA HF KEFTP+ QAAWQK+V  VA+ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "sp|Q45XH8.2|",
+                  "accession": "Q45XH8",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Loxodonta africana]",
+                  "taxid": 9785,
+                  "sciname": "Loxodonta africana"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 245.743,
+                  "score": 626,
+                  "evalue": 5.67339e-84,
+                  "identity": 114,
+                  "positive": 130,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAIASLWGQVNVEETGGEALGRLLVVYPWTQRFFDTFGNLSSASAIMGNPRVKAHGKKVLTSFGDAVKNLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVIVLANHFGKEFTPQVQAAWQKMVTGVANALAYKYH",
+                  "midline": "V ++AEEK  I+SLWG+VNV E G EAL RLL+VYPWTQRFF +FGNLSSASAI+GNP V+AHGKKVLTSFGDAVKNLDN+K TFA+LSELHCDKLHVDPENFRLLG++L+IVLA HF KEFTP+ QAAWQK+V  VA+ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "sp|P68026.2|",
+                  "accession": "P68026",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Callithrix jacchus]",
+                  "taxid": 9483,
+                  "sciname": "Callithrix jacchus"
+                },
+                {
+                  "id": "sp|P68027.2|",
+                  "accession": "P68027",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Cebuella pygmaea]",
+                  "taxid": 9493,
+                  "sciname": "Cebuella pygmaea"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 243.432,
+                  "score": 620,
+                  "evalue": 4.76358e-83,
+                  "identity": 111,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITSLWGKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVLVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V ++AEEK  I+SLWGK+NV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++L+I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "sp|Q28356.3|",
+                  "accession": "Q28356",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Daubentonia madagascariensis]",
+                  "taxid": 31869,
+                  "sciname": "Daubentonia madagascariensis"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 243.047,
+                  "score": 619,
+                  "evalue": 5.37439e-83,
+                  "identity": 112,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKATIMSLWGKVNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSASAIMGNPKVKAHGKKVLTSFGDAVKNMDNLKGAFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPDVQAAWQKLVSGVATALAHKYH",
+                  "midline": "V ++AEEK  I SLWGKVNV E G EAL RLL+VYPWTQRFF +FGNLSSASAI+GNP V+AHGKKVLTSFGDAVKN+DN+K  FA+LSELHCDKLHVDPENFRLLG++++I+LA HF KEFTP+ QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "sp|P68016.2|",
+                  "accession": "P68016",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Aotus azarai]",
+                  "taxid": 30591,
+                  "sciname": "Aotus azarai"
+                },
+                {
+                  "id": "sp|P68017.2|",
+                  "accession": "P68017",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Alouatta belzebul]",
+                  "taxid": 30590,
+                  "sciname": "Alouatta belzebul"
+                },
+                {
+                  "id": "sp|P68018.2|",
+                  "accession": "P68018",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Alouatta seniculus]",
+                  "taxid": 9503,
+                  "sciname": "Alouatta seniculus"
+                },
+                {
+                  "id": "sp|P68019.2|",
+                  "accession": "P68019",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Ateles geoffroyi]",
+                  "taxid": 9509,
+                  "sciname": "Ateles geoffroyi"
+                },
+                {
+                  "id": "sp|P68020.2|",
+                  "accession": "P68020",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Brachyteles arachnoides]",
+                  "taxid": 30594,
+                  "sciname": "Brachyteles arachnoides"
+                },
+                {
+                  "id": "sp|P68021.2|",
+                  "accession": "P68021",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Cacajao calvus]",
+                  "taxid": 30596,
+                  "sciname": "Cacajao calvus"
+                },
+                {
+                  "id": "sp|P68022.2|",
+                  "accession": "P68022",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Plecturocebus moloch]",
+                  "taxid": 9523,
+                  "sciname": "Plecturocebus moloch"
+                },
+                {
+                  "id": "sp|P68023.2|",
+                  "accession": "P68023",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Cheracebus torquatus]",
+                  "taxid": 30592,
+                  "sciname": "Cheracebus torquatus"
+                },
+                {
+                  "id": "sp|P68024.2|",
+                  "accession": "P68024",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Callimico goeldii]",
+                  "taxid": 9495,
+                  "sciname": "Callimico goeldii"
+                },
+                {
+                  "id": "sp|P68025.2|",
+                  "accession": "P68025",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Chiropotes satanas]",
+                  "taxid": 9525,
+                  "sciname": "Chiropotes satanas"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 242.662,
+                  "score": 618,
+                  "evalue": 7.634e-83,
+                  "identity": 110,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITSLWGKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V ++AEEK  I+SLWGK+NV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "sp|P04246.1|",
+                  "accession": "P04246",
+                  "title": "RecName: Full=Hemoglobin subunit theta; AltName: Full=Hemoglobin theta chain; AltName: Full=Theta-globin [Sus scrofa]",
+                  "taxid": 9823,
+                  "sciname": "Sus scrofa"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 242.276,
+                  "score": 617,
+                  "evalue": 1.11995e-82,
+                  "identity": 110,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKSVITGLWGKVNVEETGGEAVGRLLVVYPWTQRFFDSFGNMSSPSAIMGNPKVKAHGKKVLTSFGDAVKNMDNLKGTFAKLSELHCDKLHVDPENFRLLGNMIVIILASHFGGEFTPEVQAAWQKLVAGVATALAHKYH",
+                  "midline": "V ++AEEK +I+ LWGKVNV E G EA+ RLL+VYPWTQRFF SFGN+SS SAI+GNP V+AHGKKVLTSFGDAVKN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA+HF  EFTPE QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "sp|P51441.2|",
+                  "accession": "P51441",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Leontopithecus rosalia]",
+                  "taxid": 30588,
+                  "sciname": "Leontopithecus rosalia"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.891,
+                  "score": 616,
+                  "evalue": 1.7763e-82,
+                  "identity": 109,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITSLWGKMNVEEAGGESLGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V ++AEEK  I+SLWGK+NV E G E+L RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "sp|P51438.2|",
+                  "accession": "P51438",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Ateles belzebuth]",
+                  "taxid": 9507,
+                  "sciname": "Ateles belzebuth"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.891,
+                  "score": 616,
+                  "evalue": 2.00406e-82,
+                  "identity": 110,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHLTAEEKAAITSLWGKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V  +AEEK  I+SLWGK+NV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "sp|Q28338.3|",
+                  "accession": "Q28338",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Cheirogaleus medius]",
+                  "taxid": 9460,
+                  "sciname": "Cheirogaleus medius"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.506,
+                  "score": 615,
+                  "evalue": 2.23636e-82,
+                  "identity": 111,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKSTILSLWGKVNVEEAGGEALGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSFGEAVKNMDNLKGAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPDVQAAWQKLVSGVATALAHKYH",
+                  "midline": "V ++AEEK  I SLWGKVNV E G EAL RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTSFG+AVKN+DN+K  FA+LSELHCDKLHVDPENF+LLG++++I+LA HF KEFTP+ QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "sp|P18994.2|",
+                  "accession": "P18994",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Pongo pygmaeus]",
+                  "taxid": 9600,
+                  "sciname": "Pongo pygmaeus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.506,
+                  "score": 615,
+                  "evalue": 2.94183e-82,
+                  "identity": 109,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAVTSLWSKMNVEEAGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH",
+                  "midline": "V ++AEEK  ++SLW K+NV E G EAL RLL+VYPWTQRFF SFGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENF+LLG++++I+LA HF KEFTPE QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "sp|P19759.2|",
+                  "accession": "P19759",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Otolemur crassicaudatus]",
+                  "taxid": 9463,
+                  "sciname": "Otolemur crassicaudatus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.121,
+                  "score": 614,
+                  "evalue": 3.10766e-82,
+                  "identity": 109,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAIIMSLWGKVNIEEAGGEALGRLLVVYPWTQRFFETFGNLSSASAIMGNPKVKAHGKKVLTSFGEAVKNMDNLKGAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPDVQAAWQKLVSGVATALAHKYH",
+                  "midline": "V ++AEEK +I SLWGKVN+ E G EAL RLL+VYPWTQRFF +FGNLSSASAI+GNP V+AHGKKVLTSFG+AVKN+DN+K  FA+LSELHCDKLHVDPENF+LLG++++I+LA HF KEFTP+ QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "sp|Q95190.3|",
+                  "accession": "Q95190",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Symphalangus syndactylus]",
+                  "taxid": 9590,
+                  "sciname": "Symphalangus syndactylus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.121,
+                  "score": 614,
+                  "evalue": 3.95567e-82,
+                  "identity": 109,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAVTSLWNKMNVEEAGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH",
+                  "midline": "V ++AEEK  ++SLW K+NV E G EAL RLL+VYPWTQRFF SFGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENF+LLG++++I+LA HF KEFTPE QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "sp|Q28496.3|",
+                  "accession": "Q28496",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Microcebus murinus]",
+                  "taxid": 30608,
+                  "sciname": "Microcebus murinus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.121,
+                  "score": 614,
+                  "evalue": 4.17865e-82,
+                  "identity": 112,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKSTILSLWGKVNVEEAGGEALGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSFGEAVKNLDNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPDVQAAWQKLVSGVATALAHKYH",
+                  "midline": "V ++AEEK  I SLWGKVNV E G EAL RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTSFG+AVKNLDN+K  FA+LSELHCDKLHVDPENF+LLG++++I+LA HF KEFTP+ QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "sp|P02102.2|",
+                  "accession": "P02102",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon-1; AltName: Full=Epsilon-1-globin; AltName: Full=Hemoglobin epsilon-1 chain; AltName: Full=Hemoglobin epsilon-I chain [Capra hircus]",
+                  "taxid": 9925,
+                  "sciname": "Capra hircus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.736,
+                  "score": 613,
+                  "evalue": 4.76642e-82,
+                  "identity": 110,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITGLWGKVNVEEAGGEALGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSFGEAIKNLDNLKGAFAKLSELHCDKLHVDPENFRLLGNVIVIILATHFGREFTPDVQAAWQKLVSGVATALAHKYH",
+                  "midline": "V ++AEEK  I+ LWGKVNV E G EAL RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTSFG+A+KNLDN+K  FA+LSELHCDKLHVDPENFRLLG++++I+LA HF +EFTP+ QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "sp|Q45XH3.3|",
+                  "accession": "Q45XH3",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Bradypus tridactylus]",
+                  "taxid": 9354,
+                  "sciname": "Bradypus tridactylus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.736,
+                  "score": 613,
+                  "evalue": 4.87212e-82,
+                  "identity": 109,
+                  "positive": 129,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKATVASLWGKVNVEEAGGEVLGRLLVVYPWTQRFFDNFGNLSSSSAIMGNPKVKAHGKKVLTSFGDAVKHMDDLKGTFAHLSELHCDKLHVDPENFRLLGNVMVVVLASHFGKEFTPEVQAAWQKLVGGVANALAHKYH",
+                  "midline": "V ++AEEK  ++SLWGKVNV E G E L RLL+VYPWTQRFF +FGNLSS+SAI+GNP V+AHGKKVLTSFGDAVK++D++K TFA LSELHCDKLHVDPENFRLLG+++++VLA+HF KEFTPE QAAWQKLV  VA+ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "sp|P51443.2|",
+                  "accession": "P51443",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Saguinus midas]",
+                  "taxid": 30586,
+                  "sciname": "Saguinus midas"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.736,
+                  "score": 613,
+                  "evalue": 6.00088e-82,
+                  "identity": 110,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITSLWGKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSFPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVLVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V ++AEEK  I+SLWGK+NV E G EAL RLL+VYPWTQRFF +FGNLS  SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++L+I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "sp|P68028.2|",
+                  "accession": "P68028",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Saimiri sciureus]",
+                  "taxid": 9521,
+                  "sciname": "Saimiri sciureus"
+                },
+                {
+                  "id": "sp|P68029.2|",
+                  "accession": "P68029",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Saimiri boliviensis boliviensis]",
+                  "taxid": 39432,
+                  "sciname": "Saimiri boliviensis boliviensis"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.35,
+                  "score": 612,
+                  "evalue": 7.80777e-82,
+                  "identity": 109,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITSLWSKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V ++AEEK  I+SLW K+NV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "sp|Q28507.3|",
+                  "accession": "Q28507",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Macaca mulatta]",
+                  "taxid": 9544,
+                  "sciname": "Macaca mulatta"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 239.965,
+                  "score": 611,
+                  "evalue": 9.61664e-82,
+                  "identity": 109,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAVTSLWSKMNVEETGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKITFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH",
+                  "midline": "V ++AEEK  ++SLW K+NV E G EAL RLL+VYPWTQRFF SFGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENF+LLG++++I+LA HF KEFTPE QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "sp|P02101.3|",
+                  "accession": "P02101",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Sus scrofa]",
+                  "taxid": 9823,
+                  "sciname": "Sus scrofa"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 239.965,
+                  "score": 611,
+                  "evalue": 1.00479e-81,
+                  "identity": 108,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKSVITGLWGKVNVEETGGQAVGRLLVVYPWTQRFFDSFGNMSSPSAIMGNPKVKAHGKKVLTAFGDAVKNMDNLKGTFAKLSELHCDKLHVDPENFRLLGNMIVIILASHFGGEFTPEVQAAWQKLVAGVATALAHKYH",
+                  "midline": "V ++AEEK +I+ LWGKVNV E G +A+ RLL+VYPWTQRFF SFGN+SS SAI+GNP V+AHGKKVLT+FGDAVKN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA+HF  EFTPE QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "sp|P83123.3|",
+                  "accession": "P83123",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Chelonoidis niger]",
+                  "taxid": 66189,
+                  "sciname": "Chelonoidis niger"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 239.965,
+                  "score": 611,
+                  "evalue": 1.02707e-81,
+                  "identity": 117,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTPEEKQYITSLWAKVNVEEVGGEALARLLIVYPWTQRFFSSFGNLSSASAILHNAKVLAHGKKVLTSFGDAVKNLDNIKKTFAQLSELHCEKLHVDPENFKLLGNILIIVLATRFPKEFTPASQAAWTKLVNAVAHALALGYH",
+                  "midline": "V W+ EEKQ I+SLW KVNV E G EALARLLIVYPWTQRFF+SFGNLSSASAI+ N  V AHGKKVLTSFGDAVKNLDNIK TFAQLSELHC+KLHVDPENF+LLG+ILIIVLA  F KEFTP  QAAW KLV  VAHALA  YH"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "sp|Q29415.3|",
+                  "accession": "Q29415",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Cebus olivaceus]",
+                  "taxid": 37295,
+                  "sciname": "Cebus olivaceus"
+                },
+                {
+                  "id": "sp|Q7JFR7.3|",
+                  "accession": "Q7JFR7",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Cebus kaapori]",
+                  "taxid": 37294,
+                  "sciname": "Cebus kaapori"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 239.965,
+                  "score": 611,
+                  "evalue": 1.15876e-81,
+                  "identity": 109,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKVAITSLWSKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V ++AEEK  I+SLW K+NV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "sp|P08223.2|",
+                  "accession": "P08223",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Eulemur fulvus fulvus]",
+                  "taxid": 40322,
+                  "sciname": "Eulemur fulvus fulvus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 239.58,
+                  "score": 610,
+                  "evalue": 1.26502e-81,
+                  "identity": 110,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKSTILSLWGKVNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSASAILGNPKVKAHGKKVLTSFGEAVKNMDNLKGAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPDVQAAWQKLVSGVATALAHKYH",
+                  "midline": "V ++AEEK  I SLWGKVNV E G EAL RLL+VYPWTQRFF +FGNLSSASAI+GNP V+AHGKKVLTSFG+AVKN+DN+K  FA+LSELHCDKLHVDPENF+LLG++++I+LA HF KEFTP+ QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "sp|P51440.2|",
+                  "accession": "P51440",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Lagothrix lagotricha]",
+                  "taxid": 9519,
+                  "sciname": "Lagothrix lagotricha"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 239.58,
+                  "score": 610,
+                  "evalue": 1.47495e-81,
+                  "identity": 109,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITSLWGKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKKVLTSFEDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V ++AEEK  I+SLWGK+NV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSF DA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "sp|P83133.1|",
+                  "accession": "P83133",
+                  "title": "RecName: Full=Hemoglobin A/D subunit beta; AltName: Full=Hemoglobin A/D beta chain [Aldabrachelys gigantea]",
+                  "taxid": 167804,
+                  "sciname": "Aldabrachelys gigantea"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 239.195,
+                  "score": 609,
+                  "evalue": 1.79584e-81,
+                  "identity": 115,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTSEEKQYITSLWAKVNVGEVGGEALARLLIVYPWTQRFFASFGNLSSANAILHNAKVLAHGQKVLTSFGEAVKNLDNIKKTFAQLSELHCEKLHVDPENFKLLGNILIIVLATHFPKEFTPASQAAWTKLVNAVAHALALGYH",
+                  "midline": "V W++EEKQ I+SLW KVNV E G EALARLLIVYPWTQRFF SFGNLSSA+AI+ N  V AHG+KVLTSFG+AVKNLDNIK TFAQLSELHC+KLHVDPENF+LLG+ILIIVLA HF KEFTP  QAAW KLV  VAHALA  YH"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "sp|P51442.2|",
+                  "accession": "P51442",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Pithecia irrorata]",
+                  "taxid": 30598,
+                  "sciname": "Pithecia irrorata"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.81,
+                  "score": 608,
+                  "evalue": 2.58038e-81,
+                  "identity": 109,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITSLWGKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNLKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V ++AEEK  I+SLWGK+NV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GN  V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "sp|Q98905.3|",
+                  "accession": "Q98905",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Chelonoidis carbonarius]",
+                  "taxid": 50047,
+                  "sciname": "Chelonoidis carbonarius"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.81,
+                  "score": 608,
+                  "evalue": 2.91123e-81,
+                  "identity": 116,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSCEEKQFITSLWAKVNVEEVGGEALARLLIVYPWTQRFFSSFGNLSSPNAILHNAKVLAHGKKVLTSFGEAVKNLDNIKKTFAQLSELHCEKLHVDPENFKLLGNILIIVLATHFPKEFTPASQAAWTKLVNAVAHALALGYH",
+                  "midline": "V WS EEKQ I+SLW KVNV E G EALARLLIVYPWTQRFF+SFGNLSS +AI+ N  V AHGKKVLTSFG+AVKNLDNIK TFAQLSELHC+KLHVDPENF+LLG+ILIIVLA HF KEFTP  QAAW KLV  VAHALA  YH"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "sp|Q28775.3|",
+                  "accession": "Q28775",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Pan paniscus]",
+                  "taxid": 9597,
+                  "sciname": "Pan paniscus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.81,
+                  "score": 608,
+                  "evalue": 3.07532e-81,
+                  "identity": 109,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAVTSLWSKMNVEEAGGEALGRLLIVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH",
+                  "midline": "V ++AEEK  ++SLW K+NV E G EAL RLLIVYPWTQRFF SFGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K  FA+LSELHCDKLHVDPENF+LLG++++I+LA HF KEFTPE QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "sp|Q28220.3|",
+                  "accession": "Q28220",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Cebus albifrons]",
+                  "taxid": 9514,
+                  "sciname": "Cebus albifrons"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.81,
+                  "score": 608,
+                  "evalue": 3.10923e-81,
+                  "identity": 108,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTADEKVAITSLWSKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH",
+                  "midline": "V ++A+EK  I+SLW K+NV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++++I+LA HF KEFTPE QAAWQKLV  VA AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "sp|P02100.2|",
+                  "accession": "P02100",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                },
+                {
+                  "id": "sp|Q6LDH0.3|",
+                  "accession": "Q6LDH0",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Gorilla gorilla gorilla]",
+                  "taxid": 9595,
+                  "sciname": "Gorilla gorilla gorilla"
+                },
+                {
+                  "id": "sp|Q6LDH1.3|",
+                  "accession": "Q6LDH1",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Pan troglodytes]",
+                  "taxid": 9598,
+                  "sciname": "Pan troglodytes"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.039,
+                  "score": 606,
+                  "evalue": 5.09306e-81,
+                  "identity": 108,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAVTSLWSKMNVEEAGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH",
+                  "midline": "V ++AEEK  ++SLW K+NV E G EAL RLL+VYPWTQRFF SFGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K  FA+LSELHCDKLHVDPENF+LLG++++I+LA HF KEFTPE QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "sp|P86391.1|",
+                  "accession": "P86391",
+                  "title": "RecName: Full=Hemoglobin subunit beta-2; AltName: Full=Beta-2-globin; AltName: Full=Hemoglobin beta-2 chain; AltName: Full=Hemoglobin beta-II chain [Amblyrhynchus cristatus]",
+                  "taxid": 51208,
+                  "sciname": "Amblyrhynchus cristatus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.039,
+                  "score": 606,
+                  "evalue": 6.76986e-81,
+                  "identity": 106,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITCLWGKVDVATIGGESLAGMFVMYPWTQRLFSEFGNLSSPTAICGNPKVKAHGKKVLTAFGDAIRNLDNIKDTFAKLSELHCDKLHVDPENFKLLGKVLLIVLAGHYGKDFTPACHAAYQKLVNVVAHALARRYH",
+                  "midline": "V W+AEEKQLI+ LWGKV+VA  G E+LA + ++YPWTQR F+ FGNLSS +AI GNP V+AHGKKVLT+FGDA++NLDNIK+TFA+LSELHCDKLHVDPENF+LLG +L+IVLA H+ K+FTP C AA+QKLV VVAHALAR+YH"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "sp|P18435.2|",
+                  "accession": "P18435",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Carlito syrichta]",
+                  "taxid": 1868482,
+                  "sciname": "Carlito syrichta"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 237.269,
+                  "score": 604,
+                  "evalue": 1.12175e-80,
+                  "identity": 107,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHLTAEEKSSVTSLWGKMNVDEAGGEALGRLLVVYPWTQRFFDNFGNLSSSSAIMGNPKVKAHGKKVLTSFGDAIKNMDNLKGAFAKLSELHCDKLHVDPENFRLLGNVLVIILVTHFGKDFTPEVQVAWQKLVSGVATALAHKYH",
+                  "midline": "V  +AEEK  ++SLWGK+NV E G EAL RLL+VYPWTQRFF +FGNLSS+SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K  FA+LSELHCDKLHVDPENFRLLG++L+I+L  HF K+FTPE Q AWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "sp|P18995.2|",
+                  "accession": "P18995",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-1; AltName: Full=Gamma-1-globin; AltName: Full=Hemoglobin gamma-1 chain [Pongo pygmaeus]",
+                  "taxid": 9600,
+                  "sciname": "Pongo pygmaeus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 235.343,
+                  "score": 599,
+                  "evalue": 7.07968e-80,
+                  "identity": 106,
+                  "positive": 124,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKNLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS GDA+KNLD++K TFAQLSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "sp|Q95238.3|",
+                  "accession": "Q95238",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Propithecus verreauxi]",
+                  "taxid": 34825,
+                  "sciname": "Propithecus verreauxi"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 235.343,
+                  "score": 599,
+                  "evalue": 7.56117e-80,
+                  "identity": 108,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKSTILSVWGKVNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAIMGNPKVKAHGKKVLTSFGEAVKNMDNLKGAFAKLSELHCDKLHVDPENFKLLGNAMVIILATHFGKEFTPDVQAAWQKLVSGVATALAHKYH",
+                  "midline": "V ++AEEK  I S+WGKVNV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSFG+AVKN+DN+K  FA+LSELHCDKLHVDPENF+LLG+ ++I+LA HF KEFTP+ QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "sp|P68077.2|",
+                  "accession": "P68077",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Macaca mulatta]",
+                  "taxid": 9544,
+                  "sciname": "Macaca mulatta"
+                },
+                {
+                  "id": "sp|P68078.2|",
+                  "accession": "P68078",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Macaca fuscata fuscata]",
+                  "taxid": 9543,
+                  "sciname": "Macaca fuscata fuscata"
+                },
+                {
+                  "id": "sp|P68079.2|",
+                  "accession": "P68079",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Papio cynocephalus]",
+                  "taxid": 9556,
+                  "sciname": "Papio cynocephalus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.958,
+                  "score": 598,
+                  "evalue": 1.00557e-79,
+                  "identity": 106,
+                  "positive": 124,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKNLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVAGVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS GDA+KNLD++K TFAQLSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "sp|P02103.2|",
+                  "accession": "P02103",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Beta-4 globin; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.572,
+                  "score": 597,
+                  "evalue": 1.18536e-79,
+                  "identity": 108,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTPEEKCIISKQWGQVNIDETGGEALGRLLVVYPWTQRFFDNFGNLSSSSAIMGNPKVKAHGKKVLTSFGDAIKNMDNLKGAFAKLSELHCDKLHVDPENFKLLGNVLLIVLATHFGKEFTPEVQAAWQKLVSGVAIALAHKYH",
+                  "midline": "V ++ EEK +IS  WG+VN+ E G EAL RLL+VYPWTQRFF +FGNLSS+SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K  FA+LSELHCDKLHVDPENF+LLG++L+IVLA HF KEFTPE QAAWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "sp|P41332.1|",
+                  "accession": "P41332",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Hydrophis gracilis]",
+                  "taxid": 31162,
+                  "sciname": "Hydrophis gracilis"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.187,
+                  "score": 596,
+                  "evalue": 1.61063e-79,
+                  "identity": 110,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITGLWGKVDVAEVGGATLGKLLVVFPWTQRFFAHFGNLSSANAIICNPVVKAHGKKVLTSFGEAIKHLDSIKETFAKLSELHCEKLHVDPENFRLLGNILIIVLAGHHGKEFTPSTHAAFQKLVRAVAHSLARVYH",
+                  "midline": "V WSAEEKQLI+ LWGKV+VAE G   L +LL+V+PWTQRFF  FGNLSSA+AII NP+V+AHGKKVLTSFG+A+K+LD+IK TFA+LSELHC+KLHVDPENFRLLG+ILIIVLA H  KEFTP   AA+QKLVR VAH+LAR YH"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "sp|P08225.2|",
+                  "accession": "P08225",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Eulemur fulvus fulvus]",
+                  "taxid": 40322,
+                  "sciname": "Eulemur fulvus fulvus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.187,
+                  "score": 596,
+                  "evalue": 1.73994e-79,
+                  "identity": 108,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAVITSLWGKVNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKNMDDLKGTFAHLSELHCDRLHVDPENFKLLGNELVIVLAKYFGKEFTPQVQAAWQKMVAGVAIALAHKYH",
+                  "midline": "V ++AEEK +I+SLWGKVNV E G EAL RLL+VYPWTQRFF +FGNLSSASAI+GNP V+AHGKKVLTS GDA+KN+D++K TFA LSELHCD+LHVDPENF+LLG+ L+IVLA +F KEFTP+ QAAWQK+V  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "sp|Q45XH5.3|",
+                  "accession": "Q45XH5",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Dugong dugon]",
+                  "taxid": 29137,
+                  "sciname": "Dugong dugon"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.187,
+                  "score": 596,
+                  "evalue": 1.85827e-79,
+                  "identity": 109,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VYFTAEEKAAITSLWGKVNVEEAGGKALGRLLIVYPWTQRFFDKFGNLSSASAIMGNPKIKAHGKKVLNSFGDAVENPDNLKGTFAKLSELHCDKLLVDPEDFRLLGNVIVIVLANHFGKEFTPQVQAAWQKMVTGVASALARKYH",
+                  "midline": "V ++AEEK  I+SLWGKVNV E G +AL RLLIVYPWTQRFF  FGNLSSASAI+GNP ++AHGKKVL SFGDAV+N DN+K TFA+LSELHCDKL VDPE+FRLLG++++IVLA HF KEFTP+ QAAWQK+V  VA ALARKYH"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "sp|P18996.3|",
+                  "accession": "P18996",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-2; AltName: Full=Gamma-2-globin; AltName: Full=Hemoglobin gamma-2 chain [Pongo pygmaeus]",
+                  "taxid": 9600,
+                  "sciname": "Pongo pygmaeus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.187,
+                  "score": 596,
+                  "evalue": 2.21466e-79,
+                  "identity": 106,
+                  "positive": 124,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKLNVEDAGGETLGRLLLVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAVKNLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGK+NV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS GDAVKNLD++K TFAQLSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "sp|Q28779.3|",
+                  "accession": "Q28779",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-1; AltName: Full=Gamma-1-globin; AltName: Full=Hemoglobin gamma-1 chain; AltName: Full=Hemoglobin gamma-A chain [Pan paniscus]",
+                  "taxid": 9597,
+                  "sciname": "Pan paniscus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.802,
+                  "score": 595,
+                  "evalue": 2.55399e-79,
+                  "identity": 105,
+                  "positive": 124,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS GDA+K+LD++K TFAQLSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "sp|P18987.1|",
+                  "accession": "P18987",
+                  "title": "RecName: Full=Hemoglobin subunit beta-1; AltName: Full=Beta-1-globin; AltName: Full=Hemoglobin beta-1 chain [Iguana iguana]",
+                  "taxid": 8517,
+                  "sciname": "Iguana iguana"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.802,
+                  "score": 595,
+                  "evalue": 2.97641e-79,
+                  "identity": 108,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLITQVWGKIDVAQIGGETLACLLVVYPWTQRFFPDFGNLSNAAAICGNAKVKAHGKKVLTSFGDAVKNLDNIKDTFAKLSELHCDKLHVDPVNFRLLGNVMITRLAAHFGKDFTPACHAAFQKLTGAVAHALARRYH",
+                  "midline": "V W+AEEKQLI+ +WGK++VA+ G E LA LL+VYPWTQRFF  FGNLS+A+AI GN  V+AHGKKVLTSFGDAVKNLDNIK+TFA+LSELHCDKLHVDP NFRLLG+++I  LAAHF K+FTP C AA+QKL   VAHALAR+YH"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "sp|P08224.2|",
+                  "accession": "P08224",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Cheirogaleus medius]",
+                  "taxid": 9460,
+                  "sciname": "Cheirogaleus medius"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.032,
+                  "score": 593,
+                  "evalue": 5.8129e-79,
+                  "identity": 107,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTVEEKAVITSLWGKVNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSASAIMGNPKVKAHGKKVLTSLGEAIKNMDDLKGTFAHLSELHCDRLHVDPENFKLLGNELVIVLAKHFGKEFTPQVQAAWQKMVAGVAIALAHKYH",
+                  "midline": "V ++ EEK +I+SLWGKVNV E G EAL RLL+VYPWTQRFF +FGNLSSASAI+GNP V+AHGKKVLTS G+A+KN+D++K TFA LSELHCD+LHVDPENF+LLG+ L+IVLA HF KEFTP+ QAAWQK+V  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "sp|P02104.2|",
+                  "accession": "P02104",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon-Y2; AltName: Full=Epsilon-Y2-globin; AltName: Full=Hemoglobin epsilon-Y2 chain [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 232.646,
+                  "score": 592,
+                  "evalue": 8.91498e-79,
+                  "identity": 107,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VNFTAEEKTLINGLWSKVNVEEVGGEALGRLLVVYPWTQRFFDSFGNLSSASAIMGNPRVKAHGKKVLTAFGESIKNLDNLKSALAKLSELHCDKLHVDPENFKLLGNVLVIVLASHFGNEFTAEMQAAWQKLVAGVATALSHKYH",
+                  "midline": "V ++AEEK LI+ LW KVNV E G EAL RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLT+FG+++KNLDN+K+  A+LSELHCDKLHVDPENF+LLG++L+IVLA+HF  EFT E QAAWQKLV  VA AL+ KYH"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "sp|P61920.2|",
+                  "accession": "P61920",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-1; AltName: Full=Gamma-1-globin; AltName: Full=Hemoglobin gamma-1 chain; AltName: Full=Hemoglobin gamma-A chain [Pan troglodytes]",
+                  "taxid": 9598,
+                  "sciname": "Pan troglodytes"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 232.646,
+                  "score": 592,
+                  "evalue": 8.91498e-79,
+                  "identity": 104,
+                  "positive": 124,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS GDA+K+LD++K TFAQLSELHCDKLHVDPENF+LLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "sp|O13071.3|",
+                  "accession": "O13071",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon; AltName: Full=Epsilon-globin; AltName: Full=Hemoglobin epsilon chain [Callithrix geoffroyi]",
+                  "taxid": 52231,
+                  "sciname": "Callithrix geoffroyi"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 232.261,
+                  "score": 591,
+                  "evalue": 9.194e-79,
+                  "identity": 107,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 141,
+                  "hit_from": 2,
+                  "hit_to": 142,
+                  "align_len": 141,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHAL",
+                  "hseq": "VHFTAEEKAAITSLWGKMNVEEAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVLVIILATHFGKEFTPEVQAASQKLVSAVAIAL",
+                  "midline": "V ++AEEK  I+SLWGK+NV E G EAL RLL+VYPWTQRFF +FGNLSS SAI+GNP V+AHGKKVLTSFGDA+KN+DN+K TFA+LSELHCDKLHVDPENFRLLG++L+I+LA HF KEFTPE QAA QKLV  VA AL"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "sp|P61947.2|",
+                  "accession": "P61947",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-1; AltName: Full=Gamma-1-globin; AltName: Full=Hemoglobin gamma-1 chain; AltName: Full=Hemoglobin gamma-A chain [Hylobates lar]",
+                  "taxid": 9580,
+                  "sciname": "Hylobates lar"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 232.261,
+                  "score": 591,
+                  "evalue": 1.21189e-78,
+                  "identity": 105,
+                  "positive": 123,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGGAIKNLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVAGVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS G A+KNLD++K TFAQLSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "sp|P61948.2|",
+                  "accession": "P61948",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-2; AltName: Full=Gamma-2-globin; AltName: Full=Hemoglobin gamma-2 chain; AltName: Full=Hemoglobin gamma-G chain [Hylobates lar]",
+                  "taxid": 9580,
+                  "sciname": "Hylobates lar"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 232.261,
+                  "score": 591,
+                  "evalue": 1.23876e-78,
+                  "identity": 105,
+                  "positive": 123,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDVGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGGAIKNLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVAGVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS G A+KNLD++K TFAQLSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "sp|P02097.1|",
+                  "accession": "P02097",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Macaca nemestrina]",
+                  "taxid": 9545,
+                  "sciname": "Macaca nemestrina"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.876,
+                  "score": 590,
+                  "evalue": 1.36666e-78,
+                  "identity": 105,
+                  "positive": 123,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 146,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKNLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIRFGKEFTPEVQASWQKMVAGVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS GDA+KNLD++K TFAQLSELHCDKLHVDPENFRLLG++L+ VLA  F KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "sp|P69891.3|",
+                  "accession": "P69891",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-1; AltName: Full=Gamma-1-globin; AltName: Full=Hb F Agamma; AltName: Full=Hemoglobin gamma-1 chain; AltName: Full=Hemoglobin gamma-A chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.876,
+                  "score": 590,
+                  "evalue": 1.5941e-78,
+                  "identity": 104,
+                  "positive": 123,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDATKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS GDA K+LD++K TFAQLSELHCDKLHVDPENF+LLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "sp|P19760.3|",
+                  "accession": "P19760",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Otolemur crassicaudatus]",
+                  "taxid": 9463,
+                  "sciname": "Otolemur crassicaudatus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.876,
+                  "score": 590,
+                  "evalue": 1.81829e-78,
+                  "identity": 106,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAIITSLWGKVNVEEDGGEALGRLLVVYPWTQRFFDTFGNLSSASAIMGNPKVKAHGKKVLSSLGEAIKNMDDLKGTFSHLSELHCDRLHVDPENFRLLGNVLVIVLAKHFGKEFTPQIQAACQKMVAGVATALAHKYH",
+                  "midline": "V ++AEEK +I+SLWGKVNV E G EAL RLL+VYPWTQRFF +FGNLSSASAI+GNP V+AHGKKVL+S G+A+KN+D++K TF+ LSELHCD+LHVDPENFRLLG++L+IVLA HF KEFTP+ QAA QK+V  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "sp|P61921.2|",
+                  "accession": "P61921",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-2; AltName: Full=Gamma-2-globin; AltName: Full=Hemoglobin gamma-2 chain; AltName: Full=Hemoglobin gamma-G chain [Pan troglodytes]",
+                  "taxid": 9598,
+                  "sciname": "Pan troglodytes"
+                },
+                {
+                  "id": "sp|P62742.2|",
+                  "accession": "P62742",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-2; AltName: Full=Gamma-2-globin; AltName: Full=Hemoglobin gamma-2 chain; AltName: Full=Hemoglobin gamma-G chain [Gorilla gorilla gorilla]",
+                  "taxid": 9595,
+                  "sciname": "Gorilla gorilla gorilla"
+                },
+                {
+                  "id": "sp|P69892.2|",
+                  "accession": "P69892",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-2; AltName: Full=Gamma-2-globin; AltName: Full=Hb F Ggamma; AltName: Full=Hemoglobin gamma-2 chain; AltName: Full=Hemoglobin gamma-G chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.491,
+                  "score": 589,
+                  "evalue": 1.94194e-78,
+                  "identity": 104,
+                  "positive": 124,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS GDA+K+LD++K TFAQLSELHCDKLHVDPENF+LLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "sp|P62741.2|",
+                  "accession": "P62741",
+                  "title": "RecName: Full=Hemoglobin subunit gamma-1; AltName: Full=Gamma-1-globin; AltName: Full=Hemoglobin gamma-1 chain; AltName: Full=Hemoglobin gamma-A chain [Gorilla gorilla gorilla]",
+                  "taxid": 9595,
+                  "sciname": "Gorilla gorilla gorilla"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.106,
+                  "score": 588,
+                  "evalue": 3.04426e-78,
+                  "identity": 104,
+                  "positive": 123,
+                  "query_from": 2,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 147,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "QWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGGAIKHLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH",
+                  "midline": " ++ E+K  I+SLWGKVNV + G E L RLL+VYPWTQRFF SFGNLSSASAI+GNP V+AHGKKVLTS G A+K+LD++K TFAQLSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTPE QA+WQK+V  VA AL+ +YH"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "sp|P11025.2|",
+                  "accession": "P11025",
+                  "title": "RecName: Full=Hemoglobin subunit epsilon-M; AltName: Full=Epsilon-M-globin; AltName: Full=Hemoglobin epsilon-M chain [Didelphis virginiana]",
+                  "taxid": 9267,
+                  "sciname": "Didelphis virginiana"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.106,
+                  "score": 588,
+                  "evalue": 3.70851e-78,
+                  "identity": 105,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTPEDKTNITSVWTKVDVEDVGGESLARLLVVYPWTQRFFDSFGNLSSASAVMGNPKVKAHGKKVLTSFGEGVKNMDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLIIVLASRFGKEFTPEVQASWQKLVSGVSSALGHKYH",
+                  "midline": "V ++ E+K  I+S+W KV+V + G E+LARLL+VYPWTQRFF SFGNLSSASA++GNP V+AHGKKVLTSFG+ VKN+DN+K TFA+LSELHCDKLHVDPENFRLLG++LIIVLA+ F KEFTPE QA+WQKLV  V+ AL  KYH"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "sp|Q45XH6.3|",
+                  "accession": "Q45XH6",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin gamma chain [Trichechus manatus]",
+                  "taxid": 9778,
+                  "sciname": "Trichechus manatus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 5.15301e-78,
+                  "identity": 108,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VDFTAEEKAAITRLWGKMNVEEAGGKALGRLLIVYPWTQRFFDNFGNLSSASAIMGNPKVKAHGKKVLNSFGDAVKNPDNLKGTFAKLSELHCDKLLVDSENFRLLGNVLVIVLANHFGKEFTPQVQAAWQKMATGVASAVARKYH",
+                  "midline": "V ++AEEK  I+ LWGK+NV E G +AL RLLIVYPWTQRFF +FGNLSSASAI+GNP V+AHGKKVL SFGDAVKN DN+K TFA+LSELHCDKL VD ENFRLLG++L+IVLA HF KEFTP+ QAAWQK+   VA A+ARKYH"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "sp|P18993.2|",
+                  "accession": "P18993",
+                  "title": "RecName: Full=Hemoglobin subunit beta-1; AltName: Full=Beta-1-globin; AltName: Full=Hemoglobin beta-1 chain; AltName: Full=Hemoglobin beta-I chain [Varanus albigularis]",
+                  "taxid": 8558,
+                  "sciname": "Varanus albigularis"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.335,
+                  "score": 586,
+                  "evalue": 6.48475e-78,
+                  "identity": 106,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWTAEEKQLICSLWGKIDVGLIGGETLAGLLVIYPWTQRQFSHFGNLSSPTAIAGNPRVKAHGKKVLTSFGDAIKNLDNIKDTFAKLSELHCDKLHVDPTNFKLLGNVLVIVLADHHGKEFTPAHHAAYQKLVNVVSHSLARRYH",
+                  "midline": "V W+AEEKQLI SLWGK++V   G E LA LL++YPWTQR F+ FGNLSS +AI GNP V+AHGKKVLTSFGDA+KNLDNIK+TFA+LSELHCDKLHVDP NF+LLG++L+IVLA H  KEFTP   AA+QKLV VV+H+LAR+YH"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "sp|P02099.2|",
+                  "accession": "P02099",
+                  "title": "RecName: Full=Hemoglobin subunit gamma; AltName: Full=Gamma-globin; AltName: Full=Hemoglobin beta-3; AltName: Full=Hemoglobin gamma chain [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.95,
+                  "score": 585,
+                  "evalue": 1.05097e-77,
+                  "identity": 106,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHFTAEEKAAITSTWKLVDVEDAGAEALGRLLVVYPWTQRFFDSFGNLSSSSAIMGNPKVKAHGKKVLTAFGDAVKNVDDLKNTFAHLSELHCDRLHVDPENFKLLGNVLVIVLAKYFGKEFTPQVQSAWQKLVAGVATALAHKYH",
+                  "midline": "V ++AEEK  I+S W  V+V + GAEAL RLL+VYPWTQRFF SFGNLSS+SAI+GNP V+AHGKKVLT+FGDAVKN+D++KNTFA LSELHCD+LHVDPENF+LLG++L+IVLA +F KEFTP+ Q+AWQKLV  VA ALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "sp|P22743.1|",
+                  "accession": "P22743",
+                  "title": "RecName: Full=Hemoglobin subunit beta-2; AltName: Full=Beta-2-globin; AltName: Full=Hemoglobin beta-2 chain; AltName: Full=Hemoglobin beta-II chain [Naja naja]",
+                  "taxid": 35670,
+                  "sciname": "Naja naja"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.565,
+                  "score": 584,
+                  "evalue": 1.44385e-77,
+                  "identity": 105,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHWSAEEKQLITSLWAKVDVPEVGAATLGKMMVMYPWTQRFFAHFGNLSGPSALCGNPQVRAHGKKVLTSFGEALKHLDNVKETFAKLSELHFDKLHVDPENFKLLGNVLIIVLAGHHGKEFTPSTHASFQKLVNVVAHALARRYH",
+                  "midline": "V WSAEEKQLI+SLW KV+V E GA  L +++++YPWTQRFF  FGNLS  SA+ GNP VRAHGKKVLTSFG+A+K+LDN+K TFA+LSELH DKLHVDPENF+LLG++LIIVLA H  KEFTP   A++QKLV VVAHALAR+YH"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "sp|P02110.2|",
+                  "accession": "P02110",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Tachyglossus aculeatus aculeatus]",
+                  "taxid": 49271,
+                  "sciname": "Tachyglossus aculeatus aculeatus"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.409,
+                  "score": 581,
+                  "evalue": 3.2159e-77,
+                  "identity": 105,
+                  "positive": 122,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 147,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHLSGSEKTAVTNLWGHVNVNELGGEALGRLLVVYPWTQRFFESFGDLSSADAVMGNAKVKAHGAKVLTSFGDALKNLDNLKGTFAKLSELHCDKLHVDPENFNRLGNVLVVVLARHFSKEFTPEAQAAWQKLVSGVSHALAHKYH",
+                  "midline": "V  S  EK  +++LWG VNV E G EAL RLL+VYPWTQRFF SFG+LSSA A++GN  V+AHG KVLTSFGDA+KNLDN+K TFA+LSELHCDKLHVDPENF  LG++L++VLA HF+KEFTPE QAAWQKLV  V+HALA KYH"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "sp|P02111.1|",
+                  "accession": "P02111",
+                  "title": "RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Ornithorhynchus anatinus]",
+                  "taxid": 9258,
+                  "sciname": "Ornithorhynchus anatinus"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.024,
+                  "score": 580,
+                  "evalue": 5.94036e-77,
+                  "identity": 103,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH",
+                  "hseq": "VHLSGGEKSAVTNLWGKVNINELGGEALGRLLVVYPWTQRFFEAFGDLSSAGAVMGNPKVKAHGAKVLTSFGDALKNLDDLKGTFAKLSELHCDKLHVDPENFNRLGNVLIVVLARHFSKDFSPEVQAAWQKLVSGVAHALGHKYH",
+                  "midline": "V  S  EK  +++LWGKVN+ E G EAL RLL+VYPWTQRFF +FG+LSSA A++GNP V+AHG KVLTSFGDA+KNLD++K TFA+LSELHCDKLHVDPENF  LG++LI+VLA HF+K+F+PE QAAWQKLV  VAHAL  KYH"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 482815,
+            "db_len": 183557828,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}
